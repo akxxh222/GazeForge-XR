@@ -1,0 +1,56 @@
+{
+  "id": "look_02",
+  "label": "Deep skin / amber",
+  "source_material": "mindfront_skin_male_african_middleage",
+  "source_image": "work/source_skins/skins/mindfront_skin_male_african_middleage/skin_male_african_middleage.png",
+  "source_sha256": "5130c59aa53fa92044030c6b1c94d8627cddc4fc2512608cbe0bc4380f5198b9",
+  "source_license": "CC0-1.0",
+  "source_author": "Mindfront",
+  "face_resolution": [
+    4096,
+    4096
+  ],
+  "eye_resolution": [
+    2048,
+    2048
+  ],
+  "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
+  "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
+  "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+  "status": "Generated; visual/portability review pending",
+  "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+  "files": {
+    "eye_L_basecolor.png": {
+      "sha256": "6c7c42ca6acee0b950b3c1d96c4c6a388faa707bacd9c53ebc3aad6feace7680",
+      "bytes": 615729
+    },
+    "eye_L_height.png": {
+      "sha256": "35c9042c48a5d00aad537303398ed5a1c5981a947fb6dbafa955c8eff648d2fe",
+      "bytes": 732705
+    },
+    "eye_R_basecolor.png": {
+      "sha256": "9ed3234fbb60657ee481f64e54359a3a9ca9c04defdef749d74a2132c5b4f4a2",
+      "bytes": 613876
+    },
+    "eye_R_height.png": {
+      "sha256": "8897258467c6c2e59ffb654ccaa164f133a73a51be73313229238ab2bbe7963a",
+      "bytes": 733488
+    },
+    "skin_basecolor.png": {
+      "sha256": "0f9b5d4fa171a92779084b3050cf5551d8292710d4f3a81091cfd53c263b835b",
+      "bytes": 10638590
+    },
+    "skin_coverage.png": {
+      "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+      "bytes": 33526
+    },
+    "skin_height.png": {
+      "sha256": "a6d353d74ad0e79d1224d2799f88ff335499831c61650a3da30131eda5210d19",
+      "bytes": 27367256
+    },
+    "skin_roughness.png": {
+      "sha256": "9755b939705d9d478872fe70814137cf98fc868f1be70cf7bf23a917f682ad1c",
+      "bytes": 8559422
+    }
+  }
+}

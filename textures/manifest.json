@@ -1,0 +1,285 @@
+{
+  "looks": [
+    {
+      "id": "look_01",
+      "label": "Mature skin / warm hazel",
+      "source_material": "onlytheghosts_old_eurasian_male",
+      "source_image": "work/source_skins/skins/onlytheghosts_old_eurasian_male/old_eurasian_male_diffuse.png",
+      "source_sha256": "923dee56ac9527886ab8b0498566bea15442a37ea4b4adaf88e40138ab38a0d4",
+      "source_license": "CC0-1.0",
+      "source_author": "OnlyTheGhosts",
+      "face_resolution": [
+        4096,
+        4096
+      ],
+      "eye_resolution": [
+        2048,
+        2048
+      ],
+      "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
+      "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
+      "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+      "status": "Generated; visual/portability review pending",
+      "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+      "files": {
+        "eye_L_basecolor.png": {
+          "sha256": "601b1a7b715840968e2ad098659b6d8353c47b276e99a3c03a4495f125373d90",
+          "bytes": 667679
+        },
+        "eye_L_height.png": {
+          "sha256": "74be5c60d765326884f360bff5fcf84a790ad81f0a3b730177576a910c75622a",
+          "bytes": 733726
+        },
+        "eye_R_basecolor.png": {
+          "sha256": "457fc3471a1edf2721574bf697f9a325a732d5d71823f2f554dd3c3434364070",
+          "bytes": 669046
+        },
+        "eye_R_height.png": {
+          "sha256": "fabade20c6004b279cbc6c4a13d55572568d806f40e9034de91858eb86f5d064",
+          "bytes": 734120
+        },
+        "skin_basecolor.png": {
+          "sha256": "dc0fcf15939dd536ad954ff15102377f55a940244e340bb8d3ca79080d6c29d2",
+          "bytes": 12867934
+        },
+        "skin_coverage.png": {
+          "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+          "bytes": 33526
+        },
+        "skin_height.png": {
+          "sha256": "9c9726fe20fe005de0ddc5802eedad6db01a8588f22806c5a54c87dd9bc779ab",
+          "bytes": 27307751
+        },
+        "skin_roughness.png": {
+          "sha256": "2860fde69167d7b53d7e18134a898e18ef6b486ad3f6b69855852ae5acab77f8",
+          "bytes": 8405165
+        }
+      }
+    },
+    {
+      "id": "look_02",
+      "label": "Deep skin / amber",
+      "source_material": "mindfront_skin_male_african_middleage",
+      "source_image": "work/source_skins/skins/mindfront_skin_male_african_middleage/skin_male_african_middleage.png",
+      "source_sha256": "5130c59aa53fa92044030c6b1c94d8627cddc4fc2512608cbe0bc4380f5198b9",
+      "source_license": "CC0-1.0",
+      "source_author": "Mindfront",
+      "face_resolution": [
+        4096,
+        4096
+      ],
+      "eye_resolution": [
+        2048,
+        2048
+      ],
+      "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
+      "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
+      "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+      "status": "Generated; visual/portability review pending",
+      "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+      "files": {
+        "eye_L_basecolor.png": {
+          "sha256": "6c7c42ca6acee0b950b3c1d96c4c6a388faa707bacd9c53ebc3aad6feace7680",
+          "bytes": 615729
+        },
+        "eye_L_height.png": {
+          "sha256": "35c9042c48a5d00aad537303398ed5a1c5981a947fb6dbafa955c8eff648d2fe",
+          "bytes": 732705
+        },
+        "eye_R_basecolor.png": {
+          "sha256": "9ed3234fbb60657ee481f64e54359a3a9ca9c04defdef749d74a2132c5b4f4a2",
+          "bytes": 613876
+        },
+        "eye_R_height.png": {
+          "sha256": "8897258467c6c2e59ffb654ccaa164f133a73a51be73313229238ab2bbe7963a",
+          "bytes": 733488
+        },
+        "skin_basecolor.png": {
+          "sha256": "0f9b5d4fa171a92779084b3050cf5551d8292710d4f3a81091cfd53c263b835b",
+          "bytes": 10638590
+        },
+        "skin_coverage.png": {
+          "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+          "bytes": 33526
+        },
+        "skin_height.png": {
+          "sha256": "a6d353d74ad0e79d1224d2799f88ff335499831c61650a3da30131eda5210d19",
+          "bytes": 27367256
+        },
+        "skin_roughness.png": {
+          "sha256": "9755b939705d9d478872fe70814137cf98fc868f1be70cf7bf23a917f682ad1c",
+          "bytes": 8559422
+        }
+      }
+    },
+    {
+      "id": "look_03",
+      "label": "Freckled / green",
+      "source_material": "toigo_light_skin_male_freckles",
+      "source_image": "work/source_skins/skins/toigo_light_skin_male_freckles/young_lightskinned_male_diffuse_Freckles.png",
+      "source_sha256": "32d33fab52bda1b6bc8cd134bb34f2980a77d2b51c9f048e8ea00c861b4da604",
+      "source_license": "CC0-1.0",
+      "source_author": "MargaretToigo",
+      "face_resolution": [
+        4096,
+        4096
+      ],
+      "eye_resolution": [
+        2048,
+        2048
+      ],
+      "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
+      "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
+      "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+      "status": "Generated; visual/portability review pending",
+      "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+      "files": {
+        "eye_L_basecolor.png": {
+          "sha256": "1d70af2cad25bfb584db26c35e2fd2044fdbbd5293dde947faaf39e99c27814b",
+          "bytes": 653426
+        },
+        "eye_L_height.png": {
+          "sha256": "61f6c672e306b5e619951ee0e61a2987772b317e0565a606b418897194755d5e",
+          "bytes": 733931
+        },
+        "eye_R_basecolor.png": {
+          "sha256": "e7746a68f2af9c8e68ba0daf80d16c44b79f97d8a504a434f9615e2e2f02d446",
+          "bytes": 654392
+        },
+        "eye_R_height.png": {
+          "sha256": "8ebea7aa71b73dc9b8f07f1df68d2156c059c9c081df9568c4d1a4e9c221aba7",
+          "bytes": 733240
+        },
+        "skin_basecolor.png": {
+          "sha256": "f3a74294b173740cd9e370c45dd31d8d9e5671c20c513ad6eb9480d68a16458e",
+          "bytes": 12110779
+        },
+        "skin_coverage.png": {
+          "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+          "bytes": 33526
+        },
+        "skin_height.png": {
+          "sha256": "36d2cb0868ef7b4c8b9b4b3cc15892cfba6e18b040d1942bb9a644bd75bae3b7",
+          "bytes": 27235935
+        },
+        "skin_roughness.png": {
+          "sha256": "bd02771b14d5d11601901402de3007ad3eab598590db4cda8a7fd978fae3d096",
+          "bytes": 7826439
+        }
+      }
+    },
+    {
+      "id": "look_04",
+      "label": "Ginger / blue grey",
+      "source_material": "toigo_light_skin_male_ginger",
+      "source_image": "work/source_skins/skins/toigo_light_skin_male_ginger/young_lightskinned_male_diffuse_Ginger.png",
+      "source_sha256": "795eec22b27ba5a2527d99e60a31be61e06a45a39250c39b24b36438e963c4aa",
+      "source_license": "CC0-1.0",
+      "source_author": "MargaretToigo",
+      "face_resolution": [
+        4096,
+        4096
+      ],
+      "eye_resolution": [
+        2048,
+        2048
+      ],
+      "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
+      "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
+      "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+      "status": "Generated; visual/portability review pending",
+      "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+      "files": {
+        "eye_L_basecolor.png": {
+          "sha256": "88e617c8c903ea131b9b296e8e10dc9b62454e1bc1329745a043eb3f8b5d3f77",
+          "bytes": 672578
+        },
+        "eye_L_height.png": {
+          "sha256": "d48f0cdb867d8428527d30fa55cc365830d3f5077a172e932ad82273017b7331",
+          "bytes": 732899
+        },
+        "eye_R_basecolor.png": {
+          "sha256": "d352b7e6ffec512cc31508c4f804047a6efc1a830e1ac9420e4636aa1c05ab3e",
+          "bytes": 675331
+        },
+        "eye_R_height.png": {
+          "sha256": "d603f3b5e34f634dca5f3d6fe3ff414679fd34bf94d713a36c0e37a04f150794",
+          "bytes": 733300
+        },
+        "skin_basecolor.png": {
+          "sha256": "7176b7c19fa518565a7c839f3de4d06272a38c6a8e089e2656b91770e68fbb45",
+          "bytes": 13581367
+        },
+        "skin_coverage.png": {
+          "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+          "bytes": 33526
+        },
+        "skin_height.png": {
+          "sha256": "a615cb01fe217ea0ca3bee088736a5fb9cac9fdc4869edacec9f9db2bbf797ce",
+          "bytes": 27321039
+        },
+        "skin_roughness.png": {
+          "sha256": "57014a079e80285016d9dfcf38cfd7e602f6d6bcde4cb47532493ea466f07511",
+          "bytes": 8371806
+        }
+      }
+    },
+    {
+      "id": "look_05",
+      "label": "Bronze / brown",
+      "source_material": "toigo_light_skin_male_bronze",
+      "source_image": "work/source_skins/skins/toigo_light_skin_male_bronze/young_lightskinned_male_diffuse_Bronze.png",
+      "source_sha256": "5a53213f061bfa97ee0afd6b40650ffbc089a479c144e63f3c39acceca5853c0",
+      "source_license": "CC0-1.0",
+      "source_author": "MargaretToigo",
+      "face_resolution": [
+        4096,
+        4096
+      ],
+      "eye_resolution": [
+        2048,
+        2048
+      ],
+      "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
+      "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
+      "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+      "status": "Generated; visual/portability review pending",
+      "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+      "files": {
+        "eye_L_basecolor.png": {
+          "sha256": "15aac1901cc2211d7436c250a7603c1d3d342cb2c28ff1b9e1e02c3bd9f413d8",
+          "bytes": 623630
+        },
+        "eye_L_height.png": {
+          "sha256": "1d456aa014a4bcac691b07d130738eee66a2be0f63a49157bf1f2a5bac6376f6",
+          "bytes": 733363
+        },
+        "eye_R_basecolor.png": {
+          "sha256": "ac7cf1a497e054e0f9e62f4ca8778ee8c8da93f2f5ab73b4db4a90fe4251c197",
+          "bytes": 626281
+        },
+        "eye_R_height.png": {
+          "sha256": "29d938739d2f016b14da6eefd322e7682698a2a7d9214e5e0e164328adcea54c",
+          "bytes": 733713
+        },
+        "skin_basecolor.png": {
+          "sha256": "e40d391e37780b4db8293fa2bd5fcf7f97a999fb2e2e0128a5d1135b70390556",
+          "bytes": 11849378
+        },
+        "skin_coverage.png": {
+          "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+          "bytes": 33526
+        },
+        "skin_height.png": {
+          "sha256": "6cc7bbe25e5b209fe7227d62c6e6f956ead24359ccea2ca4462c7d7a7f6e206e",
+          "bytes": 27283378
+        },
+        "skin_roughness.png": {
+          "sha256": "32331a147976276ad13af92627ca61937065d82ec1c106700a209ebcc0c2d7bf",
+          "bytes": 8038051
+        }
+      }
+    }
+  ],
+  "visual_acceptance": "Pending render review; source facial resolution is lower than exported 4K maps."
+}

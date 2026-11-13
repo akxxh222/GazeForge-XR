@@ -1,0 +1,780 @@
+{
+  "status": "PASS",
+  "passed": 117,
+  "failed": 0,
+  "checks": [
+    {
+      "test": "look_01: source image hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: source license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: checksum eye_L_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: resolution eye_L_basecolor.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_01: checksum eye_L_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: resolution eye_L_height.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_01: 16-bit height eye_L_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: checksum eye_R_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: resolution eye_R_basecolor.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_01: checksum eye_R_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: resolution eye_R_height.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_01: 16-bit height eye_R_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: checksum skin_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: resolution skin_basecolor.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_01: checksum skin_coverage.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: resolution skin_coverage.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_01: checksum skin_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: resolution skin_height.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_01: 16-bit height skin_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: checksum skin_roughness.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: resolution skin_roughness.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_01: distinct L/R iris color maps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: distinct L/R iris height maps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: source image hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: source license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: checksum eye_L_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: resolution eye_L_basecolor.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_02: checksum eye_L_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: resolution eye_L_height.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_02: 16-bit height eye_L_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: checksum eye_R_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: resolution eye_R_basecolor.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_02: checksum eye_R_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: resolution eye_R_height.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_02: 16-bit height eye_R_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: checksum skin_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: resolution skin_basecolor.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_02: checksum skin_coverage.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: resolution skin_coverage.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_02: checksum skin_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: resolution skin_height.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_02: 16-bit height skin_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: checksum skin_roughness.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: resolution skin_roughness.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_02: distinct L/R iris color maps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: distinct L/R iris height maps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: source image hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: source license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: checksum eye_L_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: resolution eye_L_basecolor.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_03: checksum eye_L_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: resolution eye_L_height.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_03: 16-bit height eye_L_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: checksum eye_R_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: resolution eye_R_basecolor.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_03: checksum eye_R_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: resolution eye_R_height.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_03: 16-bit height eye_R_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: checksum skin_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: resolution skin_basecolor.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_03: checksum skin_coverage.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: resolution skin_coverage.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_03: checksum skin_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: resolution skin_height.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_03: 16-bit height skin_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: checksum skin_roughness.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: resolution skin_roughness.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_03: distinct L/R iris color maps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: distinct L/R iris height maps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: source image hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: source license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: checksum eye_L_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: resolution eye_L_basecolor.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_04: checksum eye_L_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: resolution eye_L_height.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_04: 16-bit height eye_L_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: checksum eye_R_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: resolution eye_R_basecolor.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_04: checksum eye_R_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: resolution eye_R_height.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_04: 16-bit height eye_R_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: checksum skin_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: resolution skin_basecolor.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_04: checksum skin_coverage.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: resolution skin_coverage.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_04: checksum skin_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: resolution skin_height.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_04: 16-bit height skin_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: checksum skin_roughness.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: resolution skin_roughness.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_04: distinct L/R iris color maps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: distinct L/R iris height maps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: source image hash",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: source license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: checksum eye_L_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: resolution eye_L_basecolor.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_05: checksum eye_L_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: resolution eye_L_height.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_05: 16-bit height eye_L_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: checksum eye_R_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: resolution eye_R_basecolor.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_05: checksum eye_R_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: resolution eye_R_height.png",
+      "passed": true,
+      "details": [
+        2048,
+        2048
+      ]
+    },
+    {
+      "test": "look_05: 16-bit height eye_R_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: checksum skin_basecolor.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: resolution skin_basecolor.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_05: checksum skin_coverage.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: resolution skin_coverage.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_05: checksum skin_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: resolution skin_height.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_05: 16-bit height skin_height.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: checksum skin_roughness.png",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: resolution skin_roughness.png",
+      "passed": true,
+      "details": [
+        4096,
+        4096
+      ]
+    },
+    {
+      "test": "look_05: distinct L/R iris color maps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: distinct L/R iris height maps",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Five texture looks exported",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Five distinct skin maps",
+      "passed": true,
+      "details": null
+    }
+  ],
+  "looks": [
+    {
+      "id": "look_01",
+      "skin_sha256": "dc0fcf15939dd536ad954ff15102377f55a940244e340bb8d3ca79080d6c29d2",
+      "seams": {
+        "samples": 426,
+        "all_p95_rgb_rms": 0.08397595025599003,
+        "all_max_rgb_rms": 0.25104808807373047,
+        "front_samples": 211,
+        "front_p95_rgb_rms": 0.07477118819952011,
+        "front_max_rgb_rms": 0.25104808807373047,
+        "note": "Measured normalized RGB difference across native UV cut edges; supplemental evidence, not a photorealism score. Includes interior/oral joins."
+      }
+    },
+    {
+      "id": "look_02",
+      "skin_sha256": "0f9b5d4fa171a92779084b3050cf5551d8292710d4f3a81091cfd53c263b835b",
+      "seams": {
+        "samples": 426,
+        "all_p95_rgb_rms": 0.20172812044620514,
+        "all_max_rgb_rms": 0.30285269021987915,
+        "front_samples": 211,
+        "front_p95_rgb_rms": 0.23721282184123993,
+        "front_max_rgb_rms": 0.30285269021987915,
+        "note": "Measured normalized RGB difference across native UV cut edges; supplemental evidence, not a photorealism score. Includes interior/oral joins."
+      }
+    },
+    {
+      "id": "look_03",
+      "skin_sha256": "f3a74294b173740cd9e370c45dd31d8d9e5671c20c513ad6eb9480d68a16458e",
+      "seams": {
+        "samples": 426,
+        "all_p95_rgb_rms": 0.06553969345986843,
+        "all_max_rgb_rms": 0.18670840561389923,
+        "front_samples": 211,
+        "front_p95_rgb_rms": 0.08682838827371597,
+        "front_max_rgb_rms": 0.18670840561389923,
+        "note": "Measured normalized RGB difference across native UV cut edges; supplemental evidence, not a photorealism score. Includes interior/oral joins."
+      }
+    },
+    {
+      "id": "look_04",
+      "skin_sha256": "7176b7c19fa518565a7c839f3de4d06272a38c6a8e089e2656b91770e68fbb45",
+      "seams": {
+        "samples": 426,
+        "all_p95_rgb_rms": 0.08018514327704906,
+        "all_max_rgb_rms": 0.19834250211715698,
+        "front_samples": 211,
+        "front_p95_rgb_rms": 0.07778852432966232,
+        "front_max_rgb_rms": 0.16873501241207123,
+        "note": "Measured normalized RGB difference across native UV cut edges; supplemental evidence, not a photorealism score. Includes interior/oral joins."
+      }
+    },
+    {
+      "id": "look_05",
+      "skin_sha256": "e40d391e37780b4db8293fa2bd5fcf7f97a999fb2e2e0128a5d1135b70390556",
+      "seams": {
+        "samples": 426,
+        "all_p95_rgb_rms": 0.054917825385928154,
+        "all_max_rgb_rms": 0.1617169827222824,
+        "front_samples": 211,
+        "front_p95_rgb_rms": 0.07419324293732643,
+        "front_max_rgb_rms": 0.1617169827222824,
+        "note": "Measured normalized RGB difference across native UV cut edges; supplemental evidence, not a photorealism score. Includes interior/oral joins."
+      }
+    }
+  ],
+  "visual_status": "Render review required. Engineering pass does not establish photographic realism or absence of visible seams."
+}

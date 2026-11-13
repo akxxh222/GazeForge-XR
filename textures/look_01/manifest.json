@@ -1,0 +1,56 @@
+{
+  "id": "look_01",
+  "label": "Mature skin / warm hazel",
+  "source_material": "onlytheghosts_old_eurasian_male",
+  "source_image": "work/source_skins/skins/onlytheghosts_old_eurasian_male/old_eurasian_male_diffuse.png",
+  "source_sha256": "923dee56ac9527886ab8b0498566bea15442a37ea4b4adaf88e40138ab38a0d4",
+  "source_license": "CC0-1.0",
+  "source_author": "OnlyTheGhosts",
+  "face_resolution": [
+    4096,
+    4096
+  ],
+  "eye_resolution": [
+    2048,
+    2048
+  ],
+  "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
+  "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
+  "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+  "status": "Generated; visual/portability review pending",
+  "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+  "files": {
+    "eye_L_basecolor.png": {
+      "sha256": "601b1a7b715840968e2ad098659b6d8353c47b276e99a3c03a4495f125373d90",
+      "bytes": 667679
+    },
+    "eye_L_height.png": {
+      "sha256": "74be5c60d765326884f360bff5fcf84a790ad81f0a3b730177576a910c75622a",
+      "bytes": 733726
+    },
+    "eye_R_basecolor.png": {
+      "sha256": "457fc3471a1edf2721574bf697f9a325a732d5d71823f2f554dd3c3434364070",
+      "bytes": 669046
+    },
+    "eye_R_height.png": {
+      "sha256": "fabade20c6004b279cbc6c4a13d55572568d806f40e9034de91858eb86f5d064",
+      "bytes": 734120
+    },
+    "skin_basecolor.png": {
+      "sha256": "dc0fcf15939dd536ad954ff15102377f55a940244e340bb8d3ca79080d6c29d2",
+      "bytes": 12867934
+    },
+    "skin_coverage.png": {
+      "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+      "bytes": 33526
+    },
+    "skin_height.png": {
+      "sha256": "9c9726fe20fe005de0ddc5802eedad6db01a8588f22806c5a54c87dd9bc779ab",
+      "bytes": 27307751
+    },
+    "skin_roughness.png": {
+      "sha256": "2860fde69167d7b53d7e18134a898e18ef6b486ad3f6b69855852ae5acab77f8",
+      "bytes": 8405165
+    }
+  }
+}

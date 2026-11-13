@@ -1,6 +1,6 @@
 # GazeForge XR - VITChennai_IrisX
 
-Milestone 1 establishes the native GNM Head 3.0 baseline, preserving its UVs and connecting bone-driven eyes to the calibrated Python controller. This checkpoint contains the baseline source, asset/license manifests, five-direction draft renders and validation evidence. Later texture, eyelid, expression-video and submission work is planned in [MILESTONES.md](MILESTONES.md).
+Milestone 1 establishes the native GNM Head 3.0 baseline, preserving its UVs and connecting bone-driven eyes to the calibrated Python controller. This checkpoint contains the baseline source, asset/license manifests, five-direction draft renders and validation evidence. This checkpoint also adds the Milestone 2 texture/material drafts described below. Eyelid, expression-video and submission work is planned in [MILESTONES.md](MILESTONES.md).
 
 ## Reproduce the baseline
 
@@ -24,8 +24,18 @@ The camera is locked 0.40 m ahead of the eye midpoint. The common fixation targe
 
 ## Scope, provenance and licenses
 
-Materials are drafts. Photoreal texture looks, dynamic eyelids, brows, expression videos, full-head texture-seam review and apparent refracted pupil validation are later milestones.
+Milestone 2 remains in progress. Static brows, lashes and layered eye/skin materials are implemented; visual seam/detail refinement, dynamic eyelids, expression videos and apparent refracted pupil validation remain pending.
 
 The calibrated gaze/projection controller and render-device selector were developed for the earlier local MPFB prototype on 2026-11-07 and reused here. The original project commit `0adb2a2` was removed from active history at the user's request and retained in a local recovery bundle; this checkpoint does not imply that reused code was first written now. Legacy prototype assets, decks, videos, ZIPs and unrelated source files are excluded from this commit.
 
 Original project code uses the [MIT license](LICENSE). The Google GNM model and retained upstream reference files use Apache-2.0; see [asset provenance](assets/LICENSES.md) and the [full third-party license](assets/gnm/LICENSE.Apache-2.0.txt).
+
+## Milestone 2 texture and material checkpoint
+
+Five draft looks in `textures/look_01` through `look_05` provide 4K native-GNM skin maps and separate 2K left/right eye maps. The offline authoring pipeline transfers licensed CC0 sources using a temporary MakeHuman surface; the target GNM topology and original UVs remain unchanged. `wrapper.materials.apply_look()` applies the resulting maps directly to a fresh baseline. `wrapper/appearance.py` adds static brows, lashes and tear menisci.
+
+Build the baseline first, then follow [the texture reproduction commands](textures/README.md). Python post-processing additionally requires SciPy from `requirements.txt`. Rebuildable downloaded source maps, caches and packed `.blend` scenes remain outside Git; exported maps, source manifests and review images are included.
+
+Evidence: 117 texture checks, 80 fresh-scene portability checks and 70 render/metadata checks pass. Fifteen rendered preview views and a [five-look contact sheet](tests/milestone2/contact_sheet.png) are retained. These checks establish technical behavior; photographic realism and visible seam quality still need acceptance. See [the review ledger](tests/milestone2/REVIEW.md) for remaining defects and rejected drafts. This is a work-in-progress checkpoint, not completion of Milestone 2.
+
+The calibrated front camera remains fixed at 40 cm. Macro and side cameras serve material review only. Pupil labels describe geometric pinhole projections; corneal refraction can shift the apparent visible pupil.

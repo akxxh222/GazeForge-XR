@@ -8,12 +8,12 @@ Continue from the existing working files. Reuse the calibrated binocular control
 
 The existing MPFB scene is a **legacy engineering prototype**. Its 43 passing checks demonstrate that prototype's geometry and automation. They do not demonstrate photorealism, GNM/FLAME texture compatibility or completion of the new evaluation. Existing ZIP, images, slides and demo remain legacy outputs until replaced and revalidated.
 
-The requested Git restart removes the single local root commit `0adb2a2` from active history while retaining working files and a recovery bundle in ignored `backup/`. The new history starts with the validated milestone 1 baseline checkpoint. Keep the original creation/provenance of reused code explicit.
+The requested Git restart removes the single local root commit `0adb2a2` from active history while retaining working files and a recovery bundle in ignored `backup/`. The new history begins with the validated milestone 1 checkpoint `5738394`. Keep the original creation/provenance of reused code explicit.
 
 | Milestone | Main outcome | Status |
 |---|---|---|
-| 1 | Verified requirements, native GNM/FLAME head/UVs and calibrated foundation | Complete: baseline validated |
-| 2 | Photorealistic skin and layered eyes, with 5-10 portable texture looks | Planned |
+| 1 | Verified requirements, native GNM/FLAME head/UVs and calibrated foundation | Complete: committed `5738394` |
+| 2 | Photorealistic skin and layered eyes, with 5-10 portable texture looks | In progress: five native-UV looks; visual refinement pending |
 | 3 | Natural eyelid, gaze and eyebrow articulation saved on the Blender timeline | Planned |
 | 4 | Modular controls and three continuously rendered expression videos | Planned |
 | 5 | Visual review, texture/image export and reproducible final submission | Planned |
@@ -68,7 +68,7 @@ The new deck also links [a second reference](https://youtu.be/gh6WbaYzwFc). It h
 
 ### Human Progress rigging reference
 
-The user also supplied [Human Progress, post 76](https://blenderartists.org/t/human-progress/1143224/76). The adjacent artist explanation in post 74 informs milestone 3's independently authored lid rig. Keep the GNM/FLAME native-UV requirement and calibrated capture contract. The published Universal Human asset license does not cover the editable asset redistribution required by this plan, so those commercial assets are excluded.
+The user also supplied [Human Progress, post 76](https://blenderartists.org/t/human-progress/1143224/76). The adjacent artist explanation in post 74 informs milestone 3's independently authored lid rig. See [the reference review](docs/HUMAN_PROGRESS_REFERENCE.md) for source scope, the implementation choices and asset exclusions. Keep the GNM/FLAME native-UV requirement and calibrated capture contract. The published Universal Human asset license does not cover the editable asset redistribution required by this plan, so those commercial assets are excluded.
 
 ## Milestone 1: native model, UV contract and calibrated foundation
 
@@ -96,11 +96,19 @@ Completion evidence (2026-11-14): official Apache-2.0 GNM Head 3.0 downloaded an
 
 `work/gnm/scene_baseline.blend` loads headlessly and retains the calibrated wrapper. `tests/milestone1/report.json` records **82 PASS / 0 FAIL** and actual GPU render timings; `tests/milestone1/contact_sheet.png` and `native_uv_checker.png` provide draft visual evidence. The final benchmark run measured approximately 12.46 seconds for the 1024x1024 neutral draft and 3.75-4.52 seconds for each 512x512 directional preview, at 32 Cycles samples on the RTX 3050. The local legacy `scene.blend` and old submission outputs are preserved.
 
-The engineering baseline is validated. Photoreal textures, eyelid motion, full-head texture-seam review and refraction-aware image labels remain subsequent work. Commit: this milestone 1 checkpoint, `feat: establish native-UV head and calibrated gaze baseline`. Its identifier is recorded by Git. Reproduction: [GNM asset instructions](assets/gnm/README.md).
+The engineering baseline is validated. Photoreal textures, eyelid motion, full-head texture-seam review and refraction-aware image labels remain subsequent work. Commit: `57383941c815ed0c58ad58253ac350fab62954f3` - `feat: establish native-UV head and calibrated gaze baseline`. Reproduction: [GNM asset instructions](assets/gnm/README.md).
 
 ## Milestone 2: photorealistic texture looks and layered eye materials
 
 **Goal:** achieve a convincing static eye close-up and compatible full-face texture looks before rendering long animations.
+
+Started 2026-11-14: the official MakeHuman Skins 02 CC0 pack has been downloaded, ZIP-integrity checked and inspected. Its embedded per-material author/license catalog and file hashes are preserved in `assets/source_skins/manifest.json`. Five source candidates are in `assets/source_skins/selection.json`. The 2048x2048 full-body source maps need transfer onto GNM UVs and do not supply additional facial detail merely by exporting them at 4K. The transfer and material draft implementation is recorded below; seam repair and fine-detail refinement remain pending.
+
+Implementation update: five 4096x4096 native-UV skin looks are now exported in `textures/look_01` through `look_05`, with roughness/16-bit height maps and separate 2048x2048 left/right iris-sclera maps. The source surface is temporarily aligned and projected; the target GNM geometry and UVs are unchanged. `wrapper/materials.py` applies each look directly, while `wrapper/appearance.py` supplies static brows, lashes and tear menisci. The first bruised-eye source and inner-socket projection draft were rejected and corrected.
+
+Engineering evidence: **117 texture checks and 80 fresh-scene portability checks pass, with zero failures**. Another 70 checks validate 15 actual render files and their texture/appearance metadata. Rendered scenes are saved as `work/gnm/scene_look_XX.blend`; actual material review images are under `tests/milestone2/look_XX/`, with a five-look comparison in `tests/milestone2/contact_sheet.png`. See [texture reproduction instructions](textures/README.md) and [the visual defect/review ledger](tests/milestone2/REVIEW.md).
+
+Status remains **in progress**. Source facial resolution, seam/color continuity, natural skin detail and fine-hair/eye integration still need visual acceptance. The engineering pass counts do not establish reference-level photorealism. This checkpoint records the Milestone 2 implementation and review evidence without declaring the stage complete.
 
 Work:
 

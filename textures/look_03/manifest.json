@@ -1,0 +1,56 @@
+{
+  "id": "look_03",
+  "label": "Freckled / green",
+  "source_material": "toigo_light_skin_male_freckles",
+  "source_image": "work/source_skins/skins/toigo_light_skin_male_freckles/young_lightskinned_male_diffuse_Freckles.png",
+  "source_sha256": "32d33fab52bda1b6bc8cd134bb34f2980a77d2b51c9f048e8ea00c861b4da604",
+  "source_license": "CC0-1.0",
+  "source_author": "MargaretToigo",
+  "face_resolution": [
+    4096,
+    4096
+  ],
+  "eye_resolution": [
+    2048,
+    2048
+  ],
+  "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
+  "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
+  "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+  "status": "Generated; visual/portability review pending",
+  "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+  "files": {
+    "eye_L_basecolor.png": {
+      "sha256": "1d70af2cad25bfb584db26c35e2fd2044fdbbd5293dde947faaf39e99c27814b",
+      "bytes": 653426
+    },
+    "eye_L_height.png": {
+      "sha256": "61f6c672e306b5e619951ee0e61a2987772b317e0565a606b418897194755d5e",
+      "bytes": 733931
+    },
+    "eye_R_basecolor.png": {
+      "sha256": "e7746a68f2af9c8e68ba0daf80d16c44b79f97d8a504a434f9615e2e2f02d446",
+      "bytes": 654392
+    },
+    "eye_R_height.png": {
+      "sha256": "8ebea7aa71b73dc9b8f07f1df68d2156c059c9c081df9568c4d1a4e9c221aba7",
+      "bytes": 733240
+    },
+    "skin_basecolor.png": {
+      "sha256": "f3a74294b173740cd9e370c45dd31d8d9e5671c20c513ad6eb9480d68a16458e",
+      "bytes": 12110779
+    },
+    "skin_coverage.png": {
+      "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+      "bytes": 33526
+    },
+    "skin_height.png": {
+      "sha256": "36d2cb0868ef7b4c8b9b4b3cc15892cfba6e18b040d1942bb9a644bd75bae3b7",
+      "bytes": 27235935
+    },
+    "skin_roughness.png": {
+      "sha256": "bd02771b14d5d11601901402de3007ad3eab598590db4cda8a7fd978fae3d096",
+      "bytes": 7826439
+    }
+  }
+}

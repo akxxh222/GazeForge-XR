@@ -1,0 +1,52 @@
+[
+  {
+    "look": "look_01",
+    "views": [
+      "front",
+      "macro",
+      "macro_left",
+      "macro_right",
+      "eye_closeup",
+      "side_left",
+      "side_right"
+    ],
+    "exit_code": 0,
+    "seconds": 127.57196860000113
+  },
+  {
+    "look": "look_02",
+    "views": [
+      "front",
+      "macro"
+    ],
+    "exit_code": 0,
+    "seconds": 37.17398210000101
+  },
+  {
+    "look": "look_03",
+    "views": [
+      "front",
+      "macro"
+    ],
+    "exit_code": 0,
+    "seconds": 44.440307699995174
+  },
+  {
+    "look": "look_04",
+    "views": [
+      "front",
+      "macro"
+    ],
+    "exit_code": 0,
+    "seconds": 43.78600290000031
+  },
+  {
+    "look": "look_05",
+    "views": [
+      "front",
+      "macro"
+    ],
+    "exit_code": 0,
+    "seconds": 43.88310730000376
+  }
+]

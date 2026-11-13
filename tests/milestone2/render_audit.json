@@ -1,0 +1,425 @@
+{
+  "status": "PASS",
+  "passed": 70,
+  "failed": 0,
+  "checks": [
+    {
+      "test": "look_01: complete review metadata",
+      "passed": true
+    },
+    {
+      "test": "look_01/eye_closeup: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_01/eye_closeup: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_01/eye_closeup: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_01/eye_closeup: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_01/front: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_01/front: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_01/front: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_01/front: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro_left: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro_left: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro_left: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro_left: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro_right: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro_right: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro_right: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_01/macro_right: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_01/side_left: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_01/side_left: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_01/side_left: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_01/side_left: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_01/side_right: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_01/side_right: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_01/side_right: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_01/side_right: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_01: fixed front camera lens",
+      "passed": true
+    },
+    {
+      "test": "look_02: complete review metadata",
+      "passed": true
+    },
+    {
+      "test": "look_02/front: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_02/front: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_02/front: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_02/front: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_02/macro: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_02/macro: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_02/macro: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_02/macro: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_02: fixed front camera lens",
+      "passed": true
+    },
+    {
+      "test": "look_03: complete review metadata",
+      "passed": true
+    },
+    {
+      "test": "look_03/front: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_03/front: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_03/front: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_03/front: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_03/macro: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_03/macro: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_03/macro: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_03/macro: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_03: fixed front camera lens",
+      "passed": true
+    },
+    {
+      "test": "look_04: complete review metadata",
+      "passed": true
+    },
+    {
+      "test": "look_04/front: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_04/front: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_04/front: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_04/front: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_04/macro: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_04/macro: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_04/macro: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_04/macro: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_04: fixed front camera lens",
+      "passed": true
+    },
+    {
+      "test": "look_05: complete review metadata",
+      "passed": true
+    },
+    {
+      "test": "look_05/front: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_05/front: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_05/front: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_05/front: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_05/macro: actual 1024 RGB PNG",
+      "passed": true
+    },
+    {
+      "test": "look_05/macro: current texture and appearance source",
+      "passed": true
+    },
+    {
+      "test": "look_05/macro: refractive label semantics declared",
+      "passed": true
+    },
+    {
+      "test": "look_05/macro: finite geometric labels",
+      "passed": true
+    },
+    {
+      "test": "look_05: fixed front camera lens",
+      "passed": true
+    }
+  ],
+  "renders": [
+    {
+      "look": "look_01",
+      "view": "eye_closeup",
+      "sha256": "21efe10aade0001dde044cba2c2b00dde5e5a7cb73d51f714122e666c6dd953d",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_01",
+      "view": "front",
+      "sha256": "479237645cd6220155ed6ae7573e0bc81291338bac9a96b0d04ef02cace451b5",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_01",
+      "view": "macro",
+      "sha256": "54f2660217f1ed0c5fb08e5942bef3e97d51b7fe3070112868ce2615afe6ccd4",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_01",
+      "view": "macro_left",
+      "sha256": "04a0ea3c82a7bd97a4979383cfbf3eb3278d3d26b783733abf0ed7e331255644",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_01",
+      "view": "macro_right",
+      "sha256": "527579108bac687ec819a2c0d9b22e3687a1bc9b54e4fe08b5241927635d90e7",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_01",
+      "view": "side_left",
+      "sha256": "7bcf76768cda3a33818c4f8382896db608f6398ae7ab199ba7b5040ecd702e71",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_01",
+      "view": "side_right",
+      "sha256": "562cdfa6a32bc3f048f12280e841a5b1c492b411fee8f0d0873bc265e62e532d",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_02",
+      "view": "front",
+      "sha256": "2a81c81d3b4e014716f14d80bf76d13c08b26cda9f2be0ce63190c32541becd4",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_02",
+      "view": "macro",
+      "sha256": "012e8c90565647aae19cc73e5e366959f37c772e8748a7f20a36200285bc22cf",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_03",
+      "view": "front",
+      "sha256": "ccd2adc345029d4c09766881dc59ab3b1a389efc8bf2f486188f460ba9fa23d7",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_03",
+      "view": "macro",
+      "sha256": "9c4167604e000aab8c1b3caf986331835890f8dacab66f82bb1479cba9a48901",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_04",
+      "view": "front",
+      "sha256": "d1320d6304d0fa7250e7ea772e6f071faa4981da2cb5d474c991a5f48391625a",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_04",
+      "view": "macro",
+      "sha256": "4a976991bc4dfd051e27c065bce40ddeb1f3e4474bac9c33182d5aac3d289e1b",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_05",
+      "view": "front",
+      "sha256": "9ac1235543ddb84377292ab7395d8dbcca23f4384227af42aea4ab771b84434e",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "look": "look_05",
+      "view": "macro",
+      "sha256": "b7ad207ee5ef0ff25689b9784cf0fccded00bca41ad6f1edb6be02b3f0f8362c",
+      "dimensions": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "visual_acceptance": "Pending. File/provenance checks do not certify photographic realism or seamless texture quality."
+}

@@ -1,0 +1,184 @@
+[
+  {
+    "frame": 0,
+    "theta": 0.0,
+    "input": {
+      "h": 0.0,
+      "v": 0.0
+    },
+    "camera_matrix": [
+      [
+        1137.77783203125,
+        512.0,
+        8.341539069078863e-05,
+        204.8000030517578
+      ],
+      [
+        0.0,
+        512.0001831054688,
+        -1137.7777099609375,
+        204.80007934570312
+      ],
+      [
+        0.0,
+        1.0,
+        1.6292068494294654e-07,
+        0.4000000059604645
+      ]
+    ],
+    "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+    "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+    "fixation_world_m": [
+      0.0,
+      -0.3499999940395355,
+      0.0
+    ],
+    "eye_rotation_L": [
+      -7.327584899030626e-05,
+      7.410307784061487e-11,
+      3.0536811351776123
+    ],
+    "eye_quaternion_wxyz_L": [
+      0.04394159093499184,
+      -1.609965693205595e-06,
+      -3.660253423731774e-05,
+      0.9990341067314148
+    ],
+    "pupil_center_3D_L": [
+      0.0297379307448864,
+      -0.012771597132086754,
+      -4.57623609690927e-05
+    ],
+    "pupil_center_2D_L": [
+      599.3778076171875,
+      512.1346435546875
+    ],
+    "eye_center_3D_L": [
+      0.030852630734443665,
+      4.524737596511841e-05,
+      2.574920654296875e-05
+    ],
+    "eye_rotation_R": [
+      7.329482468776405e-05,
+      5.010966294682895e-11,
+      -3.0536587238311768
+    ],
+    "eye_quaternion_wxyz_R": [
+      0.04395277798175812,
+      1.6107806004583836e-06,
+      -3.661199298221618e-05,
+      -0.9990336298942566
+    ],
+    "pupil_center_3D_R": [
+      -0.02975327894091606,
+      -0.01286329422146082,
+      -9.808774484554306e-05
+    ],
+    "pupil_center_2D_R": [
+      424.5564270019531,
+      512.2884521484375
+    ],
+    "eye_center_3D_R": [
+      -0.030852630734443665,
+      -4.525482654571533e-05,
+      -2.574920654296875e-05
+    ],
+    "view": "front",
+    "camera_lens_mm": 40.0,
+    "role": "Calibrated material preview",
+    "pupil_label_semantics": "Geometric 3D aperture centroid and pinhole projection; corneal refraction can shift the apparent rendered pupil",
+    "texture_manifest_sha256": "c0ca972558481448aa9d96f41ef8fbfce33f5d82e565aff9f211a8a13969a624",
+    "appearance_code_sha256": "e4c38f171ae914473168049dcbfadaa8d7762b85a441244fdf9a284c92787d89"
+  },
+  {
+    "frame": 0,
+    "theta": 0.0,
+    "input": {
+      "h": 0.0,
+      "v": 0.0
+    },
+    "camera_matrix": [
+      [
+        4124.4443359375,
+        512.0,
+        8.341539069078863e-05,
+        204.8000030517578
+      ],
+      [
+        0.0,
+        512.0006713867188,
+        -4124.4443359375,
+        204.80027770996094
+      ],
+      [
+        0.0,
+        1.0,
+        1.6292068494294654e-07,
+        0.4000000059604645
+      ]
+    ],
+    "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+    "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+    "fixation_world_m": [
+      0.0,
+      -0.3499999940395355,
+      0.0
+    ],
+    "eye_rotation_L": [
+      -7.327584899030626e-05,
+      7.410307784061487e-11,
+      3.0536811351776123
+    ],
+    "eye_quaternion_wxyz_L": [
+      0.04394159093499184,
+      -1.609965693205595e-06,
+      -3.660253423731774e-05,
+      0.9990341067314148
+    ],
+    "pupil_center_3D_L": [
+      0.0297379307448864,
+      -0.012771597132086754,
+      -4.57623609690927e-05
+    ],
+    "pupil_center_2D_L": [
+      828.7444458007812,
+      512.4880981445312
+    ],
+    "eye_center_3D_L": [
+      0.030852630734443665,
+      4.524737596511841e-05,
+      2.574920654296875e-05
+    ],
+    "eye_rotation_R": [
+      7.329482468776405e-05,
+      5.010966294682895e-11,
+      -3.0536587238311768
+    ],
+    "eye_quaternion_wxyz_R": [
+      0.04395277798175812,
+      1.6107806004583836e-06,
+      -3.661199298221618e-05,
+      -0.9990336298942566
+    ],
+    "pupil_center_3D_R": [
+      -0.02975327894091606,
+      -0.01286329422146082,
+      -9.808774484554306e-05
+    ],
+    "pupil_center_2D_R": [
+      195.01702880859375,
+      513.0456848144531
+    ],
+    "eye_center_3D_R": [
+      -0.030852630734443665,
+      -4.525482654571533e-05,
+      -2.574920654296875e-05
+    ],
+    "view": "macro",
+    "camera_lens_mm": 145.0,
+    "role": "Additional material review camera/pose, not an official dataset frame",
+    "pupil_label_semantics": "Geometric 3D aperture centroid and pinhole projection; corneal refraction can shift the apparent rendered pupil",
+    "texture_manifest_sha256": "c0ca972558481448aa9d96f41ef8fbfce33f5d82e565aff9f211a8a13969a624",
+    "appearance_code_sha256": "e4c38f171ae914473168049dcbfadaa8d7762b85a441244fdf9a284c92787d89"
+  }
+]

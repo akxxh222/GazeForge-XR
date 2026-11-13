@@ -1,0 +1,81 @@
+{
+  "model": "GNM Head",
+  "version": "3.0",
+  "model_sha256": "61d78bbfb4ad8e0b38495804a4caef3214d3df00f8c3f68761e63b41ce3747eb",
+  "license": "Apache-2.0",
+  "native_vertices": 17821,
+  "native_quads": 17662,
+  "native_quads_sha256": "a19319dbc7adaedaafdd7f7d04e280fdd81b5fa25b1a17a0465689cf3d6039df",
+  "native_quad_uvs_sha256": "ae60b9b86b382a5beba764d50efa8572641364ff7b3130981ea627820df52ee5",
+  "native_to_world_rotation": [
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0
+    ]
+  ],
+  "native_eye_midpoint_m": [
+    -1.3592652976512909e-05,
+    0.30313917994499207,
+    0.098933145403862
+  ],
+  "scale": 1.0,
+  "identity": "All-zero native template coefficients",
+  "uv_layout": "Unmodified per-region UVs, disambiguated by component materials",
+  "components": [
+    {
+      "component": "skin",
+      "object": "GNM_skin",
+      "vertices": 12466,
+      "quads": 12410,
+      "native_uv_sha256": "54d953d8b6a254824df836c54ed6e4eea43a226e3b7b031900be9a5fdbd9d26d"
+    },
+    {
+      "component": "left_eye",
+      "object": "Eye_L",
+      "vertices": 771,
+      "quads": 756,
+      "native_uv_sha256": "1ccd8c3eff4b277859f9eccba6ab54c2d452c5b90954d245e0360b0b5180f22a"
+    },
+    {
+      "component": "right_eye",
+      "object": "Eye_R",
+      "vertices": 771,
+      "quads": 756,
+      "native_uv_sha256": "a65d0876395b0c4bbc7a57b7517ad7dc18cf6d8e8f58fafec208560180f200f6"
+    },
+    {
+      "component": "upper_teeth_and_gums",
+      "object": "GNM_upper_teeth_and_gums",
+      "vertices": 1440,
+      "quads": 1414,
+      "native_uv_sha256": "0ccb23e239e10b226e2f96d25b9ef34abd97c5e3314f244b02dccd0d7083bcfd"
+    },
+    {
+      "component": "lower_teeth_and_gums",
+      "object": "GNM_lower_teeth_and_gums",
+      "vertices": 1440,
+      "quads": 1414,
+      "native_uv_sha256": "1248229cdd23b44b47d72879d9b1af8f222d7c6469991624a8495b592edd687e"
+    },
+    {
+      "component": "tongue",
+      "object": "GNM_tongue",
+      "vertices": 933,
+      "quads": 912,
+      "native_uv_sha256": "b471c625a7b55feb688b041c41fbf2198149fe22831f4775f225311bcb4835a3"
+    }
+  ],
+  "draft_scene": "work/gnm/scene_baseline.blend",
+  "modifications": "Rigid coordinate conversion, component separation, eye rig, draft materials and subdivision. Original vertex/face IDs and native UVs retained."
+}

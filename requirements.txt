@@ -1,0 +1,3 @@
+# Optional CPython post-processing. Blender supplies bpy and its own NumPy.
+Pillow>=10
+numpy>=1.26

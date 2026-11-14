@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "milestone": 4,
+  "completed_date": "2026-11-15",
+  "scope": "Milestone 4 modular expression/capture acceptance only. Reference-level Milestone 2 photorealism and Milestone 5 final submission remain open.",
+  "scene_sha256": "fb808fedf7595e2d80fe2baaf7a5346172cc827d521b83e25be0f64d2ea497e8",
+  "evidence_sha256": {
+    "controls.json": "e44de5d3e8e7cad42153d305bc9539d327561781cf809438aa482af54642873f",
+    "report.json": "946f12cb1f1704c1bff7f0b67691883fa6ce4afece0b8fe747a20b975e9b6cea",
+    "fresh_environment_report.json": "946f12cb1f1704c1bff7f0b67691883fa6ce4afece0b8fe747a20b975e9b6cea",
+    "dependencies.json": "b0ff1b93e428c03720acf96218087409aeff420e568f9f8a31421bf818e8ec32",
+    "resume.json": "00072f8fc54c964ec46c83e3d79d5c6820bd2a674b8f301949303d197dd05dec",
+    "metadata_export.json": "a913c48fccb3d5d3c9ed383e350a5c9bf99a80f3e6ff1793b8d180c20891b516",
+    "visual_review.json": "6b8e88df6e57432d6893f18ced3150bcbebff5c988d13a463beb9d1e9260c417",
+    "deliverables.json": "7f6e4b21e251572429a4c43b2c6a1250006306eb1aaada16dfef081429c917a8",
+    "temporal/index.json": "b98a89028b298bd6fcc8781822e5d8f518f98b023815bd51e9a0cf010ca85424"
+  },
+  "remaining": [
+    "Milestone 2 reference-level appearance acceptance",
+    "Hair license-version resolution before final redistribution",
+    "Milestone 5 final portable bundle and clean extracted execution"
+  ],
+  "commit": "New Milestone 4 work is uncommitted."
+}

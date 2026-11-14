@@ -12,3 +12,5 @@ work/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at
 
 # Retain the downloaded asset credits verbatim.
 assets/public_candidates/SOURCE_NOTICES.txt -text -whitespace
+tests/milestone4/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+tests/milestone4/temporal/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol

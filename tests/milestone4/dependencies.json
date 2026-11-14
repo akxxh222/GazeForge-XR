@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "requirements_sha256": "fe08cf1293761c598795261e5f818cee216180da647a7cd50562f173836a380a",
+  "existing": {
+    "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+    "numpy": "1.26.4",
+    "pillow": "12.2.0",
+    "opencv": "4.13.0",
+    "scipy": "1.16.1"
+  },
+  "fresh_isolated": {
+    "python": "3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]",
+    "numpy": "2.5.4",
+    "pillow": "13.0.0",
+    "opencv": "5.0.0",
+    "scipy": "1.18.1"
+  },
+  "fresh_environment_scope": "Workspace-local venv installed from requirements.txt; global packages unchanged. Same complete 5419-check capture audit passes.",
+  "fresh_report_sha256": "946f12cb1f1704c1bff7f0b67691883fa6ce4afece0b8fe747a20b975e9b6cea"
+}

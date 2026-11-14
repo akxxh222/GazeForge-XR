@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "passed": 21,
+  "scene_sha256": "fb808fedf7595e2d80fe2baaf7a5346172cc827d521b83e25be0f64d2ea497e8",
+  "video_sha256": "03de06dcf868fe66ac881e80025e6f2e644304ad589e908084da31577751d107",
+  "validator_sha256": "8047e45a07a6a74f9a53c138c5ec215e836a7a5b697010ba0adc1802c5097188",
+  "failed": 0,
+  "checks": [
+    {
+      "test": "current scene matches render receipt",
+      "passed": true
+    },
+    {
+      "test": "video matches receipt hash",
+      "passed": true
+    },
+    {
+      "test": "all 144 frames decode at 24 fps",
+      "passed": true
+    },
+    {
+      "test": "duration is six seconds",
+      "passed": true
+    },
+    {
+      "test": "all frames are 384 square",
+      "passed": true
+    },
+    {
+      "test": "up_open actual still checksum",
+      "passed": true
+    },
+    {
+      "test": "down_open actual still checksum",
+      "passed": true
+    },
+    {
+      "test": "up_half actual still checksum",
+      "passed": true
+    },
+    {
+      "test": "down_half actual still checksum",
+      "passed": true
+    },
+    {
+      "test": "up_closed actual still checksum",
+      "passed": true
+    },
+    {
+      "test": "down_closed actual still checksum",
+      "passed": true
+    },
+    {
+      "test": "front actual still checksum",
+      "passed": true
+    },
+    {
+      "test": "uv_open actual still checksum",
+      "passed": true
+    },
+    {
+      "test": "uv_half actual still checksum",
+      "passed": true
+    },
+    {
+      "test": "uv_closed actual still checksum",
+      "passed": true
+    },
+    {
+      "test": "all raw frames match saved pose hashes",
+      "passed": true
+    },
+    {
+      "test": "decoded frame ordering matches raw renders",
+      "passed": true
+    },
+    {
+      "test": "rendered pixels change continuously through scan",
+      "passed": true
+    },
+    {
+      "test": "timeline reaches left/right/up/down",
+      "passed": true
+    },
+    {
+      "test": "two full blinks are rendered",
+      "passed": true
+    },
+    {
+      "test": "neutral open pose returns at end",
+      "passed": true
+    }
+  ],
+  "decoded_frames": 144,
+  "fps": 24.0,
+  "max_compression_mean_absolute_error_8bit": 3.6380366572627314,
+  "changed_adjacent_frames": 125,
+  "max_adjacent_mean_change_8bit": 2.399509006076389,
+  "render_runtime_s": 821.6171908000106,
+  "scope": "Actual continuous 3D review clip, still checksums, decoded order and changing gaze/blink poses. Low-resolution diagnostic, not a final expression-mode video or realism approval."
+}

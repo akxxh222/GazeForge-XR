@@ -1,0 +1,161 @@
+{
+  "scene": "work\\milestone3\\final\\IRISX_MILESTONE3.blend",
+  "scene_sha256": "fb808fedf7595e2d80fe2baaf7a5346172cc827d521b83e25be0f64d2ea497e8",
+  "source_sha256": "e9205895386fcfd93054560e42b63f88ef24997cd808b60b381b38d2fd62bd0d",
+  "builder_sha256": "9fa27b9669c91d07a3700f08f8667640bd778d67225d2de8d5a90a92dbab9197",
+  "module_sha256": {
+    "ocular_deform.py": "a3d3984161bffcb49350051f70345f9cdc97298ceed3b893c6ba39a78e7f7feb",
+    "live_surface_binding.py": "a5972bb4a7c108e2768367b4a1f14f3ed46ad085bdf52ce7d7711c128714805c",
+    "expressions.py": "92002c4c4b2688ac0b2b8880a2d6ea2beda402d514645b9e5e3f1047b8544a47",
+    "lids.py": "2b39a3ae0563ce168730e4dc861f01cac9f1d651402657a0255cc10ddb07584e",
+    "eyes.py": "5ee13a5b72384980b59d44aa3204262aaec47cc25f4222b03d8e61a3117381e4"
+  },
+  "corners": {
+    "L": {
+      "native_vertex_ids": [
+        6093,
+        6126
+      ],
+      "head_vertex_indices": [
+        6093,
+        6126
+      ],
+      "before_displacement_m": [
+        0.0006348711280764629,
+        0.0033163549118229
+      ],
+      "after_displacement_m": [
+        0.0,
+        0.0
+      ]
+    },
+    "R": {
+      "native_vertex_ids": [
+        12254,
+        12221
+      ],
+      "head_vertex_indices": [
+        12254,
+        12221
+      ],
+      "before_displacement_m": [
+        0.003207183225331574,
+        0.0005519901575640856
+      ],
+      "after_displacement_m": [
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "collision_proxies": [
+    "Collision_Eye_L",
+    "Collision_Eye_R"
+  ],
+  "contact_offset_m": 8e-05,
+  "attachments": [
+    {
+      "object": "Brow_fibers_L",
+      "points": 1860,
+      "clusters": 620
+    },
+    {
+      "object": "Brow_fibers_R",
+      "points": 1860,
+      "clusters": 620
+    },
+    {
+      "object": "Lid_lashes_upper_L",
+      "points": 840,
+      "clusters": 84
+    },
+    {
+      "object": "Lid_lashes_lower_L",
+      "points": 200,
+      "clusters": 20
+    },
+    {
+      "object": "Lid_lashes_upper_R",
+      "points": 810,
+      "clusters": 81
+    },
+    {
+      "object": "Lid_lashes_lower_R",
+      "points": 220,
+      "clusters": 22
+    },
+    {
+      "object": "Lid_waterline_L_bound",
+      "points": 1376,
+      "clusters": 1376
+    },
+    {
+      "object": "Lid_tear_film_L_bound",
+      "points": 1376,
+      "clusters": 1376
+    },
+    {
+      "object": "Lid_waterline_R_bound",
+      "points": 1376,
+      "clusters": 1376
+    },
+    {
+      "object": "Lid_tear_film_R_bound",
+      "points": 1376,
+      "clusters": 1376
+    },
+    {
+      "object": "Mucosal_rim_L",
+      "points": 1424,
+      "clusters": 1424
+    },
+    {
+      "object": "Mucosal_rim_R",
+      "points": 1424,
+      "clusters": 1424
+    },
+    {
+      "object": "Lid_caruncle_L_native",
+      "points": 266,
+      "clusters": 1
+    },
+    {
+      "object": "Lid_commissure_L_native",
+      "points": 266,
+      "clusters": 1
+    },
+    {
+      "object": "Lid_caruncle_R_native",
+      "points": 266,
+      "clusters": 1
+    },
+    {
+      "object": "Lid_commissure_R_native",
+      "points": 266,
+      "clusters": 1
+    }
+  ],
+  "actions": {
+    "generate_motion": [
+      "IrisX | lids and brows review",
+      "IrisX | binocular gaze review",
+      "IrisX | fixation review"
+    ],
+    "left": [
+      "IrisX | left | lids and brows",
+      "IrisX | left | eyes",
+      "IrisX | left | target"
+    ],
+    "right": [
+      "IrisX | right | lids and brows",
+      "IrisX | right | eyes",
+      "IrisX | right | target"
+    ]
+  },
+  "status": "Milestone 3 articulation accepted; Milestone 2 reference-level appearance and final submission remain pending.",
+  "acceptance": {
+    "report.json": "34751fe6b6a8c182c1d935b992ff576887c0bbd672fd0f6aa200ff0a246625ab",
+    "video_report.json": "ac7cf77e9ff48ba09dd3df393ca924d0bf3422bbe9125fb62188b16671205d29",
+    "visual_review.json": "d9c3c2af20091d051ef21f9f71e1f57c35f1db9f14e52e6801ffc3475447dedb"
+  }
+}

@@ -1,0 +1,4294 @@
+{
+  "status": "PASS",
+  "passed": 591,
+  "failed": 0,
+  "checks": [
+    {
+      "test": "GNM_skin native Basis",
+      "passed": true
+    },
+    {
+      "test": "GNM_skin native UV",
+      "passed": true
+    },
+    {
+      "test": "GNM_skin native topology",
+      "passed": true
+    },
+    {
+      "test": "Eye_L native Basis",
+      "passed": true
+    },
+    {
+      "test": "Eye_L native UV",
+      "passed": true
+    },
+    {
+      "test": "Eye_L native topology",
+      "passed": true
+    },
+    {
+      "test": "Eye_R native Basis",
+      "passed": true
+    },
+    {
+      "test": "Eye_R native UV",
+      "passed": true
+    },
+    {
+      "test": "Eye_R native topology",
+      "passed": true
+    },
+    {
+      "test": "GNM_upper_teeth_and_gums native Basis",
+      "passed": true
+    },
+    {
+      "test": "GNM_upper_teeth_and_gums native UV",
+      "passed": true
+    },
+    {
+      "test": "GNM_upper_teeth_and_gums native topology",
+      "passed": true
+    },
+    {
+      "test": "GNM_lower_teeth_and_gums native Basis",
+      "passed": true
+    },
+    {
+      "test": "GNM_lower_teeth_and_gums native UV",
+      "passed": true
+    },
+    {
+      "test": "GNM_lower_teeth_and_gums native topology",
+      "passed": true
+    },
+    {
+      "test": "GNM_tongue native Basis",
+      "passed": true
+    },
+    {
+      "test": "GNM_tongue native UV",
+      "passed": true
+    },
+    {
+      "test": "GNM_tongue native topology",
+      "passed": true
+    },
+    {
+      "test": "geometry probe identifies current exact scene",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,0 opening 1 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,0 opening 1 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,0 opening 0.75 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,0 opening 0.75 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,0 opening 0.5 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,0 opening 0.5 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,0 opening 0.25 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,0 opening 0.25 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,0 opening 0 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,0 opening 0 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,0 opening 0 no exposed eye on 81x81 frontal grid",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,0 opening 1 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,0 opening 1 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,0 opening 0.75 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,0 opening 0.75 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,0 opening 0.5 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,0 opening 0.5 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,0 opening 0.25 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,0 opening 0.25 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,0 opening 0 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,0 opening 0 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,0 opening 0 no exposed eye on 81x81 frontal grid",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,0 opening 1 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,0 opening 1 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,0 opening 0.75 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,0 opening 0.75 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,0 opening 0.5 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,0 opening 0.5 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,0 opening 0.25 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,0 opening 0.25 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,0 opening 0 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,0 opening 0 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,0 opening 0 no exposed eye on 81x81 frontal grid",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,-1 opening 1 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,-1 opening 1 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,-1 opening 0.75 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,-1 opening 0.75 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,-1 opening 0.5 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,-1 opening 0.5 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,-1 opening 0.25 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,-1 opening 0.25 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,-1 opening 0 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,-1 opening 0 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,-1 opening 0 no exposed eye on 81x81 frontal grid",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,1 opening 1 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,1 opening 1 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,1 opening 0.75 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,1 opening 0.75 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,1 opening 0.5 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,1 opening 0.5 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,1 opening 0.25 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,1 opening 0.25 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,1 opening 0 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,1 opening 0 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 0,1 opening 0 no exposed eye on 81x81 frontal grid",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,-1 opening 1 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,-1 opening 1 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,-1 opening 0.75 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,-1 opening 0.75 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,-1 opening 0.5 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,-1 opening 0.5 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,-1 opening 0.25 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,-1 opening 0.25 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,-1 opening 0 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,-1 opening 0 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,-1 opening 0 no exposed eye on 81x81 frontal grid",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,1 opening 1 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,1 opening 1 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,1 opening 0.75 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,1 opening 0.75 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,1 opening 0.5 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,1 opening 0.5 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,1 opening 0.25 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,1 opening 0.25 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,1 opening 0 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,1 opening 0 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze -1,1 opening 0 no exposed eye on 81x81 frontal grid",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,-1 opening 1 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,-1 opening 1 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,-1 opening 0.75 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,-1 opening 0.75 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,-1 opening 0.5 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,-1 opening 0.5 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,-1 opening 0.25 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,-1 opening 0.25 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,-1 opening 0 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,-1 opening 0 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,-1 opening 0 no exposed eye on 81x81 frontal grid",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,1 opening 1 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,1 opening 1 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,1 opening 0.75 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,1 opening 0.75 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,1 opening 0.5 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,1 opening 0.5 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,1 opening 0.25 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,1 opening 0.25 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,1 opening 0 all 1447 attachment roots within 0.30 mm",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,1 opening 0 lash roots clear ocular surface within 30 micrometer contact tolerance",
+      "passed": true
+    },
+    {
+      "test": "gaze 1,1 opening 0 no exposed eye on 81x81 frontal grid",
+      "passed": true
+    },
+    {
+      "test": "144-frame 24-fps review timeline",
+      "passed": true
+    },
+    {
+      "test": "three editable actions survive reopen",
+      "passed": true
+    },
+    {
+      "test": "Key.002 simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Brow_fibers_L | expression attachment simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Brow_fibers_R | expression attachment simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Lid_lashes_upper_L | expression attachment simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Lid_lashes_lower_L | expression attachment simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Lid_lashes_upper_R | expression attachment simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Lid_lashes_lower_R | expression attachment simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Key.003 simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Key.004 simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Key.005 simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Key.006 simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Key.007 simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "Key.008 simple valid native drivers",
+      "passed": true
+    },
+    {
+      "test": "frame 1 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 1 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 1 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 2 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 2 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 2 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 3 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 3 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 3 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 4 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 4 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 4 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 5 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 5 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 5 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 6 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 6 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 6 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 7 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 7 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 7 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 8 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 8 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 8 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 9 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 9 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 9 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 10 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 10 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 10 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 11 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 11 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 11 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 12 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 12 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 12 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 13 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 13 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 13 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 14 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 14 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 14 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 15 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 15 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 15 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 16 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 16 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 16 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 17 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 17 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 17 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 18 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 18 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 18 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 19 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 19 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 19 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 20 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 20 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 20 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 21 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 21 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 21 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 22 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 22 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 22 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 23 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 23 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 23 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 24 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 24 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 24 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 25 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 25 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 25 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 26 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 26 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 26 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 27 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 27 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 27 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 28 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 28 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 28 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 29 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 29 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 29 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 30 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 30 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 30 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 31 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 31 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 31 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 32 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 32 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 32 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 33 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 33 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 33 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 34 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 34 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 34 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 35 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 35 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 35 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 36 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 36 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 36 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 37 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 37 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 37 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 38 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 38 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 38 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 39 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 39 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 39 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 40 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 40 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 40 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 41 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 41 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 41 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 42 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 42 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 42 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 43 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 43 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 43 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 44 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 44 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 44 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 45 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 45 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 45 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 46 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 46 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 46 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 47 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 47 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 47 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 48 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 48 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 48 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 49 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 49 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 49 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 50 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 50 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 50 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 51 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 51 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 51 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 52 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 52 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 52 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 53 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 53 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 53 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 54 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 54 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 54 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 55 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 55 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 55 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 56 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 56 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 56 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 57 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 57 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 57 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 58 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 58 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 58 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 59 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 59 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 59 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 60 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 60 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 60 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 61 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 61 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 61 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 62 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 62 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 62 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 63 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 63 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 63 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 64 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 64 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 64 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 65 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 65 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 65 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 66 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 66 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 66 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 67 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 67 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 67 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 68 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 68 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 68 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 69 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 69 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 69 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 70 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 70 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 70 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 71 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 71 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 71 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 72 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 72 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 72 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 73 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 73 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 73 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 74 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 74 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 74 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 75 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 75 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 75 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 76 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 76 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 76 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 77 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 77 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 77 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 78 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 78 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 78 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 79 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 79 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 79 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 80 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 80 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 80 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 81 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 81 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 81 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 82 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 82 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 82 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 83 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 83 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 83 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 84 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 84 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 84 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 85 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 85 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 85 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 86 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 86 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 86 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 87 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 87 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 87 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 88 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 88 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 88 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 89 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 89 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 89 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 90 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 90 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 90 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 91 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 91 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 91 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 92 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 92 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 92 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 93 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 93 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 93 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 94 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 94 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 94 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 95 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 95 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 95 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 96 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 96 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 96 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 97 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 97 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 97 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 98 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 98 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 98 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 99 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 99 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 99 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 100 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 100 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 100 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 101 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 101 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 101 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 102 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 102 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 102 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 103 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 103 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 103 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 104 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 104 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 104 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 105 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 105 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 105 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 106 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 106 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 106 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 107 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 107 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 107 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 108 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 108 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 108 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 109 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 109 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 109 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 110 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 110 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 110 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 111 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 111 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 111 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 112 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 112 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 112 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 113 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 113 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 113 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 114 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 114 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 114 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 115 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 115 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 115 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 116 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 116 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 116 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 117 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 117 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 117 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 118 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 118 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 118 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 119 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 119 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 119 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 120 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 120 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 120 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 121 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 121 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 121 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 122 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 122 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 122 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 123 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 123 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 123 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 124 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 124 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 124 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 125 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 125 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 125 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 126 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 126 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 126 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 127 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 127 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 127 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 128 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 128 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 128 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 129 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 129 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 129 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 130 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 130 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 130 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 131 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 131 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 131 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 132 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 132 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 132 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 133 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 133 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 133 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 134 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 134 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 134 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 135 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 135 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 135 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 136 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 136 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 136 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 137 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 137 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 137 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 138 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 138 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 138 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 139 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 139 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 139 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 140 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 140 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 140 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 141 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 141 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 141 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 142 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 142 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 142 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 143 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 143 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 143 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "frame 144 L center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 144 R center invariant",
+      "passed": true
+    },
+    {
+      "test": "frame 144 keeps normalized gaze",
+      "passed": true
+    },
+    {
+      "test": "both eyes aim at target between every timeline key within 1e-5 direction norm",
+      "passed": true
+    },
+    {
+      "test": "combined pose 0,1,1,0 attachment fit",
+      "passed": true
+    },
+    {
+      "test": "combined pose 0,1,1,0 finite noncollapsed native faces",
+      "passed": true
+    },
+    {
+      "test": "combined pose 0,-1,1,0 attachment fit",
+      "passed": true
+    },
+    {
+      "test": "combined pose 0,-1,1,0 finite noncollapsed native faces",
+      "passed": true
+    },
+    {
+      "test": "combined pose -1,1,0.5,0.35 attachment fit",
+      "passed": true
+    },
+    {
+      "test": "combined pose -1,1,0.5,0.35 finite noncollapsed native faces",
+      "passed": true
+    },
+    {
+      "test": "combined pose 1,-1,0.5,0.35 attachment fit",
+      "passed": true
+    },
+    {
+      "test": "combined pose 1,-1,0.5,0.35 finite noncollapsed native faces",
+      "passed": true
+    },
+    {
+      "test": "combined pose 0,1,0,0.35 attachment fit",
+      "passed": true
+    },
+    {
+      "test": "combined pose 0,1,0,0.35 finite noncollapsed native faces",
+      "passed": true
+    },
+    {
+      "test": "combined pose 0,-1,0,0 attachment fit",
+      "passed": true
+    },
+    {
+      "test": "combined pose 0,-1,0,0 finite noncollapsed native faces",
+      "passed": true
+    },
+    {
+      "test": "combined pose 0,0,1,1 attachment fit",
+      "passed": true
+    },
+    {
+      "test": "combined pose 0,0,1,1 finite noncollapsed native faces",
+      "passed": true
+    },
+    {
+      "test": "combined reset is deterministic",
+      "passed": true
+    },
+    {
+      "test": "neutral gaze has zero follow",
+      "passed": true
+    },
+    {
+      "test": "reject invalid brow True atomically",
+      "passed": true
+    },
+    {
+      "test": "reject invalid brow 'high' atomically",
+      "passed": true
+    },
+    {
+      "test": "reject invalid brow nan atomically",
+      "passed": true
+    },
+    {
+      "test": "reject invalid brow inf atomically",
+      "passed": true
+    },
+    {
+      "test": "reject invalid brow -0.1 atomically",
+      "passed": true
+    },
+    {
+      "test": "reject invalid brow 1.1 atomically",
+      "passed": true
+    },
+    {
+      "test": "manual context restores timeline pose and all actions",
+      "passed": true
+    },
+    {
+      "test": "manual context restores timeline after caller exception",
+      "passed": true
+    },
+    {
+      "test": "calibrated camera and target forward distance retained",
+      "passed": true
+    }
+  ],
+  "scene_sha256": "e9205895386fcfd93054560e42b63f88ef24997cd808b60b381b38d2fd62bd0d",
+  "geometry_probe": {
+    "scene_sha256": "e9205895386fcfd93054560e42b63f88ef24997cd808b60b381b38d2fd62bd0d",
+    "poses": [
+      {
+        "h": 0,
+        "v": 0,
+        "opening": 1,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674201282905415e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0005506315828824881,
+          "R": 0.0004927681984554511
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 1127,
+          "R": 1133
+        }
+      },
+      {
+        "h": 0,
+        "v": 0,
+        "opening": 0.75,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.672271698946133e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0006267494682106189,
+          "R": 0.000564377914997749
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 0,
+        "v": 0,
+        "opening": 0.5,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.67209052760154e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0007385589342447929,
+          "R": 0.0006526900288008619
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 0,
+        "v": 0,
+        "opening": 0.25,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.67295709415339e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0008483725905534811,
+          "R": 0.0006932671603863128
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 0,
+        "v": 0,
+        "opening": 0,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674956527305767e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0009427702098037116,
+          "R": 0.0008060878171818331
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": 0,
+        "opening": 1,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674201282905415e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0002416182746856066,
+          "R": 0.0004496097972150892
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 1128,
+          "R": 1133
+        }
+      },
+      {
+        "h": -1,
+        "v": 0,
+        "opening": 0.75,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.672271698946133e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00015028476582745753,
+          "R": 0.0005240738755674101
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": 0,
+        "opening": 0.5,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.67209052760154e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0002130469315488881,
+          "R": 0.0006380149097822141
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": 0,
+        "opening": 0.25,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.67295709415339e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00043035710768890567,
+          "R": 0.0007071949730743654
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": 0,
+        "opening": 0,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674956527305767e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0006115027354098856,
+          "R": 0.0008527215832145885
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": 0,
+        "opening": 1,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674201282905415e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0005092917890578974,
+          "R": 0.00016817010055092396
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 1127,
+          "R": 1135
+        }
+      },
+      {
+        "h": 1,
+        "v": 0,
+        "opening": 0.75,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.672271698946133e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0005893561428820249,
+          "R": 7.125711428201953e-05
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": 0,
+        "opening": 0.5,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.67209052760154e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0007043528094072826,
+          "R": 0.00010795615412462212
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": 0,
+        "opening": 0.25,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.67295709415339e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0008539602458768059,
+          "R": 0.0002792368904920295
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": 0,
+        "opening": 0,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674956527305767e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0009837992729444522,
+          "R": 0.00044879539564135484
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 0,
+        "v": -1,
+        "opening": 1,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.675026376498863e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00038187485370144714,
+          "R": 0.0002716294529818697
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 1039,
+          "R": 1049
+        }
+      },
+      {
+        "h": 0,
+        "v": -1,
+        "opening": 0.75,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.673060412751511e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0003045818668852007,
+          "R": 0.00016547047380299773
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 0,
+        "v": -1,
+        "opening": 0.5,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.672410669736564e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0003151684759359341,
+          "R": 0.00018235705510960543
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 0,
+        "v": -1,
+        "opening": 0.25,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.673165914136916e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0004281075489416253,
+          "R": 0.0003142534933431307
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 0,
+        "v": -1,
+        "opening": 0,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674956527305767e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0006179865667945705,
+          "R": 0.0005481439620780293
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 0,
+        "v": 1,
+        "opening": 1,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.675072215031832e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00056235146621475,
+          "R": 0.0005047039176133694
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 1210,
+          "R": 1201
+        }
+      },
+      {
+        "h": 0,
+        "v": 1,
+        "opening": 0.75,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.673077147454023e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0006437613119487651,
+          "R": 0.0005758655097451992
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 0,
+        "v": 1,
+        "opening": 0.5,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.672243322711438e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.000759628412197344,
+          "R": 0.0006910438860359136
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 0,
+        "v": 1,
+        "opening": 0.25,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.67275191214867e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0009049997206602711,
+          "R": 0.0008408229659835342
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 0,
+        "v": 1,
+        "opening": 0,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674956527305767e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0009722119611978997,
+          "R": 0.0009993109561037272
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": -1,
+        "opening": 1,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.675026376498863e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00022468699535238557,
+          "R": 0.00029926740012342634
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 1041,
+          "R": 1048
+        }
+      },
+      {
+        "h": -1,
+        "v": -1,
+        "opening": 0.75,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.673060412751511e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00013486303851095727,
+          "R": 0.00015813872232683934
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": -1,
+        "opening": 0.5,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.672410669736564e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00012534912093542516,
+          "R": 0.00015272907694452442
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": -1,
+        "opening": 0.25,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.673165914136916e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.000183319390998804,
+          "R": 0.0003046870051548467
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": -1,
+        "opening": 0,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674956527305767e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0003054759436054155,
+          "R": 0.0005751900371251395
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": 1,
+        "opening": 1,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.675072215031832e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0002067744675287031,
+          "R": 0.0004675188356486615
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 1211,
+          "R": 1201
+        }
+      },
+      {
+        "h": -1,
+        "v": 1,
+        "opening": 0.75,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.673077147454023e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0002331294685973262,
+          "R": 0.000537251056812238
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": 1,
+        "opening": 0.5,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.672243322711438e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0004613428573065903,
+          "R": 0.0006532458974106703
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": 1,
+        "opening": 0.25,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.67275191214867e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0008474731002934277,
+          "R": 0.00080501470802119
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": -1,
+        "v": 1,
+        "opening": 0,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674956527305767e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0009184436676150654,
+          "R": 0.0009912393652484752
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": -1,
+        "opening": 1,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.675026376498863e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00042258709800080396,
+          "R": 9.921149012370734e-05
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 1039,
+          "R": 1051
+        }
+      },
+      {
+        "h": 1,
+        "v": -1,
+        "opening": 0.75,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.673060412751511e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00029636375347763533,
+          "R": 8.717444046624223e-07
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": -1,
+        "opening": 0.5,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.672410669736564e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00029500941673177294,
+          "R": -9.404660886502825e-06
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": -1,
+        "opening": 0.25,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.673165914136916e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0004263798482497805,
+          "R": 5.822757111673127e-05
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": -1,
+        "opening": 0,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674956527305767e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0006764445643057115,
+          "R": 0.00020134618807787774
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": 1,
+        "opening": 1,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.675072215031832e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0005250527028692886,
+          "R": 0.0001318512136379013
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 1210,
+          "R": 1204
+        }
+      },
+      {
+        "h": 1,
+        "v": 1,
+        "opening": 0.75,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.673077147454023e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0006028098068782128,
+          "R": 0.00015315999280574033
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": 1,
+        "opening": 0.5,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.672243322711438e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0007191682743723504,
+          "R": 0.0003434721802477725
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": 1,
+        "opening": 0.25,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.67275191214867e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0008650190284242854,
+          "R": 0.0006665889522992074
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      },
+      {
+        "h": 1,
+        "v": 1,
+        "opening": 0,
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674956527305767e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0009932164502970409,
+          "R": 0.0009140087531704921
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        },
+        "visible_eye_samples": {
+          "L": 0,
+          "R": 0
+        }
+      }
+    ],
+    "timeline": [
+      {
+        "frame": 1,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 2,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 3,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 4,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 5,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 6,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 7,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 8,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 9,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 10,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 11,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 12,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 13,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 14,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 15,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 16,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 17,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 18,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 19,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 20,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 21,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 22,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 23,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 24,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 25,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 26,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 27,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 28,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 29,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 30,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 31,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 32,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 33,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 34,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 35,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 36,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 37,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 38,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 39,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 40,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 41,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 42,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 43,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 44,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 45,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 46,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 47,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 48,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 49,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 50,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 51,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 52,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 53,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 54,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 55,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 56,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 57,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 58,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 59,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 60,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 61,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 62,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 63,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 64,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 65,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 66,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 67,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 68,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 69,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 70,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 71,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 72,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 73,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 74,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 75,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 76,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 77,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 78,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 79,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 80,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 81,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 82,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 83,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 84,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 85,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 86,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 87,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 88,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 89,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 90,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 91,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 92,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 93,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 94,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 95,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 96,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 97,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 98,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 99,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 100,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 101,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 102,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 103,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 104,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 105,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 106,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 107,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 108,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 109,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 110,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 111,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 112,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 113,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 114,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 115,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 116,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 117,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 118,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 119,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 120,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 121,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 122,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 123,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 124,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 125,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 126,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 127,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 128,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 129,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 130,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 131,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 132,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 133,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 134,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 135,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 136,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 137,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 138,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 139,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 140,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 141,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 142,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 143,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      },
+      {
+        "frame": 144,
+        "aim_error_degrees": {
+          "L": 0.0,
+          "R": 0.0
+        }
+      }
+    ],
+    "max_timeline_aim_error_degrees": 0.0,
+    "scope": "Sampled attachment/ocular proximity. Signed lash-root distances are surface-normal probes, not a continuous collision or volume-intersection proof."
+  },
+  "native_face_metrics": [
+    {
+      "h": 0,
+      "v": 1,
+      "opening": 1,
+      "brow": 0,
+      "native_face_area_ratio_min": 0.8310814248145197,
+      "native_face_area_ratio_p99": 1.0764982520781055,
+      "native_face_area_ratio_max": 1.0848188297734789,
+      "max_canthal_probe_displacement_m": 4.084937602325481e-06,
+      "attachments": {
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.675072215031832e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00056235146621475,
+          "R": 0.0005047039176133694
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      }
+    },
+    {
+      "h": 0,
+      "v": -1,
+      "opening": 1,
+      "brow": 0,
+      "native_face_area_ratio_min": 0.9162929123665151,
+      "native_face_area_ratio_p99": 1.1414476142180057,
+      "native_face_area_ratio_max": 1.1692616870888333,
+      "max_canthal_probe_displacement_m": 4.084999071889606e-06,
+      "attachments": {
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.675026376498863e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00038187485370144714,
+          "R": 0.0002716294529818697
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      }
+    },
+    {
+      "h": -1,
+      "v": 1,
+      "opening": 0.5,
+      "brow": 0.35,
+      "native_face_area_ratio_min": 0.30105423633141976,
+      "native_face_area_ratio_p99": 1.1526273910962872,
+      "native_face_area_ratio_max": 1.3243358659945486,
+      "max_canthal_probe_displacement_m": 0.001762085394478447,
+      "attachments": {
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.672987653175369e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0004612452903529629,
+          "R": 0.0006532458974106703
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      }
+    },
+    {
+      "h": 1,
+      "v": -1,
+      "opening": 0.5,
+      "brow": 0.35,
+      "native_face_area_ratio_min": 0.30105423633141976,
+      "native_face_area_ratio_p99": 1.2272566172947175,
+      "native_face_area_ratio_max": 1.4134255874790131,
+      "max_canthal_probe_displacement_m": 0.0017642049264713444,
+      "attachments": {
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.67312153079547e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.00029500839082174934,
+          "R": -9.406322874383477e-06
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      }
+    },
+    {
+      "h": 0,
+      "v": 1,
+      "opening": 0,
+      "brow": 0.35,
+      "native_face_area_ratio_min": 0.1698327412303683,
+      "native_face_area_ratio_p99": 1.359130424211806,
+      "native_face_area_ratio_max": 1.6965755962033073,
+      "max_canthal_probe_displacement_m": 0.00352631032644354,
+      "attachments": {
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.675924957264215e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0009722092472657096,
+          "R": 0.0009992948871513363
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      }
+    },
+    {
+      "h": 0,
+      "v": -1,
+      "opening": 0,
+      "brow": 0,
+      "native_face_area_ratio_min": 0.1698293801852695,
+      "native_face_area_ratio_p99": 1.3562145551243507,
+      "native_face_area_ratio_max": 1.6948538825106003,
+      "max_canthal_probe_displacement_m": 0.003526331339863335,
+      "attachments": {
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674956527305767e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0006179865667945705,
+          "R": 0.0005481439620780293
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      }
+    },
+    {
+      "h": 0,
+      "v": 0,
+      "opening": 1,
+      "brow": 1,
+      "native_face_area_ratio_min": 0.8673818696850176,
+      "native_face_area_ratio_p99": 1.1469728104787886,
+      "native_face_area_ratio_max": 1.1491303147212064,
+      "max_canthal_probe_displacement_m": 2.335763701259367e-07,
+      "attachments": {
+        "attachment_roots": 1447,
+        "max_root_distance_m": 9.674893954070285e-05,
+        "lash_root_eye_signed_clearance_min_m": {
+          "L": 0.0005506273300852627,
+          "R": 0.0004927604386466555
+        },
+        "lash_roots_inside_eye_count": {
+          "L": 0,
+          "R": 0
+        }
+      }
+    }
+  ],
+  "max_timeline_aim_direction_error_norm": 1.228781233085926e-07,
+  "scope": "Native data, timeline aim, sampled 9-gaze x 5-opening attachment and lash-root ocular proximity, closure, controls and face areas. Not continuous lid-volume/self-intersection certification, final texture-stretch acceptance or photographic realism."
+}

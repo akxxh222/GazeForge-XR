@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "scope": "Milestone 3 articulation, geometric fit and native UV deformation; separate static photorealism gate remains open.",
+  "scene_sha256": "fb808fedf7595e2d80fe2baaf7a5346172cc827d521b83e25be0f64d2ea497e8",
+  "reviewed_artifacts": {
+    "pose_sheet.png": "a098450999f0eeea8bf4ce9a729850ef953daffcf9a68a75308e88333ef636e5",
+    "uv_sheet.png": "4a5f7560ccb69571e3ffb1cc77bd772e270e65c2c75fb533b4c72f6b2b72a145",
+    "decoded_strip.png": "fff949cb1b52b9cc749c02e9d5fad2995742ae0ebf6da1df4afc8fa0361007da",
+    "blink_strip.png": "14c749260cf8467a1f7f926b26e8e928b5ff75b1c4fcd2ea641b61ca75b76c70"
+  },
+  "accepted_observations": [
+    "Open, partial and fully closed lids remain fitted in up/down gaze renders.",
+    "Curved closure covers the irises; canthal tissues remain attached.",
+    "Native UV checker remains continuous while upper lid tissue covers the opening.",
+    "Decoded frames show the intended left/right/up/down directions and two closures/reopenings, without a black-eye preview failure or abrupt tissue popping."
+  ],
+  "surface_area_note": "A narrow meeting/contact band compresses at closure. Full distributions, including minima near 0.001 visible area ratio and maxima near 3.28, are retained in report.json; the largest visible 99th-percentile expansion is about 1.85. This is not a physical skin-strain certification.",
+  "limits": [
+    "Simplified mucosal tissue and source skin/iris/groom detail still need Milestone 2 reference-level appearance polish.",
+    "Contact and intersections are discretely sampled, not certified for every continuous real-valued pose.",
+    "This diagnostic is separate from the three final Milestone 4 videos and the final submission."
+  ],
+  "passed_scene_checks": 1313,
+  "passed_video_checks": 21
+}

@@ -14,11 +14,11 @@ The requested Git restart removes the single local root commit `0adb2a2` from ac
 |---|---|---|
 | 1 | Verified requirements, native GNM/FLAME head/UVs and calibrated foundation | Complete: committed `5738394` |
 | 2 | Photorealistic skin and layered eyes, with 5-10 portable texture looks | In progress: five native-UV looks; visual refinement pending |
-| 3 | Natural eyelid, gaze and eyebrow articulation saved on the Blender timeline | Started: blink prototype; acceptance pending visual and motion gates |
+| 3 | Natural eyelid, gaze and eyebrow articulation saved on the Blender timeline | Complete: articulation checkpoint committed `b353ece` |
 | 4 | Modular controls and three continuously rendered expression videos | Planned |
 | 5 | Visual review, texture/image export and reproducible final submission | Planned |
 
-Complete stages in order. Record actual evidence, remaining defects and the resulting commit hash under each stage. A written plan or an automated test count does not complete a visual milestone.
+The current user instruction authorizes completing Milestone 3 articulation alongside the remaining Milestone 2 static appearance work. Its rig acceptance is separate from reference-level photorealism; both gates remain required before final delivery. Record actual evidence, remaining defects and the resulting commit hash under each stage. A written plan or an automated test count does not complete a visual milestone.
 
 ## Requirements and reference evidence
 
@@ -118,7 +118,7 @@ Engineering evidence: **133 texture/source checks and 80 fresh-scene portability
 
 Status remains **in progress**. Source facial resolution, seam/color continuity, natural skin detail and fine-hair/eye integration still need visual acceptance. The engineering pass counts do not establish reference-level photorealism. This checkpoint records the Milestone 2 implementation and review evidence without declaring the stage complete.
 
-Checkpoint commit: `bef6cbe` - `feat: add milestone 2 native-UV texture and eye material drafts`. Subsequent static refinement adds dense paired-edge color correction, source scalp-pattern blending, restrained lip color, reduced bump amplitude and revised iris/lash detail. The original checkpoint evidence is retained locally. Milestone 3 completion remains gated by static visual acceptance; committing the engineering draft did not complete that gate.
+Checkpoint commit: `bef6cbe` - `feat: add milestone 2 native-UV texture and eye material drafts`. Subsequent static refinement adds dense paired-edge color correction, source scalp-pattern blending, restrained lip color, reduced bump amplitude and revised iris/lash detail. The original checkpoint evidence is retained locally. The static visual gate remains open; committing the engineering draft did not complete it. The current instruction separately authorizes finishing the articulation checkpoint, while final visual delivery still requires Milestone 2 acceptance.
 
 Earlier skin/eye refinement: attributed 4K scan-detail bands and an original annulus-registered AI iris plate complement the five CC0 diffuse sources. Brows, lashes and facial fuzz use native hair strands. Its 15 actual 128-sample previews passed 133 texture/source, 80 portability and 70 render/metadata checks. `tests/milestone2/realism_comparison.png` shows that revision before/after, and `realism_refinement.json` records its limits and source provenance.
 
@@ -153,7 +153,7 @@ Completion evidence / commit: pending.
 
 **Goal:** make the surrounding anatomy respond naturally to eye motion and blinking.
 
-Development started after the preview/lid correction. `scripts/prepare_gnm_blink_shapes.py` reads the pinned official GNM semantic decoder as data through allowlisted Dense/ReLU operations, using zero latent and wink classes 13/14. It isolates the corresponding 100 native eye-region components and exports deterministic left/right deltas in `work/gnm/blink_shapes.npz`, with source/artifact hashes. These GNM derivatives retain Apache-2.0. `wrapper/lids.py` provides normalized left/right opening controls and reset. `scripts/build_gnm_blink_prototype.py` is the working authoring path for native shape keys, barycentric lash/brow/waterline attachments and an editable 72-frame blink action. Actual closure, intermediate poses and attachment behavior are being checked; this is a prototype, not accepted motion evidence. The wider Milestone 2 visual gate remains open and must pass before later milestone completion is claimed.
+Development started after the preview/lid correction. `scripts/prepare_gnm_blink_shapes.py` reads the pinned official GNM semantic decoder as data through allowlisted Dense/ReLU operations, using zero latent and wink classes 13/14. It isolates the corresponding 100 native eye-region components and exports deterministic left/right deltas in `work/gnm/blink_shapes.npz`, with source/artifact hashes. These GNM derivatives retain Apache-2.0. `wrapper/lids.py` provides normalized left/right opening controls and reset. `scripts/build_gnm_blink_prototype.py` is the working authoring path for native shape keys, barycentric lash/brow/waterline attachments and an editable 72-frame blink action. This paragraph describes the initial prototype; the completed articulation checkpoint below supersedes its motion limits. The wider Milestone 2 reference-level appearance gate remains open for final delivery.
 
 Work:
 
@@ -175,9 +175,17 @@ Evidence and acceptance gate:
 
 Suggested coherent commit: `feat: rig natural eyelid and eye-expression motion`.
 
-Completion evidence / commit: pending.
+Completion evidence: the final checkpoint below is accepted. Commit: `b353ece` - `feat: complete native eyelid and expression articulation rig`.
 
 Blink checkpoint (2026-11-14): **`work/milestone3/IRISX_BLINK_PROTOTYPE.blend`** saves two editable bilateral blinks at 24 fps with independent opening controls. The initial semantic wink left a visible gap; explicit endpoint gains of 1.16 (L) / 1.21 (R) close it in the neutral frontal review. Four actual 64-sample Cycles images show open, half, closed and closed full-face views. The reopened prototype passes **58 checks**, including unchanged native Basis/UVs/topology, timeline interpolation/reset, fixed eye centers, simple drivers with autoexec disabled, and all 207 lash roots within 0.035 mm of the moving head at five sampled openings. A frontal 81x81 ray grid per eye reports zero visible eye samples at full closure; this is sampled visibility evidence, not continuous collision certification. Pose changes were inspected on Blender's live timeline. [The motion evidence ledger](tests/milestone3/README.md) records commands and remaining defects. Gaze following, combined-gaze intermediate clearance, self-intersection and texture-stretch review remain open. This prototype is preserved in a task-specific checkpoint commit and does not complete Milestone 3.
+
+Gaze-follow/brow follow-up (2026-11-14): `work/milestone3/gaze_lids/IRISX_GAZE_LIDS_RIG.blend` adds separate vertical lid-follow and brow keys, a bounded ocular-depth correction, generalized detail attachments and exact common-target aim between timeline keys. Three editable actions span 144 frames at 24 fps. The reopened audit passes **591 checks**, including 45 combined gaze/opening poses, 1,447 attachment roots within 0.10 mm, sampled closure at nine gazes and eye-center/aim preservation through all timeline frames. Six actual 1024px Cycles stills and a continuous six-second diagnostic provide review evidence; all 144 video frames decode at 24 fps with **17 video checks passing**. See [the current motion review](tests/milestone3/gaze_lids/README.md) for contact tolerances, face-area changes and remaining semantic-wink corner deformation. Continuous lid-volume/self-intersection and final visual/texture-stretch acceptance remain open. This historical intermediate checkpoint is included in `b353ece`; the final checkpoint below resolves its remaining articulation gates.
+
+Completed articulation checkpoint (2026-11-14): **`work/milestone3/final/IRISX_MILESTONE3.blend`**. The final rig replaces the contracted semantic wink with post-subdivision relaxed lid mapping, depth-ordered native ocular clearance and live evaluated-surface detail binding. Independent lids/brows, pupil control/reset and three saved action bundles work without Python playback handlers. Original native Basis/UVs/topology and fixed eye centers are retained.
+
+The reopened audit records **1313 PASS / 0 FAIL**: a nine-gaze/five-opening grid, exact skin/outer-eye triangle tests, complete lash/wet-margin/canthal point probes, all **432 integer action frames plus 105 blink subframes**, native face-connectivity/UV checks, controls and reset. Measured skin clearance is at least **0.1921 mm**, detail-point clearance **0.0529 mm**, attachment-root distance at most **0.1468 mm**, and evaluated canthal movement at most **0.0780 mm**. The same immutable scene's completed head-triangle measurements were reused when correcting an audit assertion that confused changed quad diagonals with changed polygon topology; fresh native polygon-connectivity checks pass. The report records this provenance.
+
+Seven actual 1024px Cycles stills, three native-UV checker poses and a continuous six-second/144-frame diagnostic were reviewed. All **21 decoded-video checks pass**, including every raw-frame checksum/order, four gaze directions, two closures and neutral return. [Final evidence, controls and reproduction](tests/milestone3/final/README.md). These are bounded articulation and visual checks, not a continuous soft-body certificate or a photorealism score. Milestone 3 articulation is complete; Milestone 2 appearance, the three final expression videos and final packaging remain open. Completion files are committed in `b353ece`.
 
 ## Milestone 4: modular controls and continuous rendered sequences
 

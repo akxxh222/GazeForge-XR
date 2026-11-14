@@ -1,10 +1,12 @@
 # GazeForge XR - VITChennai_IrisX
 
-Native GNM Head 3.0 project for Samsung XR Track 01. Milestone 1 is complete. Milestone 2 visual refinement and the Milestone 3 blink prototype are in progress; the three final expression videos and final submission remain pending. See [the five-stage plan](MILESTONES.md) and [checkpoint history](docs/CHECKPOINTS.md).
+Native GNM Head 3.0 project for Samsung XR Track 01. Milestone 1 is complete. Milestone 3 articulation is complete. Milestone 2 reference-level visual refinement, the three final expression videos and final submission remain pending. See [the five-stage plan](MILESTONES.md) and [checkpoint history](docs/CHECKPOINTS.md).
 
 ## Open the current work
 
-- Animated scene: `work/milestone3/IRISX_BLINK_PROTOTYPE.blend`. Play frames 1-72 at 24 fps for two blinks. Independent `Blink.L` / `Blink.R` shape keys, lashes, brows and waterlines follow the native head deformation. [Blink preview](work/milestone3/blink_preview.mp4) and [motion evidence](tests/milestone3/README.md).
+- Completed articulation scene: **`work/milestone3/final/IRISX_MILESTONE3.blend`**. Play frames 1-144 at 24 fps. [Six-second actual-render preview](work/milestone3/final/milestone3_preview.mp4), [evidence and controls](tests/milestone3/final/README.md). All three saved action bundles are available through `expressions.use_action()`.
+- Earlier gaze/lid/brow prototype: `work/milestone3/gaze_lids/IRISX_GAZE_LIDS_RIG.blend`. Play frames 1-144 for a six-second scan with coordinated lids and two blinks. [Current motion evidence](tests/milestone3/gaze_lids/README.md).
+- Earlier committed blink-only scene: `work/milestone3/IRISX_BLINK_PROTOTYPE.blend`. Play frames 1-72 at 24 fps for two blinks. Independent `Blink.L` / `Blink.R` shape keys, lashes, brows and waterlines follow the native head deformation. [Blink preview](work/milestone3/blink_preview.mp4) and [motion evidence](tests/milestone3/README.md).
 - Corrected static scene: `work/review/lids/IRISX_LIDS_REVIEW.blend`. Material Preview shows the iris/sclera through an EEVEE corneal surface; F12 uses physical Cycles refraction. [Static correction evidence](tests/milestone2/lid_review/README.md).
 - Public asset parent: `work/review/cyberpunk/IRISX_ASSET_REVIEW.blend`. [Source/adaptation notes](assets/public_candidates/README.md).
 - Five native-UV looks: [texture instructions](textures/README.md), [contact sheet](tests/milestone2/contact_sheet.png), and [visual defect ledger](tests/milestone2/REVIEW.md).
@@ -31,7 +33,9 @@ The fixed camera is 0.40 m ahead of the eye midpoint. The common fixation target
 
 Latest applicable reports: 82 baseline checks, 133 texture/source checks, 80 material portability checks, 70 render/provenance checks, 105 five-look groom checks, 46 public-asset checks, 41 preview/lid checks, 58 blink-scene checks and 8 decoded-video checks. These reports apply to their documented scene revisions and do not constitute a photorealism score.
 
-The blink diagnostic contains 36 changing Cycles frames at 512x512, encoded at 24 fps for 1.5 seconds. It is separate from the final three expression-mode videos. Gaze-follow, combined-gaze corneal clearance/self intersections, texture stretching and final reference-level skin/eye/hair acceptance remain open. Reproduction commands and the manual-versus-timeline control behavior are documented in the relevant evidence notes.
+The completed articulation checkpoint passes 1313 scene/control/motion checks and 21 decoded-video checks, with no failures. Its 144 changing 384px Cycles frames form a six-second diagnostic, separate from the three final expression videos. Native contact sampling and visual limits are explicit in the evidence notes.
+
+The older blink diagnostic contains 36 changing Cycles frames at 512x512, encoded at 24 fps for 1.5 seconds. It is separate from the final three expression-mode videos. The later final articulation checkpoint passes gaze-follow, sampled native skin/eye and lid-intersection checks, canthal/attachment fit and native-UV deformation review. Reference-level skin/eye/hair acceptance remains open. Reproduction commands and the manual-versus-timeline control behavior are documented in the relevant evidence notes.
 
 ## Provenance and licensing
 

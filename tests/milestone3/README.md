@@ -1,5 +1,9 @@
 # Native GNM blink prototype
 
+The completed [Milestone 3 articulation checkpoint](final/README.md) supersedes the prototype limitations below. Its authored scene is `work/milestone3/final/IRISX_MILESTONE3.blend`.
+
+The later [gaze-follow/brow review](gaze_lids/README.md) adds combined gaze/blink motion in a separate scene. The evidence below remains specific to this committed blink-only parent.
+
 Scene: `work/milestone3/IRISX_BLINK_PROTOTYPE.blend`. Blender 5.2.3 LTS, neutral frame 1; play frames 1-72 at 24 fps for two bilateral blinks. Frames 21 and 51 are closed, frames 27 and 57 reopen. Select `GNM_skin` and use Object Data > Shape Keys for `Blink.L` / `Blink.R`.
 
 The original GNM Basis, topology and UVs remain unchanged. Deterministic semantic wink deltas come from the pinned official expression decoder (Apache-2.0), isolated to the corresponding native eye region. Explicit endpoint gains 1.16 L / 1.21 R correct the residual opening in the mean wink. Skin geometry deforms; the eyeballs retain rigid physical pivots. Lashes and brows use per-strand barycentric roots and normal transport; waterlines/tear film/canthi use driven shape keys. The blink timeline uses clamped Bezier handles.
@@ -28,7 +32,7 @@ The first command needs CPython NumPy/h5py; authoring/rendering uses Blender's P
 
 For manual script control, detach the saved blink action in an unsaved working copy before calling `lids.set_opening(left, right)`. Otherwise later frame evaluation deliberately restores the keyed timeline pose. `lids.reset()` restores open keys; `eyes.reset()` restores eye fixation separately. No user preferences or downloaded scripts are executed.
 
-## Remaining work
+## Historical remaining work for this prototype
 
 - Vertical gaze follow and combined-gaze blink review, including corneal clearance and self intersections between sampled poses.
 - Canthal stability and texture stretching under expression; independent brow-expression controls.

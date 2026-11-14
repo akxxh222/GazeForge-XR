@@ -8,7 +8,7 @@ From the project root, download the data with:
 & ./scripts/fetch_gnm.ps1
 ```
 
-The model NPZ is excluded from Git and verified against Google's published checksum. Upstream reference Python files are retained unmodified as implementation documentation and are not imported by our baseline.
+The model NPZ is excluded from Git and verified against Google's published checksum. Expression/identity decoder weights are also downloaded for later expression work; they are not executed by the baseline importer. Upstream reference Python files are retained unmodified as implementation documentation and are not imported by our baseline.
 
 Build and validate in Blender:
 

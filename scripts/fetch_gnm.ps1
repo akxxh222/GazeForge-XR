@@ -26,11 +26,14 @@ function Save-Asset([string]$url, [string]$relative, [string]$expectedHash = '')
 $sourceBase = 'https://raw.githubusercontent.com/google/GNM/' + $sourceRevision + '/'
 Save-Asset ($sourceBase + 'LICENSE') 'LICENSE.Apache-2.0.txt'
 Save-Asset ($sourceBase + 'README.md') 'reference/UPSTREAM_README.md'
-foreach ($file in @('gnm_xnp.py','gnm_common.py','gnm_base.py','gnm_data_schema.py')) {
+foreach ($file in @('gnm_xnp.py','gnm_common.py','gnm_base.py','gnm_data_schema.py','semantic_sampler.py')) {
     Save-Asset ($sourceBase + 'gnm/shape/' + $file) ('reference/' + $file)
 }
 Save-Asset ($sourceBase + 'gnm/shape/README.md') 'reference/SHAPE_README.md'
 Save-Asset ($sourceBase + 'gnm/shape/data/textures/edgeflow_bw_4k.png') 'edgeflow_bw_4k.png'
+foreach ($file in @('expression_decoder_model.h5','identity_decoder_model.h5')) {
+    Save-Asset ($sourceBase + 'gnm/shape/data/semantic_sampler/' + $file) ('semantic/' + $file)
+}
 $modelBase = 'https://huggingface.co/google/gnm-v3/resolve/' + $modelRevision + '/'
 Save-Asset ($modelBase + 'README.md') 'reference/MODEL_CARD.md'
 Save-Asset ($modelBase + 'v3_0/checksums.sha256') 'reference/checksums.sha256'

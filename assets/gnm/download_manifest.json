@@ -1,80 +1,98 @@
-{
-  "model": "Google GNM Head",
-  "version": "3.0",
-  "license": "Apache-2.0",
-  "copyright": "2026 Google LLC",
-  "acquired_on": "2026-11-14",
-  "source_revision": "f84cdbdc86a34f55627526f137495f864e687679",
-  "model_revision": "c01e90d298d82301f9fd18f54806be751775cb7c",
-  "official_repository": "https://github.com/google/GNM",
-  "official_model": "https://huggingface.co/google/gnm-v3",
-  "downloads": [
-    {
-      "file": "assets/gnm/LICENSE.Apache-2.0.txt",
-      "source": "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/LICENSE",
-      "sha256": "ba12fffb7f905c67daa3e0d9656e8638d3a0d0eee70862ec17da7db429be19f0",
-      "bytes": 12823
-    },
-    {
-      "file": "assets/gnm/reference/UPSTREAM_README.md",
-      "source": "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/README.md",
-      "sha256": "dfba34142775eeca20ef26ad3ee5a77bb28340358e6afa0d1d11d79152607e9a",
-      "bytes": 3827
-    },
-    {
-      "file": "assets/gnm/reference/gnm_xnp.py",
-      "source": "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/gnm_xnp.py",
-      "sha256": "dda6e6c45c219aa0716628457c0588e15072861ee28c698258a1db6e77030eb3",
-      "bytes": 37230
-    },
-    {
-      "file": "assets/gnm/reference/gnm_common.py",
-      "source": "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/gnm_common.py",
-      "sha256": "b247e0436acb064751898cd46c2a9fc56c4f0c0893f94f3fb2d78d6f5c769e44",
-      "bytes": 28418
-    },
-    {
-      "file": "assets/gnm/reference/gnm_base.py",
-      "source": "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/gnm_base.py",
-      "sha256": "3216d0e3dd8f9db39794e9d045980c75d893cbe77cfa866f5aa995335fa53a1f",
-      "bytes": 3991
-    },
-    {
-      "file": "assets/gnm/reference/gnm_data_schema.py",
-      "source": "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/gnm_data_schema.py",
-      "sha256": "0eb6b8d961b5a9963e2d1f546e0468c394a775b8b8fb5beab5b799acf984b498",
-      "bytes": 2318
-    },
-    {
-      "file": "assets/gnm/reference/SHAPE_README.md",
-      "source": "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/README.md",
-      "sha256": "f3afb64c72aaf112a167644726534b7e3cc42cd2c289c166c74d1297993ab614",
-      "bytes": 17189
-    },
-    {
-      "file": "assets/gnm/edgeflow_bw_4k.png",
-      "source": "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/data/textures/edgeflow_bw_4k.png",
-      "sha256": "c45beee3f1cd81379511c66ba61d99d403e38b34d43dcf8534529113c27c8439",
-      "bytes": 1615420
-    },
-    {
-      "file": "assets/gnm/reference/MODEL_CARD.md",
-      "source": "https://huggingface.co/google/gnm-v3/resolve/c01e90d298d82301f9fd18f54806be751775cb7c/README.md",
-      "sha256": "fc8f44a8e96e1023e96c239021f42528c19d12d969760a059c661bcc53997ce1",
-      "bytes": 7886
-    },
-    {
-      "file": "assets/gnm/reference/checksums.sha256",
-      "source": "https://huggingface.co/google/gnm-v3/resolve/c01e90d298d82301f9fd18f54806be751775cb7c/v3_0/checksums.sha256",
-      "sha256": "773a19578214a81ca4acdebf64e1fe65a36a32ffe7dc59da2ef3bc3634392d96",
-      "bytes": 79
-    },
-    {
-      "file": "assets/gnm/gnm_head.npz",
-      "source": "https://huggingface.co/google/gnm-v3/resolve/c01e90d298d82301f9fd18f54806be751775cb7c/v3_0/gnm_head.npz",
-      "sha256": "61d78bbfb4ad8e0b38495804a4caef3214d3df00f8c3f68761e63b41ce3747eb",
-      "bytes": 53328601
-    }
-  ],
-  "modifications": "Downloaded files are unmodified. Project exports and scene adaptations are documented separately."
+﻿{
+    "model":  "Google GNM Head",
+    "version":  "3.0",
+    "license":  "Apache-2.0",
+    "copyright":  "2026 Google LLC",
+    "acquired_on":  "2026-11-14",
+    "source_revision":  "f84cdbdc86a34f55627526f137495f864e687679",
+    "model_revision":  "c01e90d298d82301f9fd18f54806be751775cb7c",
+    "official_repository":  "https://github.com/google/GNM",
+    "official_model":  "https://huggingface.co/google/gnm-v3",
+    "downloads":  [
+                      {
+                          "file":  "assets/gnm/LICENSE.Apache-2.0.txt",
+                          "source":  "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/LICENSE",
+                          "sha256":  "ba12fffb7f905c67daa3e0d9656e8638d3a0d0eee70862ec17da7db429be19f0",
+                          "bytes":  12823
+                      },
+                      {
+                          "file":  "assets/gnm/reference/UPSTREAM_README.md",
+                          "source":  "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/README.md",
+                          "sha256":  "dfba34142775eeca20ef26ad3ee5a77bb28340358e6afa0d1d11d79152607e9a",
+                          "bytes":  3827
+                      },
+                      {
+                          "file":  "assets/gnm/reference/gnm_xnp.py",
+                          "source":  "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/gnm_xnp.py",
+                          "sha256":  "dda6e6c45c219aa0716628457c0588e15072861ee28c698258a1db6e77030eb3",
+                          "bytes":  37230
+                      },
+                      {
+                          "file":  "assets/gnm/reference/gnm_common.py",
+                          "source":  "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/gnm_common.py",
+                          "sha256":  "b247e0436acb064751898cd46c2a9fc56c4f0c0893f94f3fb2d78d6f5c769e44",
+                          "bytes":  28418
+                      },
+                      {
+                          "file":  "assets/gnm/reference/gnm_base.py",
+                          "source":  "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/gnm_base.py",
+                          "sha256":  "3216d0e3dd8f9db39794e9d045980c75d893cbe77cfa866f5aa995335fa53a1f",
+                          "bytes":  3991
+                      },
+                      {
+                          "file":  "assets/gnm/reference/gnm_data_schema.py",
+                          "source":  "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/gnm_data_schema.py",
+                          "sha256":  "0eb6b8d961b5a9963e2d1f546e0468c394a775b8b8fb5beab5b799acf984b498",
+                          "bytes":  2318
+                      },
+                      {
+                          "file":  "assets/gnm/reference/semantic_sampler.py",
+                          "source":  "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/semantic_sampler.py",
+                          "sha256":  "7fd40bff81ee3cd0a23a8b7a818de3deff10d26ccdade171781c3d4460a429f8",
+                          "bytes":  19351
+                      },
+                      {
+                          "file":  "assets/gnm/reference/SHAPE_README.md",
+                          "source":  "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/README.md",
+                          "sha256":  "f3afb64c72aaf112a167644726534b7e3cc42cd2c289c166c74d1297993ab614",
+                          "bytes":  17189
+                      },
+                      {
+                          "file":  "assets/gnm/edgeflow_bw_4k.png",
+                          "source":  "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/data/textures/edgeflow_bw_4k.png",
+                          "sha256":  "c45beee3f1cd81379511c66ba61d99d403e38b34d43dcf8534529113c27c8439",
+                          "bytes":  1615420
+                      },
+                      {
+                          "file":  "assets/gnm/semantic/expression_decoder_model.h5",
+                          "source":  "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/data/semantic_sampler/expression_decoder_model.h5",
+                          "sha256":  "5eba165f8a414f73b24be96963d0a17e708c0856739ed85a19031f318dfb51e6",
+                          "bytes":  1529040
+                      },
+                      {
+                          "file":  "assets/gnm/semantic/identity_decoder_model.h5",
+                          "source":  "https://raw.githubusercontent.com/google/GNM/f84cdbdc86a34f55627526f137495f864e687679/gnm/shape/data/semantic_sampler/identity_decoder_model.h5",
+                          "sha256":  "1f069bf4975620e25a053772719a35678c9cfe6121e58bc4276a3515b53ac142",
+                          "bytes":  1258864
+                      },
+                      {
+                          "file":  "assets/gnm/reference/MODEL_CARD.md",
+                          "source":  "https://huggingface.co/google/gnm-v3/resolve/c01e90d298d82301f9fd18f54806be751775cb7c/README.md",
+                          "sha256":  "fc8f44a8e96e1023e96c239021f42528c19d12d969760a059c661bcc53997ce1",
+                          "bytes":  7886
+                      },
+                      {
+                          "file":  "assets/gnm/reference/checksums.sha256",
+                          "source":  "https://huggingface.co/google/gnm-v3/resolve/c01e90d298d82301f9fd18f54806be751775cb7c/v3_0/checksums.sha256",
+                          "sha256":  "773a19578214a81ca4acdebf64e1fe65a36a32ffe7dc59da2ef3bc3634392d96",
+                          "bytes":  79
+                      },
+                      {
+                          "file":  "assets/gnm/gnm_head.npz",
+                          "source":  "https://huggingface.co/google/gnm-v3/resolve/c01e90d298d82301f9fd18f54806be751775cb7c/v3_0/gnm_head.npz",
+                          "sha256":  "61d78bbfb4ad8e0b38495804a4caef3214d3df00f8c3f68761e63b41ce3747eb",
+                          "bytes":  53328601
+                      }
+                  ],
+    "modifications":  "Downloaded files are unmodified. Project exports and scene adaptations are documented separately."
 }

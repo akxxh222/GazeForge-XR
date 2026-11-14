@@ -1,0 +1,12 @@
+{
+  "decoder_sha256": "5eba165f8a414f73b24be96963d0a17e708c0856739ed85a19031f318dfb51e6",
+  "source": "Official Google GNM expression decoder; zero latent, wink classes 13/14, corresponding 100 eye-region components only.",
+  "license": "Apache-2.0, copyright 2026 Google LLC",
+  "modifications": "Deterministic Dense/ReLU forward pass; isolate each native eye region; convert native deltas to project world axes. No geometry/UV replacement.",
+  "artifact_sha256": "2fe671631922cf9bddb2b1aed389fa22781b9bb6f479489dd49dde0538f8a027",
+  "max_delta_m": {
+    "L": 0.005944803357124329,
+    "R": 0.005495576187968254
+  },
+  "status": "Milestone 3 prototype input; closure, corneal clearance and attachments need pose/render validation."
+}

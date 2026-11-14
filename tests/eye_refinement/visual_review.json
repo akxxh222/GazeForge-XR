@@ -1,0 +1,20 @@
+{
+  "status": "REVIEW_CANDIDATE",
+  "date": "2026-11-15",
+  "scene_sha256": "d3d055335431dece9245adf15dc4259b2030b9936abd52262d58a8c24568890b",
+  "method": "Inspected both neutral/frame43 before-after Cycles macro images, all 96 decoded MP4 frames on the chronological contact sheet, and selected raw frames including full closure at 82. Not a claim of real-time playback observation.",
+  "observations": [
+    "CC0 iris fibers are finer and less mottled than the previous fox-shader adaptation.",
+    "Relaxed lids retain paired gaze changes and a closed blink; no exposed-eye gap seen at sampled full closure.",
+    "No obvious head/camera jump observed on the all-frame sheet.",
+    "Skin remains broad and soft; brow/canthus integration and flat-looking sclera remain visual refinement items.",
+    "The user-reported visible alignment concern is still pending visual acceptance; mathematical aim is not a naturalness score."
+  ],
+  "all_frames_sha256": "ef019067e1cd33251ccb014e4adbef93d4db5e2d89e3af6c566cb237f794dbf9",
+  "comparison_sha256": "411f0bac8d893438af4b92f71f141bb79f02c5aa3bc5e4b2b5e93a7589cbee6e",
+  "limits": [
+    "Selected geometry samples, not continuous collision certification.",
+    "Authored holds and gaze shifts, not measured human physiology.",
+    "No M2 photorealism acceptance, final five-look approval or final bundle certification."
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "source": "E:\\Hackathon\\Samsung XR Hackathon\\GazeForge-XR\\work\\milestone3\\final\\IRISX_MILESTONE3.blend",
+  "intrinsic": {
+    "L": {
+      "pupil_surface_centroid_local_m": [
+        -1.4899868801876437e-05,
+        0.012865222990512848,
+        -7.056885806377977e-05
+      ],
+      "centroid_axis_offset_deg": 0.3214254206483473,
+      "constraints": [
+        {
+          "type": "COPY_TRANSFORMS",
+          "target": "GazeRig",
+          "subtarget": "eye.L"
+        }
+      ]
+    },
+    "R": {
+      "pupil_surface_centroid_local_m": [
+        3.0582505132770166e-05,
+        0.012865052558481693,
+        -7.328147330554202e-05
+      ],
+      "centroid_axis_offset_deg": 0.3538778371900464,
+      "constraints": [
+        {
+          "type": "COPY_TRANSFORMS",
+          "target": "GazeRig",
+          "subtarget": "eye.R"
+        }
+      ]
+    }
+  },
+  "modes": {
+    "left": {
+      "samples": 573,
+      "opposite_horizontal_step_frames": [],
+      "max_axis_target_error_deg": 8.537738055535744e-07,
+      "max_pupil_axis_target_error_deg": 0.35364252106087396,
+      "neutral": {
+        "mode": "left",
+        "frame": 1.0,
+        "target_m": [
+          0.0,
+          -0.3499999940395355,
+          0.0
+        ],
+        "L": {
+          "center_m": [
+            0.030852630734443665,
+            4.524737596511841e-05,
+            2.574920654296875e-05
+          ],
+          "axis": [
+            -0.08779861032962799,
+            -0.9961382746696472,
+            -7.327558705583215e-05
+          ],
+          "axis_target_error_deg": 0.0,
+          "pupil_axis_target_error_deg": 0.32120668364672234,
+          "yaw_deg": -5.036975196929695,
+          "pitch_deg": -0.004198381749876577
+        },
+        "R": {
+          "center_m": [
+            -0.030852630734443665,
+            -4.525482654571533e-05,
+            -2.574920654296875e-05
+          ],
+          "axis": [
+            0.08782114088535309,
+            -0.9961362481117249,
+            7.32943881303072e-05
+          ],
+          "axis_target_error_deg": 0.0,
+          "pupil_axis_target_error_deg": 0.35364233842987786,
+          "yaw_deg": 5.03827131211527,
+          "pitch_deg": 0.004199459141398505
+        },
+        "vergence_deg": 10.075247903178951
+      }
+    },
+    "right": {
+      "samples": 573,
+      "opposite_horizontal_step_frames": [],
+      "max_axis_target_error_deg": 8.537737499866894e-07,
+      "max_pupil_axis_target_error_deg": 0.3536429691174566,
+      "neutral": {
+        "mode": "right",
+        "frame": 1.0,
+        "target_m": [
+          0.0,
+          -0.3499999940395355,
+          0.0
+        ],
+        "L": {
+          "center_m": [
+            0.030852630734443665,
+            4.524737596511841e-05,
+            2.574920654296875e-05
+          ],
+          "axis": [
+            -0.08779861032962799,
+            -0.9961382746696472,
+            -7.327558705583215e-05
+          ],
+          "axis_target_error_deg": 0.0,
+          "pupil_axis_target_error_deg": 0.32120668364672234,
+          "yaw_deg": -5.036975196929695,
+          "pitch_deg": -0.004198381749876577
+        },
+        "R": {
+          "center_m": [
+            -0.030852630734443665,
+            -4.525482654571533e-05,
+            -2.574920654296875e-05
+          ],
+          "axis": [
+            0.08782114088535309,
+            -0.9961362481117249,
+            7.32943881303072e-05
+          ],
+          "axis_target_error_deg": 0.0,
+          "pupil_axis_target_error_deg": 0.35364233842987786,
+          "yaw_deg": 5.03827131211527,
+          "pitch_deg": 0.004199459141398505
+        },
+        "vergence_deg": 10.075247903178951
+      }
+    },
+    "generate_motion": {
+      "samples": 573,
+      "opposite_horizontal_step_frames": [],
+      "max_axis_target_error_deg": 1.281771718285048e-06,
+      "max_pupil_axis_target_error_deg": 0.35364351498269164,
+      "neutral": {
+        "mode": "generate_motion",
+        "frame": 1.0,
+        "target_m": [
+          0.0,
+          -0.3499999940395355,
+          0.0
+        ],
+        "L": {
+          "center_m": [
+            0.030852630734443665,
+            4.524737596511841e-05,
+            2.574920654296875e-05
+          ],
+          "axis": [
+            -0.08779861032962799,
+            -0.9961382746696472,
+            -7.327558705583215e-05
+          ],
+          "axis_target_error_deg": 0.0,
+          "pupil_axis_target_error_deg": 0.32120668364672234,
+          "yaw_deg": -5.036975196929695,
+          "pitch_deg": -0.004198381749876577
+        },
+        "R": {
+          "center_m": [
+            -0.030852630734443665,
+            -4.525482654571533e-05,
+            -2.574920654296875e-05
+          ],
+          "axis": [
+            0.08782114088535309,
+            -0.9961362481117249,
+            7.32943881303072e-05
+          ],
+          "axis_target_error_deg": 0.0,
+          "pupil_axis_target_error_deg": 0.35364233842987786,
+          "yaw_deg": 5.03827131211527,
+          "pitch_deg": 0.004199459141398505
+        },
+        "vergence_deg": 10.075247903178951
+      }
+    }
+  },
+  "scope": "Saved pupil Basis geometry and quarter-frame eye transforms. Unrelated surfaces hidden for transform diagnosis; no collision/optical appearance claim or assertion about edited GUI state."
+}

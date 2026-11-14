@@ -1,8 +1,12 @@
 # GazeForge XR - VITChennai_IrisX
 
-Native GNM Head 3.0 project for Samsung XR Track 01. Milestone 1 is complete. Milestone 3 articulation is complete. Milestone 2 reference-level visual refinement, the three final expression videos and final submission remain pending. See [the five-stage plan](MILESTONES.md) and [checkpoint history](docs/CHECKPOINTS.md).
+Native GNM Head 3.0 project for Samsung XR Track 01. Milestone 1 is complete. Milestone 3 articulation is complete. Milestone 4 expression/capture work is complete. Milestone 2 reference-level visual refinement and final submission remain pending. See [the five-stage plan](MILESTONES.md) and [checkpoint history](docs/CHECKPOINTS.md).
+
+Milestone 4 now includes [Left](work/milestone4/capture/left/left.mp4), [Right](work/milestone4/capture/right/right.mp4) and [Generate Motion](work/milestone4/capture/generate_motion/generate_motion.mp4): six seconds each at 24 fps and 720x720. The ten official 1024x1024 PNGs and metadata are in `work/milestone4/capture/clockwise/`. All 961 control and 5419 capture checks pass; [evidence](tests/milestone4/README.md) and [capture commands](docs/EXPRESSION_CAPTURE.md). Milestone 4 is committed in `d2420a0`; the separate eye-refinement candidate is committed in `9db0bca`. Milestone 3 commits remain `b353ece` and `5b9a045`.
 
 ## Open the current work
+
+- Latest eye appearance candidate: **`work/review/eye_refinement/IRISX_EYE_REFINEMENT.blend`**. A packed CC0 iris, slightly relaxed lids and an extra 96-frame fixation/hold action are under visual review. [Before/after comparison](tests/eye_refinement/comparison.png), [review notes](docs/EYE_REFINEMENT_REVIEW.md). This separate candidate does not replace accepted M3/M4 outputs or close the realism gate.
 
 - Completed articulation scene: **`work/milestone3/final/IRISX_MILESTONE3.blend`**. Play frames 1-144 at 24 fps. [Six-second actual-render preview](work/milestone3/final/milestone3_preview.mp4), [evidence and controls](tests/milestone3/final/README.md). All three saved action bundles are available through `expressions.use_action()`.
 - Earlier gaze/lid/brow prototype: `work/milestone3/gaze_lids/IRISX_GAZE_LIDS_RIG.blend`. Play frames 1-144 for a six-second scan with coordinated lids and two blinks. [Current motion evidence](tests/milestone3/gaze_lids/README.md).
@@ -11,7 +15,7 @@ Native GNM Head 3.0 project for Samsung XR Track 01. Milestone 1 is complete. Mi
 - Public asset parent: `work/review/cyberpunk/IRISX_ASSET_REVIEW.blend`. [Source/adaptation notes](assets/public_candidates/README.md).
 - Five native-UV looks: [texture instructions](textures/README.md), [contact sheet](tests/milestone2/contact_sheet.png), and [visual defect ledger](tests/milestone2/REVIEW.md).
 
-The three authored review scenes, selected pose images, receipts and short blink MP4 are versioned explicitly. Other `work/` downloads, caches, older experiments, raw animation frames and Blender backups remain local/rebuildable. The root MPFB scene, old deck/demo/ZIP and legacy packaging scripts are preserved locally and are outside these native-GNM checkpoints.
+Selected authored review scenes, pose images, receipts and short blink MP4s are versioned explicitly. Other `work/` downloads, caches, older experiments, raw animation frames and Blender backups remain local/rebuildable. The root MPFB scene, old deck/demo/ZIP and legacy packaging scripts are preserved locally and are outside these native-GNM checkpoints.
 
 ## Reproduce the calibrated baseline
 

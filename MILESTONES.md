@@ -15,10 +15,10 @@ The requested Git restart removes the single local root commit `0adb2a2` from ac
 | 1 | Verified requirements, native GNM/FLAME head/UVs and calibrated foundation | Complete: committed `5738394` |
 | 2 | Photorealistic skin and layered eyes, with 5-10 portable texture looks | In progress: five native-UV looks; visual refinement pending |
 | 3 | Natural eyelid, gaze and eyebrow articulation saved on the Blender timeline | Complete: articulation checkpoint committed `b353ece` |
-| 4 | Modular controls and three continuously rendered expression videos | Planned |
+| 4 | Modular controls and three continuously rendered expression videos | Complete: committed `d2420a0`; three videos and ten calibrated images validated |
 | 5 | Visual review, texture/image export and reproducible final submission | Planned |
 
-The current user instruction authorizes completing Milestone 3 articulation alongside the remaining Milestone 2 static appearance work. Its rig acceptance is separate from reference-level photorealism; both gates remain required before final delivery. Record actual evidence, remaining defects and the resulting commit hash under each stage. A written plan or an automated test count does not complete a visual milestone.
+Milestone 3 articulation acceptance is separate from the remaining Milestone 2 static appearance work. Reference-level photorealism remains required before final delivery. Record actual evidence, remaining defects and the resulting commit hash under each stage. A written plan or an automated test count does not complete a visual milestone.
 
 ## Requirements and reference evidence
 
@@ -101,6 +101,8 @@ The engineering baseline is validated. Photoreal textures, eyelid motion, full-h
 ## Milestone 2: photorealistic texture looks and layered eye materials
 
 **Goal:** achieve a convincing static eye close-up and compatible full-face texture looks before rendering long animations.
+
+Eye appearance follow-up (2026-11-15): a separate `work/review/eye_refinement/IRISX_EYE_REFINEMENT.blend` candidate addresses the user's frame-43 concern with a packed CC0 iris, restrained scleral/corneal surfaces and a 7.5% relaxed lid rest. Native Basis/UVs, rigid eye pivots, the 35 cm fixation plane and 40 cm RenderCamera remain intact. An extra authored fixation/hold review action preserves the original three action bundles. The original M3 scene and M4 media remain unchanged. See [the candidate and review limits](docs/EYE_REFINEMENT_REVIEW.md); the visible alignment concern and reference-level realism still require visual acceptance. The candidate checkpoint is committed in `9db0bca`.
 
 Current preview/lid correction (2026-11-14): **`work/review/lids/IRISX_LIDS_REVIEW.blend`** is the current static review. The earlier public-asset file showed black eye sockets in EEVEE Material Preview even though its Cycles render showed the iris. A separate transparent/specular EEVEE corneal output now preserves visible iris/sclera, while Cycles retains its original physical refraction. Supported EEVEE strand surfaces also avoid relying on Cycles-only hair scattering. The native head gains a bounded lid-margin/tarsal-fold shape key (772 vertices; maximum depth offset 0.5624 mm), finer waterlines, small canthal tissue and shorter irregular lash bundles. Native Basis geometry, UVs and topology remain unchanged.
 
@@ -185,11 +187,15 @@ Completed articulation checkpoint (2026-11-14): **`work/milestone3/final/IRISX_M
 
 The reopened audit records **1313 PASS / 0 FAIL**: a nine-gaze/five-opening grid, exact skin/outer-eye triangle tests, complete lash/wet-margin/canthal point probes, all **432 integer action frames plus 105 blink subframes**, native face-connectivity/UV checks, controls and reset. Measured skin clearance is at least **0.1921 mm**, detail-point clearance **0.0529 mm**, attachment-root distance at most **0.1468 mm**, and evaluated canthal movement at most **0.0780 mm**. The same immutable scene's completed head-triangle measurements were reused when correcting an audit assertion that confused changed quad diagonals with changed polygon topology; fresh native polygon-connectivity checks pass. The report records this provenance.
 
-Seven actual 1024px Cycles stills, three native-UV checker poses and a continuous six-second/144-frame diagnostic were reviewed. All **21 decoded-video checks pass**, including every raw-frame checksum/order, four gaze directions, two closures and neutral return. [Final evidence, controls and reproduction](tests/milestone3/final/README.md). These are bounded articulation and visual checks, not a continuous soft-body certificate or a photorealism score. Milestone 3 articulation is complete; Milestone 2 appearance, the three final expression videos and final packaging remain open. Completion files are committed in `b353ece`.
+Seven actual 1024px Cycles stills, three native-UV checker poses and a continuous six-second/144-frame diagnostic were reviewed. All **21 decoded-video checks pass**, including every raw-frame checksum/order, four gaze directions, two closures and neutral return. [Final evidence, controls and reproduction](tests/milestone3/final/README.md). These are bounded articulation and visual checks, not a continuous soft-body certificate or a photorealism score. Milestone 3 articulation is complete; at that checkpoint, Milestone 2 appearance, the three expression videos and final packaging remained open. Milestone 4 below now supplies the videos. Articulation completion files are committed in `b353ece`.
 
 ## Milestone 4: modular controls and continuous rendered sequences
 
 **Goal:** implement the evaluator's three inputs and render actual changing 3D poses throughout each clip.
+
+Completed 2026-11-15 after the Milestone 3 implementation/status checkpoints `b353ece` and `5b9a045`. `wrapper/sequences.py` and `scripts/render_expressions.py` provide Left, Right and Generate Motion, verified resume and the official clockwise capture. All three actual 720x720 Cycles videos contain 144 rendered frames at 24 fps (six seconds each). Ten open-eye 1024x1024 PNGs and geometric metadata use the locked 40 cm camera, 35 cm fixation plane and exact top-first clockwise inputs. The six-second duration retains the authored blink timing; the earlier ten-second target was provisional.
+
+The control audit passes **961 checks**, and the full decoded-video/image/label audit passes **5419 checks / zero failures** in both the existing and a freshly installed isolated Python environment. Every decoded frame was reviewed on time-ordered sheets, with separate geometric and pixel-measured direction evidence. A real interruption after eight scan frames was resumed with all eight verified and reused. [Evidence and acceptance scope](tests/milestone4/README.md), [commands and metadata](docs/EXPRESSION_CAPTURE.md). Milestone 4 sequence/capture work is complete and committed in `d2420a0`. Milestone 2 reference-level appearance and Milestone 5 final submission remain open.
 
 Work:
 
@@ -210,7 +216,7 @@ Evidence and acceptance gate:
 
 Suggested coherent commit: `feat: render expression modes and continuous gaze videos`.
 
-Completion evidence / commit: pending.
+Completion evidence: `tests/milestone4/acceptance.json` binds the reports, source scene and deliverable hashes. Commit: `d2420a0` - `feat: complete milestone 4 expression capture and calibrated dataset`.
 
 ## Milestone 5: final visual audit, portability and submission
 

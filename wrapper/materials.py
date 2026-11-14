@@ -46,41 +46,56 @@ def apply_look(texture_id='look_01'):
     links.new(albedo.outputs['Color'], bsdf.inputs['Base Color'])
     links.new(rough.outputs['Color'], bsdf.inputs['Roughness'])
     bsdf.inputs['IOR'].default_value = 1.4
-    bsdf.inputs['Subsurface Weight'].default_value = .16
+    bsdf.inputs['Subsurface Weight'].default_value = .12
     bsdf.inputs['Subsurface Radius'].default_value = (1, .45, .25)
     bsdf.inputs['Subsurface Scale'].default_value = .0011
     bump = nodes.new('ShaderNodeBump')
-    bump.inputs['Strength'].default_value = .55
-    bump.inputs['Distance'].default_value = .00025
+    bump.inputs['Strength'].default_value = .42
+    bump.inputs['Distance'].default_value = .00040
     links.new(height.outputs['Color'], bump.inputs['Height'])
     links.new(bump.outputs['Normal'], bsdf.inputs['Normal'])
     head.data.materials[0] = skin
     for side in ('L', 'R'):
         eye = bpy.data.objects['Eye_'+side]
-        interior, bsdf = _material(texture_id+'/EyeInterior_'+side)
-        image = _texture(interior, _image(folder, f'eye_{side}_basecolor.png'))
-        height = _texture(interior, _image(folder, f'eye_{side}_height.png', True))
-        interior.node_tree.links.new(image.outputs['Color'], bsdf.inputs['Base Color'])
-        bsdf.inputs['Roughness'].default_value = .40
-        bsdf.inputs['Subsurface Weight'].default_value = .025
-        bsdf.inputs['Subsurface Scale'].default_value = .0005
-        bump = interior.node_tree.nodes.new('ShaderNodeBump')
-        bump.inputs['Strength'].default_value = .35
-        bump.inputs['Distance'].default_value = .00012
-        interior.node_tree.links.new(height.outputs['Color'], bump.inputs['Height'])
-        interior.node_tree.links.new(bump.outputs['Normal'], bsdf.inputs['Normal'])
-        eye.data.materials[0] = interior
-        eye.data.materials[1] = interior
+        for slot, label, roughness, subsurface in [(0, 'Sclera', .28, .12), (1, 'Iris', .45, .02)]:
+            interior, bsdf = _material(texture_id+'/'+label+'_'+side)
+            image = _texture(interior, _image(folder, f'eye_{side}_basecolor.png'))
+            height = _texture(interior, _image(folder, f'eye_{side}_height.png', True))
+            interior.node_tree.links.new(image.outputs['Color'], bsdf.inputs['Base Color'])
+            bsdf.inputs['Roughness'].default_value = roughness
+            bsdf.inputs['IOR'].default_value = 1.376
+            # The air/cornea interface is already represented by the outer
+            # shell. Avoid a second air-like highlight on the moist interior.
+            bsdf.inputs['Specular IOR Level'].default_value = .08 if slot == 0 else .03
+            bsdf.inputs['Subsurface Weight'].default_value = subsurface
+            bsdf.inputs['Subsurface Scale'].default_value = .0004
+            bump = interior.node_tree.nodes.new('ShaderNodeBump')
+            bump.inputs['Strength'].default_value = .18 if slot == 0 else .25
+            bump.inputs['Distance'].default_value = .000045 if slot == 0 else .00008
+            interior.node_tree.links.new(height.outputs['Color'], bump.inputs['Height'])
+            interior.node_tree.links.new(bump.outputs['Normal'], bsdf.inputs['Normal'])
+            eye.data.materials[slot] = interior
         cornea = eye.data.materials[3]
         cornea_bsdf = cornea.node_tree.nodes.get('Principled BSDF')
-        cornea_bsdf.inputs['Roughness'].default_value = .025
+        cornea_bsdf.inputs['Roughness'].default_value = .035
         cornea_bsdf.inputs['IOR'].default_value = 1.376
     scene = bpy.context.scene
     scene.cycles.samples = 64
     scene.cycles.max_bounces = 12
     scene.cycles.transmission_bounces = 12
+    scene.cycles.preview_samples = 128
+    scene.cycles.use_preview_denoising = True
+    scene.cycles.use_adaptive_sampling = True
+    scene.cycles.adaptive_threshold = .01
+    scene.cycles.sample_clamp_indirect = 3
+    scene.cycles.blur_glossy = .5
+    # Required here for direct lighting to reach the opaque eye through its
+    # native corneal shell. Disabling refractive caustics darkens the interior.
+    scene.cycles.caustics_reflective = True
+    scene.cycles.caustics_refractive = True
     scene['texture_look'] = texture_id
     scene['texture_source'] = manifest['source_material']
     scene['texture_status'] = 'Milestone 2 material review; visual acceptance tracked separately'
+    scene['visual_status'] = 'Milestone 2 static material refinement; visual acceptance tracked separately'
     scene['pupil_label_semantics'] = 'Geometric 3D aperture centroid and pinhole projection; corneal refraction can shift the apparent rendered pupil'
     return manifest

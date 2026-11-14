@@ -1,0 +1,465 @@
+{
+  "status": "PASS",
+  "passed": 105,
+  "failed": 0,
+  "checks": [
+    {
+      "test": "look_01: GNM_skin exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_01: GNM_skin unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_01: unchanged head rest geometry",
+      "passed": true
+    },
+    {
+      "test": "look_01: Eye_L exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_01: Eye_L unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_01: Eye_R exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_01: Eye_R unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_01: finite positive native hair data",
+      "passed": true
+    },
+    {
+      "test": "look_01: scalp groom follows rigid head object",
+      "passed": true
+    },
+    {
+      "test": "look_01: 512 scalp roots remain within 0.10 mm of skin",
+      "passed": true
+    },
+    {
+      "test": "look_01: sampled strand interiors clear the skin within 0.03 mm tolerance",
+      "passed": true
+    },
+    {
+      "test": "look_01: left preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_01: right preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_01: up preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_01: down preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_01: neutral gaze and geometric labels reset exactly",
+      "passed": true
+    },
+    {
+      "test": "look_01: fixed calibrated camera preserved",
+      "passed": true
+    },
+    {
+      "test": "look_01: 35 cm neutral fixation preserved",
+      "passed": true
+    },
+    {
+      "test": "look_01: seven material images still packed",
+      "passed": true
+    },
+    {
+      "test": "look_01: opens in Material Preview camera view without rig overlays",
+      "passed": true
+    },
+    {
+      "test": "look_01: viewport denoising and refractive lighting enabled",
+      "passed": true
+    },
+    {
+      "test": "look_02: GNM_skin exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_02: GNM_skin unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_02: unchanged head rest geometry",
+      "passed": true
+    },
+    {
+      "test": "look_02: Eye_L exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_02: Eye_L unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_02: Eye_R exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_02: Eye_R unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_02: finite positive native hair data",
+      "passed": true
+    },
+    {
+      "test": "look_02: scalp groom follows rigid head object",
+      "passed": true
+    },
+    {
+      "test": "look_02: 512 scalp roots remain within 0.10 mm of skin",
+      "passed": true
+    },
+    {
+      "test": "look_02: sampled strand interiors clear the skin within 0.03 mm tolerance",
+      "passed": true
+    },
+    {
+      "test": "look_02: left preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_02: right preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_02: up preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_02: down preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_02: neutral gaze and geometric labels reset exactly",
+      "passed": true
+    },
+    {
+      "test": "look_02: fixed calibrated camera preserved",
+      "passed": true
+    },
+    {
+      "test": "look_02: 35 cm neutral fixation preserved",
+      "passed": true
+    },
+    {
+      "test": "look_02: seven material images still packed",
+      "passed": true
+    },
+    {
+      "test": "look_02: opens in Material Preview camera view without rig overlays",
+      "passed": true
+    },
+    {
+      "test": "look_02: viewport denoising and refractive lighting enabled",
+      "passed": true
+    },
+    {
+      "test": "look_03: GNM_skin exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_03: GNM_skin unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_03: unchanged head rest geometry",
+      "passed": true
+    },
+    {
+      "test": "look_03: Eye_L exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_03: Eye_L unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_03: Eye_R exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_03: Eye_R unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_03: finite positive native hair data",
+      "passed": true
+    },
+    {
+      "test": "look_03: scalp groom follows rigid head object",
+      "passed": true
+    },
+    {
+      "test": "look_03: 512 scalp roots remain within 0.10 mm of skin",
+      "passed": true
+    },
+    {
+      "test": "look_03: sampled strand interiors clear the skin within 0.03 mm tolerance",
+      "passed": true
+    },
+    {
+      "test": "look_03: left preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_03: right preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_03: up preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_03: down preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_03: neutral gaze and geometric labels reset exactly",
+      "passed": true
+    },
+    {
+      "test": "look_03: fixed calibrated camera preserved",
+      "passed": true
+    },
+    {
+      "test": "look_03: 35 cm neutral fixation preserved",
+      "passed": true
+    },
+    {
+      "test": "look_03: seven material images still packed",
+      "passed": true
+    },
+    {
+      "test": "look_03: opens in Material Preview camera view without rig overlays",
+      "passed": true
+    },
+    {
+      "test": "look_03: viewport denoising and refractive lighting enabled",
+      "passed": true
+    },
+    {
+      "test": "look_04: GNM_skin exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_04: GNM_skin unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_04: unchanged head rest geometry",
+      "passed": true
+    },
+    {
+      "test": "look_04: Eye_L exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_04: Eye_L unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_04: Eye_R exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_04: Eye_R unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_04: finite positive native hair data",
+      "passed": true
+    },
+    {
+      "test": "look_04: scalp groom follows rigid head object",
+      "passed": true
+    },
+    {
+      "test": "look_04: 512 scalp roots remain within 0.10 mm of skin",
+      "passed": true
+    },
+    {
+      "test": "look_04: sampled strand interiors clear the skin within 0.03 mm tolerance",
+      "passed": true
+    },
+    {
+      "test": "look_04: left preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_04: right preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_04: up preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_04: down preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_04: neutral gaze and geometric labels reset exactly",
+      "passed": true
+    },
+    {
+      "test": "look_04: fixed calibrated camera preserved",
+      "passed": true
+    },
+    {
+      "test": "look_04: 35 cm neutral fixation preserved",
+      "passed": true
+    },
+    {
+      "test": "look_04: seven material images still packed",
+      "passed": true
+    },
+    {
+      "test": "look_04: opens in Material Preview camera view without rig overlays",
+      "passed": true
+    },
+    {
+      "test": "look_04: viewport denoising and refractive lighting enabled",
+      "passed": true
+    },
+    {
+      "test": "look_05: GNM_skin exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_05: GNM_skin unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_05: unchanged head rest geometry",
+      "passed": true
+    },
+    {
+      "test": "look_05: Eye_L exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_05: Eye_L unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_05: Eye_R exact native UVs",
+      "passed": true
+    },
+    {
+      "test": "look_05: Eye_R unchanged native topology",
+      "passed": true
+    },
+    {
+      "test": "look_05: finite positive native hair data",
+      "passed": true
+    },
+    {
+      "test": "look_05: scalp groom follows rigid head object",
+      "passed": true
+    },
+    {
+      "test": "look_05: 512 scalp roots remain within 0.10 mm of skin",
+      "passed": true
+    },
+    {
+      "test": "look_05: sampled strand interiors clear the skin within 0.03 mm tolerance",
+      "passed": true
+    },
+    {
+      "test": "look_05: left preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_05: right preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_05: up preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_05: down preserves binocular pivots",
+      "passed": true
+    },
+    {
+      "test": "look_05: neutral gaze and geometric labels reset exactly",
+      "passed": true
+    },
+    {
+      "test": "look_05: fixed calibrated camera preserved",
+      "passed": true
+    },
+    {
+      "test": "look_05: 35 cm neutral fixation preserved",
+      "passed": true
+    },
+    {
+      "test": "look_05: seven material images still packed",
+      "passed": true
+    },
+    {
+      "test": "look_05: opens in Material Preview camera view without rig overlays",
+      "passed": true
+    },
+    {
+      "test": "look_05: viewport denoising and refractive lighting enabled",
+      "passed": true
+    }
+  ],
+  "measured_groom_fit": {
+    "look_01": {
+      "strand_count": 64000,
+      "sampled_strands": 512,
+      "sampled_interior_positions": 22528,
+      "max_root_distance_m": 3.5038763599004596e-05,
+      "min_signed_clearance_m": 9.229172792402096e-05
+    },
+    "look_02": {
+      "strand_count": 64000,
+      "sampled_strands": 512,
+      "sampled_interior_positions": 22528,
+      "max_root_distance_m": 3.5038763599004596e-05,
+      "min_signed_clearance_m": 9.229172792402096e-05
+    },
+    "look_03": {
+      "strand_count": 64000,
+      "sampled_strands": 512,
+      "sampled_interior_positions": 22528,
+      "max_root_distance_m": 3.5038763599004596e-05,
+      "min_signed_clearance_m": 9.229172792402096e-05
+    },
+    "look_04": {
+      "strand_count": 64000,
+      "sampled_strands": 512,
+      "sampled_interior_positions": 22528,
+      "max_root_distance_m": 3.5038763599004596e-05,
+      "min_signed_clearance_m": 9.229172792402096e-05
+    },
+    "look_05": {
+      "strand_count": 64000,
+      "sampled_strands": 512,
+      "sampled_interior_positions": 22528,
+      "max_root_distance_m": 3.5038763599004596e-05,
+      "min_signed_clearance_m": 9.229172792402096e-05
+    }
+  },
+  "scope": "Reopened static groom, sampled surface clearance, native UV/topology and calibration. Does not certify photorealism, deformation binding, blink motion or apparent refracted pupil labels."
+}

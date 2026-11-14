@@ -1,0 +1,24 @@
+{
+  "author": "Lee Perry-Smith / Infinite-Realities",
+  "title": "Infinite, 3D Head Scan",
+  "license": "CC-BY-3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/",
+  "host": "three.js examples",
+  "revision": "9b4a2ac29c63ccb43fd51c5661f2f873ac2c39b8",
+  "files": [
+    {
+      "file": "LeePerrySmith_License.txt",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/9b4a2ac29c63ccb43fd51c5661f2f873ac2c39b8/examples/models/gltf/LeePerrySmith/LeePerrySmith_License.txt",
+      "bytes": 364,
+      "sha256": "7cf4da43a6ae6d32f7f7d063fe129a19468af6f4fe7c53b937f83959709fcb50"
+    },
+    {
+      "file": "Infinite-Level_02_Disp_NoSmoothUV-4096.jpg",
+      "url": "https://raw.githubusercontent.com/mrdoob/three.js/9b4a2ac29c63ccb43fd51c5661f2f873ac2c39b8/examples/models/gltf/LeePerrySmith/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg",
+      "bytes": 752389,
+      "sha256": "937dea3ab1adea4624c9743ea0653fcb022235e6dcdebfb6e739b93f9d2a5cef"
+    }
+  ],
+  "role": "Source scan for high-frequency skin shading transfer; final mesh remains native GNM",
+  "modifications": "High-frequency scan detail will be landmark-projected and baked onto native GNM UV maps. Source scan geometry is not part of the target scene."
+}

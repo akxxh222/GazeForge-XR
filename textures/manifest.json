@@ -19,40 +19,60 @@
       "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
       "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
       "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+      "seam_refinement": {
+        "method": "Paired native cut-edge color constraints with smooth local correction on both charts",
+        "dense_paired_samples": 20212,
+        "iterations": 4,
+        "feather_width_px": 18,
+        "p95_rgb_rms_before": 0.03102877922356133,
+        "p95_rgb_rms_after": 0.007656350894831122,
+        "scope": "Albedo cut continuity only; render review still required. Geometry and UV coordinates are unchanged."
+      },
       "status": "Generated; visual/portability review pending",
-      "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+      "skin_detail_source": {
+        "file": "assets/skin_detail/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg",
+        "license": "CC-BY-3.0",
+        "author": "Lee Perry-Smith / Infinite-Realities",
+        "method": "Landmark-registered frontal high-frequency detail; native UVs unchanged; authored amplitude, not measured deformation"
+      },
+      "iris_source": {
+        "file": "assets/iris/iris_stroma_master.png",
+        "sha256": "8796db733081e2f99e9ab60331d30145d87782d36e2cfdd60c984c9d2b267b01",
+        "origin": "Original AI-authored appearance texture; source pupil and limbus registered to native GNM annulus"
+      },
+      "modifications": "CC0 diffuse transferred onto native GNM UVs, scalp/lip corrections, seam feathering and attributed scan microdetail. Original iris plate annulus-registered and color-varied per look; procedural scleral vessels. No metric or photographic ground-truth claim for the appearance assets.",
       "files": {
         "eye_L_basecolor.png": {
-          "sha256": "601b1a7b715840968e2ad098659b6d8353c47b276e99a3c03a4495f125373d90",
-          "bytes": 667679
+          "sha256": "41f816a5af50d4b35a971e509fb64d148075bfe8c322f9ee88d8f4f2475d8037",
+          "bytes": 1443656
         },
         "eye_L_height.png": {
-          "sha256": "74be5c60d765326884f360bff5fcf84a790ad81f0a3b730177576a910c75622a",
-          "bytes": 733726
+          "sha256": "aca1cdae88c40b02b279e2749fde2750a48f1b800544c2616dac2e2141a5a7eb",
+          "bytes": 748086
         },
         "eye_R_basecolor.png": {
-          "sha256": "457fc3471a1edf2721574bf697f9a325a732d5d71823f2f554dd3c3434364070",
-          "bytes": 669046
+          "sha256": "6cc672cf7f894f29060a8e68da7f00d273e114424c14e84969430a87a05979f1",
+          "bytes": 1458763
         },
         "eye_R_height.png": {
-          "sha256": "fabade20c6004b279cbc6c4a13d55572568d806f40e9034de91858eb86f5d064",
-          "bytes": 734120
+          "sha256": "5d5f2b99b95b386dd27cd6bf09c3627e4059e28c3f5b5677446792e379b20207",
+          "bytes": 750605
         },
         "skin_basecolor.png": {
-          "sha256": "dc0fcf15939dd536ad954ff15102377f55a940244e340bb8d3ca79080d6c29d2",
-          "bytes": 12867934
+          "sha256": "5e862e03206e2a125b66e1e42d45addfe3b49f088902ca9f3e8cc60697fdb3b9",
+          "bytes": 10967793
         },
         "skin_coverage.png": {
           "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
           "bytes": 33526
         },
         "skin_height.png": {
-          "sha256": "9c9726fe20fe005de0ddc5802eedad6db01a8588f22806c5a54c87dd9bc779ab",
-          "bytes": 27307751
+          "sha256": "f64ba100833c8e454cba6ee96dcbc689812a402aff87805250c1b68536b7464f",
+          "bytes": 25738695
         },
         "skin_roughness.png": {
-          "sha256": "2860fde69167d7b53d7e18134a898e18ef6b486ad3f6b69855852ae5acab77f8",
-          "bytes": 8405165
+          "sha256": "153771d4bd20d24e516f1a71e9393fa604d286fedb52fa136e25a5e02d5da3b7",
+          "bytes": 7151701
         }
       }
     },
@@ -75,40 +95,60 @@
       "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
       "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
       "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+      "seam_refinement": {
+        "method": "Paired native cut-edge color constraints with smooth local correction on both charts",
+        "dense_paired_samples": 20212,
+        "iterations": 4,
+        "feather_width_px": 18,
+        "p95_rgb_rms_before": 0.026095555536448958,
+        "p95_rgb_rms_after": 0.010107999062165621,
+        "scope": "Albedo cut continuity only; render review still required. Geometry and UV coordinates are unchanged."
+      },
       "status": "Generated; visual/portability review pending",
-      "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+      "skin_detail_source": {
+        "file": "assets/skin_detail/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg",
+        "license": "CC-BY-3.0",
+        "author": "Lee Perry-Smith / Infinite-Realities",
+        "method": "Landmark-registered frontal high-frequency detail; native UVs unchanged; authored amplitude, not measured deformation"
+      },
+      "iris_source": {
+        "file": "assets/iris/iris_stroma_master.png",
+        "sha256": "8796db733081e2f99e9ab60331d30145d87782d36e2cfdd60c984c9d2b267b01",
+        "origin": "Original AI-authored appearance texture; source pupil and limbus registered to native GNM annulus"
+      },
+      "modifications": "CC0 diffuse transferred onto native GNM UVs, scalp/lip corrections, seam feathering and attributed scan microdetail. Original iris plate annulus-registered and color-varied per look; procedural scleral vessels. No metric or photographic ground-truth claim for the appearance assets.",
       "files": {
         "eye_L_basecolor.png": {
-          "sha256": "6c7c42ca6acee0b950b3c1d96c4c6a388faa707bacd9c53ebc3aad6feace7680",
-          "bytes": 615729
+          "sha256": "0f4866a60ca9a745bc59cc31086ca272a3f8d4593b0dd9e727c18d02d70e086b",
+          "bytes": 1384290
         },
         "eye_L_height.png": {
-          "sha256": "35c9042c48a5d00aad537303398ed5a1c5981a947fb6dbafa955c8eff648d2fe",
-          "bytes": 732705
+          "sha256": "36ec2354256a5d6c105c95ba7ecd6cfc32cd9a245615513b1f8c5b5d0496f299",
+          "bytes": 751059
         },
         "eye_R_basecolor.png": {
-          "sha256": "9ed3234fbb60657ee481f64e54359a3a9ca9c04defdef749d74a2132c5b4f4a2",
-          "bytes": 613876
+          "sha256": "a9a0c159f6067e456efa8a8bc3be2285e434886eabfb1e53839654ad718a7a38",
+          "bytes": 1394866
         },
         "eye_R_height.png": {
-          "sha256": "8897258467c6c2e59ffb654ccaa164f133a73a51be73313229238ab2bbe7963a",
-          "bytes": 733488
+          "sha256": "db146184d3502a47dfefc0d73b5144abf5cd6b58141b4e20f0b283a83e526200",
+          "bytes": 749351
         },
         "skin_basecolor.png": {
-          "sha256": "0f9b5d4fa171a92779084b3050cf5551d8292710d4f3a81091cfd53c263b835b",
-          "bytes": 10638590
+          "sha256": "e832c2774de4426bb4e63bcb20d7406b99586667eafe322d12d006cd7b230455",
+          "bytes": 9497053
         },
         "skin_coverage.png": {
           "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
           "bytes": 33526
         },
         "skin_height.png": {
-          "sha256": "a6d353d74ad0e79d1224d2799f88ff335499831c61650a3da30131eda5210d19",
-          "bytes": 27367256
+          "sha256": "908bf6ea68616a57daf5d0948f7050ca5dc11c21630c0d1ac20b727f2d8255bc",
+          "bytes": 25802129
         },
         "skin_roughness.png": {
-          "sha256": "9755b939705d9d478872fe70814137cf98fc868f1be70cf7bf23a917f682ad1c",
-          "bytes": 8559422
+          "sha256": "a683687b84f8dde00e388c4afdcb3d3fdc51916e87929b907c2bfa946fa74c78",
+          "bytes": 7333150
         }
       }
     },
@@ -131,40 +171,60 @@
       "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
       "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
       "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+      "seam_refinement": {
+        "method": "Paired native cut-edge color constraints with smooth local correction on both charts",
+        "dense_paired_samples": 20212,
+        "iterations": 4,
+        "feather_width_px": 18,
+        "p95_rgb_rms_before": 0.018542318884283305,
+        "p95_rgb_rms_after": 0.005955550936050716,
+        "scope": "Albedo cut continuity only; render review still required. Geometry and UV coordinates are unchanged."
+      },
       "status": "Generated; visual/portability review pending",
-      "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+      "skin_detail_source": {
+        "file": "assets/skin_detail/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg",
+        "license": "CC-BY-3.0",
+        "author": "Lee Perry-Smith / Infinite-Realities",
+        "method": "Landmark-registered frontal high-frequency detail; native UVs unchanged; authored amplitude, not measured deformation"
+      },
+      "iris_source": {
+        "file": "assets/iris/iris_stroma_master.png",
+        "sha256": "8796db733081e2f99e9ab60331d30145d87782d36e2cfdd60c984c9d2b267b01",
+        "origin": "Original AI-authored appearance texture; source pupil and limbus registered to native GNM annulus"
+      },
+      "modifications": "CC0 diffuse transferred onto native GNM UVs, scalp/lip corrections, seam feathering and attributed scan microdetail. Original iris plate annulus-registered and color-varied per look; procedural scleral vessels. No metric or photographic ground-truth claim for the appearance assets.",
       "files": {
         "eye_L_basecolor.png": {
-          "sha256": "1d70af2cad25bfb584db26c35e2fd2044fdbbd5293dde947faaf39e99c27814b",
-          "bytes": 653426
+          "sha256": "5df42925530da92910bf2fe65f68fd060f3bde3316bed778ffa330da4cda3a00",
+          "bytes": 1442213
         },
         "eye_L_height.png": {
-          "sha256": "61f6c672e306b5e619951ee0e61a2987772b317e0565a606b418897194755d5e",
-          "bytes": 733931
+          "sha256": "2d3d4b37eeab6e2ab446d61ab53ac003e443274494ade437630af8ddf5b6a984",
+          "bytes": 751604
         },
         "eye_R_basecolor.png": {
-          "sha256": "e7746a68f2af9c8e68ba0daf80d16c44b79f97d8a504a434f9615e2e2f02d446",
-          "bytes": 654392
+          "sha256": "f40792823c704aeb27454092213b8e025832a8c3a5ef7b949682ff79d83bc2f8",
+          "bytes": 1431487
         },
         "eye_R_height.png": {
-          "sha256": "8ebea7aa71b73dc9b8f07f1df68d2156c059c9c081df9568c4d1a4e9c221aba7",
-          "bytes": 733240
+          "sha256": "8c7e5fc809df37a756b4e2a3beed030395532ef1f923b4b4fbaaa8d9e4901ea9",
+          "bytes": 746503
         },
         "skin_basecolor.png": {
-          "sha256": "f3a74294b173740cd9e370c45dd31d8d9e5671c20c513ad6eb9480d68a16458e",
-          "bytes": 12110779
+          "sha256": "7d498512feef5bec917ee3ce2ea9e3c04a8abd5dea88e94acc81c9583929c0c6",
+          "bytes": 10592632
         },
         "skin_coverage.png": {
           "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
           "bytes": 33526
         },
         "skin_height.png": {
-          "sha256": "36d2cb0868ef7b4c8b9b4b3cc15892cfba6e18b040d1942bb9a644bd75bae3b7",
-          "bytes": 27235935
+          "sha256": "5e840abc6b53544057a138210d3a1396943947b44cf7b59aa8fd1dff6f809d2b",
+          "bytes": 25670520
         },
         "skin_roughness.png": {
-          "sha256": "bd02771b14d5d11601901402de3007ad3eab598590db4cda8a7fd978fae3d096",
-          "bytes": 7826439
+          "sha256": "626571edfae4c3ccf7fff3d1120db6da6168d536473f88f2d45300802d897bb6",
+          "bytes": 6479204
         }
       }
     },
@@ -187,40 +247,60 @@
       "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
       "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
       "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+      "seam_refinement": {
+        "method": "Paired native cut-edge color constraints with smooth local correction on both charts",
+        "dense_paired_samples": 20212,
+        "iterations": 4,
+        "feather_width_px": 18,
+        "p95_rgb_rms_before": 0.03740032855421307,
+        "p95_rgb_rms_after": 0.00605955687351525,
+        "scope": "Albedo cut continuity only; render review still required. Geometry and UV coordinates are unchanged."
+      },
       "status": "Generated; visual/portability review pending",
-      "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+      "skin_detail_source": {
+        "file": "assets/skin_detail/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg",
+        "license": "CC-BY-3.0",
+        "author": "Lee Perry-Smith / Infinite-Realities",
+        "method": "Landmark-registered frontal high-frequency detail; native UVs unchanged; authored amplitude, not measured deformation"
+      },
+      "iris_source": {
+        "file": "assets/iris/iris_stroma_master.png",
+        "sha256": "8796db733081e2f99e9ab60331d30145d87782d36e2cfdd60c984c9d2b267b01",
+        "origin": "Original AI-authored appearance texture; source pupil and limbus registered to native GNM annulus"
+      },
+      "modifications": "CC0 diffuse transferred onto native GNM UVs, scalp/lip corrections, seam feathering and attributed scan microdetail. Original iris plate annulus-registered and color-varied per look; procedural scleral vessels. No metric or photographic ground-truth claim for the appearance assets.",
       "files": {
         "eye_L_basecolor.png": {
-          "sha256": "88e617c8c903ea131b9b296e8e10dc9b62454e1bc1329745a043eb3f8b5d3f77",
-          "bytes": 672578
+          "sha256": "2125435e85c43b3db476b45e015674a254afa0a6458b3c1e7dcf4d16aa9f746c",
+          "bytes": 1489817
         },
         "eye_L_height.png": {
-          "sha256": "d48f0cdb867d8428527d30fa55cc365830d3f5077a172e932ad82273017b7331",
-          "bytes": 732899
+          "sha256": "bc515ae29720592dde363989711db425b20f26f6cdf1054da9cd8640f324357e",
+          "bytes": 750154
         },
         "eye_R_basecolor.png": {
-          "sha256": "d352b7e6ffec512cc31508c4f804047a6efc1a830e1ac9420e4636aa1c05ab3e",
-          "bytes": 675331
+          "sha256": "bdae38e3f0d4982f5d9ec6c6e8574a7477f134548346ee9c4d3238bdf5d3e091",
+          "bytes": 1465549
         },
         "eye_R_height.png": {
-          "sha256": "d603f3b5e34f634dca5f3d6fe3ff414679fd34bf94d713a36c0e37a04f150794",
-          "bytes": 733300
+          "sha256": "6668535be92052708978c4f503d3f4f6dfe74d20bd3cb50ae4d8436baad984dd",
+          "bytes": 745410
         },
         "skin_basecolor.png": {
-          "sha256": "7176b7c19fa518565a7c839f3de4d06272a38c6a8e089e2656b91770e68fbb45",
-          "bytes": 13581367
+          "sha256": "ab8b5ea92e6e53f44ce4ca6352fa031c0f1dda27f72a61dd3c1150999840ffbc",
+          "bytes": 11897480
         },
         "skin_coverage.png": {
           "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
           "bytes": 33526
         },
         "skin_height.png": {
-          "sha256": "a615cb01fe217ea0ca3bee088736a5fb9cac9fdc4869edacec9f9db2bbf797ce",
-          "bytes": 27321039
+          "sha256": "093e4e6ac47cb1ec12d71bb8a9f47722edb86626a789707d5eae84654a20c771",
+          "bytes": 25767323
         },
         "skin_roughness.png": {
-          "sha256": "57014a079e80285016d9dfcf38cfd7e602f6d6bcde4cb47532493ea466f07511",
-          "bytes": 8371806
+          "sha256": "c09d25fcaff692454fb9e7a086d4201dce9cf75715ea6b75f3d28bd52df88e41",
+          "bytes": 7103904
         }
       }
     },
@@ -243,40 +323,60 @@
       "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
       "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
       "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
+      "seam_refinement": {
+        "method": "Paired native cut-edge color constraints with smooth local correction on both charts",
+        "dense_paired_samples": 20212,
+        "iterations": 4,
+        "feather_width_px": 18,
+        "p95_rgb_rms_before": 0.01300161578692496,
+        "p95_rgb_rms_after": 0.005877544824033978,
+        "scope": "Albedo cut continuity only; render review still required. Geometry and UV coordinates are unchanged."
+      },
       "status": "Generated; visual/portability review pending",
-      "modifications": "Spatial transfer onto native GNM UVs, continuous object-space pore/roughness fields and minor color modulation. Iris/sclera maps authored procedurally for this project.",
+      "skin_detail_source": {
+        "file": "assets/skin_detail/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg",
+        "license": "CC-BY-3.0",
+        "author": "Lee Perry-Smith / Infinite-Realities",
+        "method": "Landmark-registered frontal high-frequency detail; native UVs unchanged; authored amplitude, not measured deformation"
+      },
+      "iris_source": {
+        "file": "assets/iris/iris_stroma_master.png",
+        "sha256": "8796db733081e2f99e9ab60331d30145d87782d36e2cfdd60c984c9d2b267b01",
+        "origin": "Original AI-authored appearance texture; source pupil and limbus registered to native GNM annulus"
+      },
+      "modifications": "CC0 diffuse transferred onto native GNM UVs, scalp/lip corrections, seam feathering and attributed scan microdetail. Original iris plate annulus-registered and color-varied per look; procedural scleral vessels. No metric or photographic ground-truth claim for the appearance assets.",
       "files": {
         "eye_L_basecolor.png": {
-          "sha256": "15aac1901cc2211d7436c250a7603c1d3d342cb2c28ff1b9e1e02c3bd9f413d8",
-          "bytes": 623630
+          "sha256": "2d1c3778cffd9564a3d92e87eaf2fadc7c52cd2ea733386ed808d532b96f8da5",
+          "bytes": 1367863
         },
         "eye_L_height.png": {
-          "sha256": "1d456aa014a4bcac691b07d130738eee66a2be0f63a49157bf1f2a5bac6376f6",
-          "bytes": 733363
+          "sha256": "3ea728e344b7e7d4ec7cc196e754974a444823fbedd9640510ac391a379e3483",
+          "bytes": 746304
         },
         "eye_R_basecolor.png": {
-          "sha256": "ac7cf1a497e054e0f9e62f4ca8778ee8c8da93f2f5ab73b4db4a90fe4251c197",
-          "bytes": 626281
+          "sha256": "b36d4b48c31cdf9d16343b6375354b037c31ea06f42b93ef5bb9905541b3dbdc",
+          "bytes": 1365420
         },
         "eye_R_height.png": {
-          "sha256": "29d938739d2f016b14da6eefd322e7682698a2a7d9214e5e0e164328adcea54c",
-          "bytes": 733713
+          "sha256": "bfa2922a9ec81d54bfc0008d7ec10bdb57aee618f9a4b169466370e2ae0c5e7f",
+          "bytes": 746371
         },
         "skin_basecolor.png": {
-          "sha256": "e40d391e37780b4db8293fa2bd5fcf7f97a999fb2e2e0128a5d1135b70390556",
-          "bytes": 11849378
+          "sha256": "575433d6fcf322207a702fc392a40bf0c8474105bdbf059c4660575914a4b914",
+          "bytes": 10333967
         },
         "skin_coverage.png": {
           "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
           "bytes": 33526
         },
         "skin_height.png": {
-          "sha256": "6cc7bbe25e5b209fe7227d62c6e6f956ead24359ccea2ca4462c7d7a7f6e206e",
-          "bytes": 27283378
+          "sha256": "6d0018dbb29ec3d55fdce0f821e40603fb24d34d688018e5273afe769f60c3b1",
+          "bytes": 25714518
         },
         "skin_roughness.png": {
-          "sha256": "32331a147976276ad13af92627ca61937065d82ec1c106700a209ebcc0c2d7bf",
-          "bytes": 8038051
+          "sha256": "0d9a17dae98026cfbeb0311486427091dc40d6f5cde6eb9ad82b2ffc8c6c37ea",
+          "bytes": 6727338
         }
       }
     }

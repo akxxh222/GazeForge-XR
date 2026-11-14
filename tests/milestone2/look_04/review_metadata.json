@@ -87,8 +87,40 @@
     "camera_lens_mm": 40.0,
     "role": "Calibrated material preview",
     "pupil_label_semantics": "Geometric 3D aperture centroid and pinhole projection; corneal refraction can shift the apparent rendered pupil",
-    "texture_manifest_sha256": "c0ca972558481448aa9d96f41ef8fbfce33f5d82e565aff9f211a8a13969a624",
-    "appearance_code_sha256": "e4c38f171ae914473168049dcbfadaa8d7762b85a441244fdf9a284c92787d89"
+    "texture_manifest_sha256": "d78a93bff51ddff13e860f68a82196555ec55602f231a697896d0a938a89f4a2",
+    "appearance_code_sha256": "2e672c16634106e5fd90eb5c66bfda7a4f460e587bb84efcf47ba87a1456e8a5",
+    "materials_code_sha256": "612eac6e3e8fbde9d01df62417d680c75bd20b32b80468f5196eec91992abfd6",
+    "groom_code_sha256": "d0af1b91fab7683bdb034bd565aad9fa6b8cc58c30a97ad174240bba0ea5a586",
+    "scalp_groom": {
+      "scalp_strands": 64000,
+      "points_per_strand": 12,
+      "max_root_fit_error_m": 6.674406255472048e-08,
+      "minimum_control_clearance_m": 0.00025253638459823963,
+      "native_curves": true,
+      "static_groom": true
+    },
+    "render_builder_sha256": "8ea345163ee85ae6943420b4dc5fcf7d2e34398cd52f3cb84ba8ecc29eded241",
+    "cycles_samples": 256,
+    "lighting": {
+      "Key": {
+        "watts": 8.0,
+        "size_m": 0.2199999988079071,
+        "shape": "RECTANGLE",
+        "specular_factor": 1.0
+      },
+      "Fill": {
+        "watts": 0.6000000238418579,
+        "size_m": 0.5,
+        "shape": "DISK",
+        "specular_factor": 0.05999999865889549
+      },
+      "Rim": {
+        "watts": 3.0,
+        "size_m": 0.30000001192092896,
+        "shape": "DISK",
+        "specular_factor": 0.3499999940395355
+      }
+    }
   },
   {
     "frame": 0,
@@ -178,7 +210,39 @@
     "camera_lens_mm": 145.0,
     "role": "Additional material review camera/pose, not an official dataset frame",
     "pupil_label_semantics": "Geometric 3D aperture centroid and pinhole projection; corneal refraction can shift the apparent rendered pupil",
-    "texture_manifest_sha256": "c0ca972558481448aa9d96f41ef8fbfce33f5d82e565aff9f211a8a13969a624",
-    "appearance_code_sha256": "e4c38f171ae914473168049dcbfadaa8d7762b85a441244fdf9a284c92787d89"
+    "texture_manifest_sha256": "d78a93bff51ddff13e860f68a82196555ec55602f231a697896d0a938a89f4a2",
+    "appearance_code_sha256": "2e672c16634106e5fd90eb5c66bfda7a4f460e587bb84efcf47ba87a1456e8a5",
+    "materials_code_sha256": "612eac6e3e8fbde9d01df62417d680c75bd20b32b80468f5196eec91992abfd6",
+    "groom_code_sha256": "d0af1b91fab7683bdb034bd565aad9fa6b8cc58c30a97ad174240bba0ea5a586",
+    "scalp_groom": {
+      "scalp_strands": 64000,
+      "points_per_strand": 12,
+      "max_root_fit_error_m": 6.674406255472048e-08,
+      "minimum_control_clearance_m": 0.00025253638459823963,
+      "native_curves": true,
+      "static_groom": true
+    },
+    "render_builder_sha256": "8ea345163ee85ae6943420b4dc5fcf7d2e34398cd52f3cb84ba8ecc29eded241",
+    "cycles_samples": 256,
+    "lighting": {
+      "Key": {
+        "watts": 8.0,
+        "size_m": 0.2199999988079071,
+        "shape": "RECTANGLE",
+        "specular_factor": 1.0
+      },
+      "Fill": {
+        "watts": 0.6000000238418579,
+        "size_m": 0.5,
+        "shape": "DISK",
+        "specular_factor": 0.05999999865889549
+      },
+      "Rim": {
+        "watts": 3.0,
+        "size_m": 0.30000001192092896,
+        "shape": "DISK",
+        "specular_factor": 0.3499999940395355
+      }
+    }
   }
 ]

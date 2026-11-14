@@ -6,3 +6,6 @@ textures/**/manifest.json -text whitespace=blank-at-eol,blank-at-eof,space-befor
 # Preserve downloaded GNM source/license bytes and their recorded SHA-256 values.
 assets/gnm/reference/** -text
 assets/gnm/LICENSE.Apache-2.0.txt -text
+assets/skin_detail/LeePerrySmith_License.txt -text
+# Preserve authored review receipts and their byte-based source hashes.
+work/**/*.json -text

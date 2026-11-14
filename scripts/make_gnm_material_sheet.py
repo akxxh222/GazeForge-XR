@@ -21,7 +21,7 @@ for i in range(5):
     macro = macro.resize((340, 179), Image.Resampling.LANCZOS)
     canvas.paste(macro, (x, 460))
     draw.text((x+6, 655), '4K skin | separate 2K eye maps', font=small, fill='#c0d0d7')
-draw.text((22, 708), 'Actual Cycles renders under common lighting. Source maps transferred to unchanged native UVs; fine PBR/iris detail authored separately.', font=small, fill='#b7c9d1')
+draw.text((22, 708), 'Actual 256-sample Cycles renders. Native strand hairstyle/stubble; controlled corneal reflections; original native-UV maps.', font=small, fill='#b7c9d1')
 draw.text((22, 740), 'Visual refinement and full-head seam acceptance remain pending. Static appearance only; eyelid animation is Milestone 3.', font=small, fill='#b7c9d1')
 canvas.save(folder/'contact_sheet.png')
 print('GNM_MATERIAL_SHEET', folder/'contact_sheet.png')

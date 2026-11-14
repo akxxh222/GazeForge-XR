@@ -1,0 +1,18 @@
+{
+  "source": "Original AI-authored iris stroma plate",
+  "generated_on": "2026-11-14",
+  "tool": "built-in image generation",
+  "file": "iris_stroma_master.png",
+  "sha256": "8796db733081e2f99e9ab60331d30145d87782d36e2cfdd60c984c9d2b267b01",
+  "dimensions": [
+    1254,
+    1254
+  ],
+  "center_px": [
+    623.3599241261641,
+    629.9070831466672
+  ],
+  "pupil_radius_px": 182.74082321536056,
+  "iris_radius_px": 566.7976716139028,
+  "role": "Appearance-only albedo source; remapped to the unchanged native iris annulus. No claim of measured human tissue or biometric ground truth."
+}

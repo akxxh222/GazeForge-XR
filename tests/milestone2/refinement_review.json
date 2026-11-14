@@ -1,0 +1,81 @@
+{
+  "status": "Milestone 2 remains in progress; Milestone 3 not started",
+  "checkpoint": "bef6cbe",
+  "date": "2026-11-14",
+  "changes": [
+    "Native cut-edge albedo feathering",
+    "Painted scalp-pattern blending and restrained lip tint",
+    "Reduced skin bump amplitude",
+    "Revised iris fibers, scleral variation and denser curled lashes",
+    "Constant review lighting and shader/render provenance checks"
+  ],
+  "seam_comparison": [
+    {
+      "look": "look_01",
+      "cut_samples": 426,
+      "before_p95_rgb_rms": 0.08397595025599003,
+      "after_p95_rgb_rms": 0.015973107423633337,
+      "relative_reduction_percent": 80.98,
+      "remaining_max_rgb_rms": 0.12564362585544586
+    },
+    {
+      "look": "look_02",
+      "cut_samples": 426,
+      "before_p95_rgb_rms": 0.20172812044620514,
+      "after_p95_rgb_rms": 0.03851039335131645,
+      "relative_reduction_percent": 80.91,
+      "remaining_max_rgb_rms": 0.19847412407398224
+    },
+    {
+      "look": "look_03",
+      "cut_samples": 426,
+      "before_p95_rgb_rms": 0.06553969345986843,
+      "after_p95_rgb_rms": 0.013139613904058933,
+      "relative_reduction_percent": 79.95,
+      "remaining_max_rgb_rms": 0.09231603145599365
+    },
+    {
+      "look": "look_04",
+      "cut_samples": 426,
+      "before_p95_rgb_rms": 0.08018514327704906,
+      "after_p95_rgb_rms": 0.011742323637008667,
+      "relative_reduction_percent": 85.36,
+      "remaining_max_rgb_rms": 0.07948869466781616
+    },
+    {
+      "look": "look_05",
+      "cut_samples": 426,
+      "before_p95_rgb_rms": 0.054917825385928154,
+      "after_p95_rgb_rms": 0.0110901587177068,
+      "relative_reduction_percent": 79.81,
+      "remaining_max_rgb_rms": 0.08115968853235245
+    }
+  ],
+  "validation": {
+    "texture_audit": {
+      "status": "PASS",
+      "passed": 117,
+      "failed": 0
+    },
+    "portability_report": {
+      "status": "PASS",
+      "passed": 80,
+      "failed": 0
+    },
+    "render_audit": {
+      "status": "PASS",
+      "passed": 70,
+      "failed": 0
+    }
+  },
+  "remaining_visual_defects": [
+    "Limited source facial resolution and blurred transferred detail",
+    "Broad tone transitions on scalp/temples and residual ear/lid/oral color differences",
+    "Brow and lash flow plus scleral/tear-film appearance need further artistic refinement",
+    "Reference-level photorealism has not been achieved"
+  ],
+  "prior_evidence": "work/milestone2_before_static_refinement/",
+  "new_preview_sheet": "tests/milestone2/contact_sheet.png",
+  "revision": "Previous UV/scalp refinement",
+  "superseded_by": "tests/milestone2/realism_refinement.json"
+}

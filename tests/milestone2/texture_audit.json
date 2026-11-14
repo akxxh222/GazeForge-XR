@@ -1,8 +1,38 @@
 {
   "status": "PASS",
-  "passed": 117,
+  "passed": 133,
   "failed": 0,
   "checks": [
+    {
+      "test": "Scan detail: attribution license recorded",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Scan detail: source checksum LeePerrySmith_License.txt",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Scan detail: source checksum Infinite-Level_02_Disp_NoSmoothUV-4096.jpg",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Iris source: checksum",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Iris source: generated appearance origin disclosed",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "Iris source: valid annulus registration",
+      "passed": true,
+      "details": null
+    },
     {
       "test": "look_01: source image hash",
       "passed": true,
@@ -10,6 +40,16 @@
     },
     {
       "test": "look_01: source license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: scan source attribution retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_01: iris source provenance retained",
       "passed": true,
       "details": null
     },
@@ -153,6 +193,16 @@
       "details": null
     },
     {
+      "test": "look_02: scan source attribution retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_02: iris source provenance retained",
+      "passed": true,
+      "details": null
+    },
+    {
       "test": "look_02: checksum eye_L_basecolor.png",
       "passed": true,
       "details": null
@@ -288,6 +338,16 @@
     },
     {
       "test": "look_03: source license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: scan source attribution retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_03: iris source provenance retained",
       "passed": true,
       "details": null
     },
@@ -431,6 +491,16 @@
       "details": null
     },
     {
+      "test": "look_04: scan source attribution retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_04: iris source provenance retained",
+      "passed": true,
+      "details": null
+    },
+    {
       "test": "look_04: checksum eye_L_basecolor.png",
       "passed": true,
       "details": null
@@ -566,6 +636,16 @@
     },
     {
       "test": "look_05: source license",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: scan source attribution retained",
+      "passed": true,
+      "details": null
+    },
+    {
+      "test": "look_05: iris source provenance retained",
       "passed": true,
       "details": null
     },
@@ -712,66 +792,66 @@
   "looks": [
     {
       "id": "look_01",
-      "skin_sha256": "dc0fcf15939dd536ad954ff15102377f55a940244e340bb8d3ca79080d6c29d2",
+      "skin_sha256": "5e862e03206e2a125b66e1e42d45addfe3b49f088902ca9f3e8cc60697fdb3b9",
       "seams": {
         "samples": 426,
-        "all_p95_rgb_rms": 0.08397595025599003,
-        "all_max_rgb_rms": 0.25104808807373047,
+        "all_p95_rgb_rms": 0.016003695782274008,
+        "all_max_rgb_rms": 0.12532272934913635,
         "front_samples": 211,
-        "front_p95_rgb_rms": 0.07477118819952011,
-        "front_max_rgb_rms": 0.25104808807373047,
+        "front_p95_rgb_rms": 0.036501046270132065,
+        "front_max_rgb_rms": 0.12532272934913635,
         "note": "Measured normalized RGB difference across native UV cut edges; supplemental evidence, not a photorealism score. Includes interior/oral joins."
       }
     },
     {
       "id": "look_02",
-      "skin_sha256": "0f9b5d4fa171a92779084b3050cf5551d8292710d4f3a81091cfd53c263b835b",
+      "skin_sha256": "e832c2774de4426bb4e63bcb20d7406b99586667eafe322d12d006cd7b230455",
       "seams": {
         "samples": 426,
-        "all_p95_rgb_rms": 0.20172812044620514,
-        "all_max_rgb_rms": 0.30285269021987915,
+        "all_p95_rgb_rms": 0.037642283365130424,
+        "all_max_rgb_rms": 0.1949828565120697,
         "front_samples": 211,
-        "front_p95_rgb_rms": 0.23721282184123993,
-        "front_max_rgb_rms": 0.30285269021987915,
+        "front_p95_rgb_rms": 0.06588190607726574,
+        "front_max_rgb_rms": 0.1949828565120697,
         "note": "Measured normalized RGB difference across native UV cut edges; supplemental evidence, not a photorealism score. Includes interior/oral joins."
       }
     },
     {
       "id": "look_03",
-      "skin_sha256": "f3a74294b173740cd9e370c45dd31d8d9e5671c20c513ad6eb9480d68a16458e",
+      "skin_sha256": "7d498512feef5bec917ee3ce2ea9e3c04a8abd5dea88e94acc81c9583929c0c6",
       "seams": {
         "samples": 426,
-        "all_p95_rgb_rms": 0.06553969345986843,
-        "all_max_rgb_rms": 0.18670840561389923,
+        "all_p95_rgb_rms": 0.013796384446322918,
+        "all_max_rgb_rms": 0.09017787128686905,
         "front_samples": 211,
-        "front_p95_rgb_rms": 0.08682838827371597,
-        "front_max_rgb_rms": 0.18670840561389923,
+        "front_p95_rgb_rms": 0.026119619607925415,
+        "front_max_rgb_rms": 0.09017787128686905,
         "note": "Measured normalized RGB difference across native UV cut edges; supplemental evidence, not a photorealism score. Includes interior/oral joins."
       }
     },
     {
       "id": "look_04",
-      "skin_sha256": "7176b7c19fa518565a7c839f3de4d06272a38c6a8e089e2656b91770e68fbb45",
+      "skin_sha256": "ab8b5ea92e6e53f44ce4ca6352fa031c0f1dda27f72a61dd3c1150999840ffbc",
       "seams": {
         "samples": 426,
-        "all_p95_rgb_rms": 0.08018514327704906,
-        "all_max_rgb_rms": 0.19834250211715698,
+        "all_p95_rgb_rms": 0.011779318796470761,
+        "all_max_rgb_rms": 0.07842583954334259,
         "front_samples": 211,
-        "front_p95_rgb_rms": 0.07778852432966232,
-        "front_max_rgb_rms": 0.16873501241207123,
+        "front_p95_rgb_rms": 0.023643668740987778,
+        "front_max_rgb_rms": 0.07842583954334259,
         "note": "Measured normalized RGB difference across native UV cut edges; supplemental evidence, not a photorealism score. Includes interior/oral joins."
       }
     },
     {
       "id": "look_05",
-      "skin_sha256": "e40d391e37780b4db8293fa2bd5fcf7f97a999fb2e2e0128a5d1135b70390556",
+      "skin_sha256": "575433d6fcf322207a702fc392a40bf0c8474105bdbf059c4660575914a4b914",
       "seams": {
         "samples": 426,
-        "all_p95_rgb_rms": 0.054917825385928154,
-        "all_max_rgb_rms": 0.1617169827222824,
+        "all_p95_rgb_rms": 0.011871723923832178,
+        "all_max_rgb_rms": 0.0810033306479454,
         "front_samples": 211,
-        "front_p95_rgb_rms": 0.07419324293732643,
-        "front_max_rgb_rms": 0.1617169827222824,
+        "front_p95_rgb_rms": 0.021176842041313648,
+        "front_max_rgb_rms": 0.0810033306479454,
         "note": "Measured normalized RGB difference across native UV cut edges; supplemental evidence, not a photorealism score. Includes interior/oral joins."
       }
     }

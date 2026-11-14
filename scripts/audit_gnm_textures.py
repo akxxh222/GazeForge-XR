@@ -48,11 +48,25 @@ def main():
     def check(name, passed, details=None):
         checks.append({'test': name, 'passed': bool(passed), 'details': details})
 
+    detail_folder = ROOT/'assets/skin_detail'
+    detail = json.loads((detail_folder/'manifest.json').read_text())
+    check('Scan detail: attribution license recorded', detail['license'] == 'CC-BY-3.0' and 'Perry-Smith' in detail['author'])
+    for info in detail['files']:
+        check('Scan detail: source checksum '+info['file'],
+              hashlib.sha256((detail_folder/info['file']).read_bytes()).hexdigest() == info['sha256'])
+    iris_folder = ROOT/'assets/iris'
+    iris = json.loads((iris_folder/'manifest.json').read_text())
+    check('Iris source: checksum', hashlib.sha256((iris_folder/iris['file']).read_bytes()).hexdigest() == iris['sha256'])
+    check('Iris source: generated appearance origin disclosed', 'AI-authored' in iris['source'] and 'ground truth' in iris['role'])
+    check('Iris source: valid annulus registration', 0 < iris['pupil_radius_px'] < iris['iris_radius_px'] < min(iris['dimensions'])/2)
+
     for folder in sorted((ROOT/'textures').glob('look_*')):
         manifest = json.loads((folder/'manifest.json').read_text())
         key = folder.name
         check(key+': source image hash', hashlib.sha256((ROOT/manifest['source_image']).read_bytes()).hexdigest() == manifest['source_sha256'])
         check(key+': source license', manifest['source_license'] == 'CC0-1.0')
+        check(key+': scan source attribution retained', manifest.get('skin_detail_source', {}).get('license') == 'CC-BY-3.0')
+        check(key+': iris source provenance retained', manifest.get('iris_source', {}).get('sha256') == iris['sha256'])
         for name, info in manifest['files'].items():
             path = folder/name
             check(key+': checksum '+name, hashlib.sha256(path.read_bytes()).hexdigest() == info['sha256'])

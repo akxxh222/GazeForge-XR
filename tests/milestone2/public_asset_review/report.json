@@ -1,0 +1,218 @@
+{
+  "status": "PASS",
+  "passed": 46,
+  "failed": 0,
+  "checks": [
+    {
+      "test": "GNM_skin native UVs exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "GNM_skin native topology exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "GNM_skin native Basis geometry unchanged",
+      "passed": true
+    },
+    {
+      "test": "Eye_L native UVs exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "Eye_L native topology exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "Eye_L native Basis geometry unchanged",
+      "passed": true
+    },
+    {
+      "test": "Eye_L native shape-key Basis equals mesh",
+      "passed": true
+    },
+    {
+      "test": "Eye_L aperture centroid agrees with geometric label",
+      "passed": true
+    },
+    {
+      "test": "Eye_L spherical exterior untouched by constriction",
+      "passed": true
+    },
+    {
+      "test": "Eye_L adapted iris retains source credit/license",
+      "passed": true
+    },
+    {
+      "test": "Eye_R native UVs exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "Eye_R native topology exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "Eye_R native Basis geometry unchanged",
+      "passed": true
+    },
+    {
+      "test": "Eye_R native shape-key Basis equals mesh",
+      "passed": true
+    },
+    {
+      "test": "Eye_R aperture centroid agrees with geometric label",
+      "passed": true
+    },
+    {
+      "test": "Eye_R spherical exterior untouched by constriction",
+      "passed": true
+    },
+    {
+      "test": "Eye_R adapted iris retains source credit/license",
+      "passed": true
+    },
+    {
+      "test": "GNM_upper_teeth_and_gums native UVs exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "GNM_upper_teeth_and_gums native topology exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "GNM_upper_teeth_and_gums native Basis geometry unchanged",
+      "passed": true
+    },
+    {
+      "test": "GNM_lower_teeth_and_gums native UVs exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "GNM_lower_teeth_and_gums native topology exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "GNM_lower_teeth_and_gums native Basis geometry unchanged",
+      "passed": true
+    },
+    {
+      "test": "GNM_tongue native UVs exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "GNM_tongue native topology exactly unchanged",
+      "passed": true
+    },
+    {
+      "test": "GNM_tongue native Basis geometry unchanged",
+      "passed": true
+    },
+    {
+      "test": "imported scalp curves have finite positions and tapered radii",
+      "passed": true
+    },
+    {
+      "test": "imported scalp groom follows rigid head transforms",
+      "passed": true
+    },
+    {
+      "test": "512 sampled groom roots within 0.10 mm of scalp",
+      "passed": true
+    },
+    {
+      "test": "sampled segment centers clear the scalp within 1 micrometer numerical tolerance",
+      "passed": true
+    },
+    {
+      "test": "left preserves both physical eye centers",
+      "passed": true
+    },
+    {
+      "test": "left geometric projections move in commanded direction",
+      "passed": true
+    },
+    {
+      "test": "right preserves both physical eye centers",
+      "passed": true
+    },
+    {
+      "test": "right geometric projections move in commanded direction",
+      "passed": true
+    },
+    {
+      "test": "up preserves both physical eye centers",
+      "passed": true
+    },
+    {
+      "test": "up geometric projections move in commanded direction",
+      "passed": true
+    },
+    {
+      "test": "down preserves both physical eye centers",
+      "passed": true
+    },
+    {
+      "test": "down geometric projections move in commanded direction",
+      "passed": true
+    },
+    {
+      "test": "neutral reset reproduces all geometric labels exactly",
+      "passed": true
+    },
+    {
+      "test": "locked 40 cm calibrated camera",
+      "passed": true
+    },
+    {
+      "test": "neutral fixation stays 35 cm ahead",
+      "passed": true
+    },
+    {
+      "test": "all seven texture images are packed",
+      "passed": true
+    },
+    {
+      "test": "embedded mixed-source asset credits present",
+      "passed": true
+    },
+    {
+      "test": "eye actual preview is 1024x1024",
+      "passed": true
+    },
+    {
+      "test": "front actual preview is 1024x1024",
+      "passed": true
+    },
+    {
+      "test": "side actual preview is 1024x1024",
+      "passed": true
+    }
+  ],
+  "scene": "work\\review\\cyberpunk\\IRISX_ASSET_REVIEW.blend",
+  "scene_sha256": "ff4ee3a19ada4640bb4d188924efd473483b2740917993b8f5ac0ff89c14cf1c",
+  "groom": {
+    "strand_count": 47251,
+    "sampled_strands": 512,
+    "max_root_distance_m": 3.0058583433856256e-05,
+    "min_segment_signed_clearance_m": 2.9624674127148864e-05
+  },
+  "renders": {
+    "eye": {
+      "path": "work\\review\\cyberpunk\\asset_eye_test.png",
+      "sha256": "d0a7b591b9ced936f6ac25171fba5729019e6f1cc8b74fd2c4378d2c527419fe",
+      "bytes": 1228840
+    },
+    "front": {
+      "path": "work\\review\\cyberpunk\\asset_front_test.png",
+      "sha256": "6bfa353d94e3baf85b8af44ac37228b125e9eb007f16f2aeef30c280bc0cebe9",
+      "bytes": 1051881
+    },
+    "side": {
+      "path": "work\\review\\cyberpunk\\asset_side_test.png",
+      "sha256": "2fd06672030f85b200da5fa77eed92c708b223e01d93dc40917cb77fb0c27485",
+      "bytes": 1110353
+    }
+  },
+  "visual_acceptance": "Pending; no photorealism score inferred from engineering checks.",
+  "scope": "Native Basis/UV/topology, pupil shape-key centroid, source credits, sampled groom fit, geometric direction/reset and metric capture. No apparent-refraction labels, animated attachment or reference-level realism certification."
+}

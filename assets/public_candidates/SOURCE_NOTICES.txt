@@ -1,0 +1,28 @@
+Downloaded source attribution notices (not executable):
+
+
+Credits:
+Daniel Bystedt. CC BY-SA license
+
+www.twitter.com/3dbystedt
+www.artstation.com/artist/dbystedt
+
+
+Text
+===============
+Splash Fox
+
+Blender 2.90 Splash Screen 
+
+Credits: Daniel Bystedt - License CC-BY-SA 3.0
+
+https://www.artstation.com/dbystedt
+https://twitter.com/3DBystedt
+
+===============
+
+Plaster textures from https://texturehaven.com/
+
+===============
+
+Switch between the different workspace tabs in the top to see more information about this Blender file.

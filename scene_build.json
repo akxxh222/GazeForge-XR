@@ -1,0 +1,44 @@
+{
+  "native_before": {
+    "GNM_skin": {
+      "basis": "e1134b4d5933af93e621d34507eb4a8fc8c5be3ad632933af0eb3d549166e033",
+      "uv": "54d953d8b6a254824df836c54ed6e4eea43a226e3b7b031900be9a5fdbd9d26d",
+      "polygons": "c11bdaafe03352c13dcd3594f802392ab7cfb9a2c59e1c4c4efbb86551a575b6"
+    },
+    "Eye_L": {
+      "basis": "3d4301b7a8c8b65c4f348b92ed2d4074fa52bfebab10cda4f08a4bfee185d938",
+      "uv": "1ccd8c3eff4b277859f9eccba6ab54c2d452c5b90954d245e0360b0b5180f22a",
+      "polygons": "6434a1d37e4a02c12a2ef8cc3e4fa833c4f47aad0f497ca3cd2438c60f50ddd0"
+    },
+    "Eye_R": {
+      "basis": "7a5715fe802cd9c3f0d14f889c0740c277df7d0d51f11752d67e159f13a0ed1c",
+      "uv": "a65d0876395b0c4bbc7a57b7517ad7dc18cf6d8e8f58fafec208560180f200f6",
+      "polygons": "21a5f67f3a4775945acd17fc579b53433805e7785be1e34535510e7b4b31e452"
+    },
+    "GNM_upper_teeth_and_gums": {
+      "basis": "032cc9202f6100f54f6ae4105778f0a14e683e8f3702c06b3ba232b4d47ddf22",
+      "uv": "0ccb23e239e10b226e2f96d25b9ef34abd97c5e3314f244b02dccd0d7083bcfd",
+      "polygons": "78c1bce9fce88decf092a89f8e902769ea4d4fefe38585f2f542d5ab5cf2e126"
+    },
+    "GNM_lower_teeth_and_gums": {
+      "basis": "7cf18f507fe4f739ea7cc67b402267fbdefe10bde6c6e84bf041c99511a0adb7",
+      "uv": "1248229cdd23b44b47d72879d9b1af8f222d7c6469991624a8495b592edd687e",
+      "polygons": "68dbc35580697583164d594c75311864e7f53026fe0650884b62528f2909e2bb"
+    },
+    "GNM_tongue": {
+      "basis": "748f6b3bbbae299be35bb7a7ba5ec9d47343c9602b9da832c996df2c175fb4ed",
+      "uv": "b471c625a7b55feb688b041c41fbf2198149fe22831f4775f225311bcb4835a3",
+      "polygons": "c2c223e856f53ae3a1d7d773aca4b59ac7f1fe960da8aa27bd88627f41b8d089"
+    }
+  },
+  "scene_sha256": "46b09e753c9f0941f3177f318d7d5695dced3e15712a597c6d5ae00940a01f17",
+  "removed_unused_objects": [
+    "Lashes_upper_L",
+    "Tear_meniscus_L",
+    "Lashes_lower_L",
+    "Lashes_upper_R",
+    "Tear_meniscus_R",
+    "Lashes_lower_R",
+    "Scalp_swept_back_hair"
+  ]
+}

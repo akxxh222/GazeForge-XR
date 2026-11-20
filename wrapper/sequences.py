@@ -16,7 +16,7 @@ from mathutils import Vector
 from . import eyes, lids, expressions
 
 ROOT = Path(__file__).resolve().parents[1]
-DEFAULT_SCENE = ROOT / 'work/milestone3/final/IRISX_MILESTONE3.blend'
+DEFAULT_SCENE = ROOT / 'scene.blend'
 MODES = ('left', 'right', 'generate_motion')
 LOOKS = tuple(f'look_{i:02d}' for i in range(1, 6))
 
@@ -55,56 +55,11 @@ def validate_options(mode, texture_id, duration_s, fps, resolution, samples):
 
 
 def _apply_look(texture_id):
-    """Swap native image channels while preserving the accepted optical rig.
-
-    look_01 uses the packed hero exactly. Other looks retain its iris network
-    with a restrained palette variation; they remain Milestone 2 drafts.
-    Skin-sharing canthal materials are swapped together, avoiding a stale rim.
-    """
-    if texture_id == 'look_01':
-        return {'id': texture_id, 'method': 'Unmodified packed Milestone 3 appearance'}
-    folder = ROOT / 'textures' / texture_id
-    manifest = json.loads((folder / 'manifest.json').read_text(encoding='utf-8'))
-    head = bpy.data.objects['GNM_skin']
-    skin = head.data.materials[0]
-    replacements = {}
-    specs = [(skin, 'skin')]
-    for side in ('L', 'R'):
-        specs.append((bpy.data.objects['Eye_' + side].data.materials[0], 'eye_' + side))
-    for original, prefix in specs:
-        material = original.copy()
-        material.name = texture_id + '/' + prefix + ' | sequence'
-        for node in material.node_tree.nodes:
-            if node.type != 'TEX_IMAGE' or not node.image:
-                continue
-            name = Path(node.image.filepath).name or node.image.name.split('.')[0] + '.png'
-            if not name.startswith(prefix + '_'):
-                continue
-            path = folder / name
-            expected = manifest['files'][name]['sha256']
-            if sha(path) != expected:
-                raise ValueError('Texture checksum mismatch: ' + str(path))
-            image = bpy.data.images.load(str(path), check_existing=False)
-            image.colorspace_settings.name = 'sRGB' if name.endswith('basecolor.png') else 'Non-Color'
-            image.pack()
-            node.image = image
-        replacements[original] = material
-    for obj in bpy.context.scene.objects:
-        if hasattr(obj.data, 'materials'):
-            for i, material in enumerate(obj.data.materials):
-                if material in replacements:
-                    obj.data.materials[i] = replacements[material]
-    # Preserve layered native cornea/pupil and attributed public iris detail.
-    for side in ('L', 'R'):
-        eye = bpy.data.objects['Eye_' + side]
-        material = eye.data.materials[1].copy()
-        material.name = texture_id + '/Adapted iris ' + side
-        hue = next(n for n in material.node_tree.nodes if n.type == 'HUE_SAT')
-        hue.inputs['Hue'].default_value = {'look_02': .48, 'look_03': .57, 'look_04': .63, 'look_05': .47}[texture_id]
-        eye.data.materials[1] = material
-    return {'id': texture_id, 'manifest_sha256': sha(folder / 'manifest.json'),
-            'method': 'Native skin/sclera image swap; packed attributed iris with palette variation',
-            'status': 'Draft look; Milestone 2 reference-level visual acceptance remains open'}
+    """Apply the exported maps to the native material regions."""
+    if not bpy.context.scene.get('portable_look_schema'):
+        raise ValueError('Load the submitted scene before applying a texture look')
+    from .submission_looks import apply_look
+    return apply_look(texture_id)
 
 
 def capture_contract():

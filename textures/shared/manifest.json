@@ -1,0 +1,14 @@
+{
+  "files": {
+    "eye_L_height.png": {
+      "sha256": "7b9694160be44ecca49e0f3480dcfbbd98b3641c948589184ba7829ab236d953",
+      "bytes": 1698081
+    },
+    "eye_R_height.png": {
+      "sha256": "7b9694160be44ecca49e0f3480dcfbbd98b3641c948589184ba7829ab236d953",
+      "bytes": 1698081
+    }
+  },
+  "source": "CC0 MakeHuman green_eye.png; registered scleral luminance detail; center filled flat",
+  "source_sha256": "b9864ac4f4fa484b24e18f6aba030d70dbc8820cbbacfbe63a974c76772c2009"
+}

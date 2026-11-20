@@ -1,0 +1,25 @@
+{
+  "scene_sha256": "46b09e753c9f0941f3177f318d7d5695dced3e15712a597c6d5ae00940a01f17",
+  "materials": {
+    "GNM_skin": {
+      "0": "look_01 | surface review skin.001"
+    },
+    "Eye_L": {
+      "0": "look_01 | subtle vascular sclera L.001",
+      "1": "look_01 | CC0 radial green iris L.001",
+      "2": "GNM pupil aperture",
+      "3": "IrisX | cornea with bounded shadow transmission L"
+    },
+    "Eye_R": {
+      "0": "look_01 | subtle vascular sclera R.001",
+      "1": "look_01 | CC0 radial green iris R.001",
+      "2": "GNM pupil aperture",
+      "3": "IrisX | cornea with bounded shadow transmission R"
+    }
+  },
+  "native_uv_sha256": {
+    "GNM_skin": "54d953d8b6a254824df836c54ed6e4eea43a226e3b7b031900be9a5fdbd9d26d",
+    "Eye_L": "1ccd8c3eff4b277859f9eccba6ab54c2d452c5b90954d245e0360b0b5180f22a",
+    "Eye_R": "a65d0876395b0c4bbc7a57b7517ad7dc18cf6d8e8f58fafec208560180f200f6"
+  }
+}

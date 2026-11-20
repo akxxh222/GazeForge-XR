@@ -28,6 +28,13 @@ def move(h:float,v:float)->None:
         if isinstance(x,bool) or not isinstance(x,numbers.Real): raise TypeError(name+' must be a real number')
         if not math.isfinite(x) or not -1<=x<=1: raise ValueError(name+' must be finite and in [-1,1]')
     scene,rig=_scene()
+    # Manual gaze takes ownership of the eye controllers. A render evaluates
+    # animation again, which otherwise replaces the requested target with the
+    # saved timeline pose. use_action() reattaches the selected timeline bundle;
+    # expressions.manual() also restores its captured actions on context exit.
+    for owner in (rig,bpy.data.objects['FixationTarget']):
+        if owner.animation_data and owner.animation_data.action:
+            owner.animation_data.action=None
     # The target occupies a square +/- 5 cm in the frontal plane at 35 cm.
     # Circular samples lie on a 5 cm radius circle in that plane.
     target=midpoint()+Vector((float(h)*.05,-.35,float(v)*.05))

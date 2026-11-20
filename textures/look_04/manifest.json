@@ -1,72 +1,54 @@
 {
   "id": "look_04",
   "label": "Ginger / blue grey",
-  "source_material": "toigo_light_skin_male_ginger",
-  "source_image": "work/source_skins/skins/toigo_light_skin_male_ginger/young_lightskinned_male_diffuse_Ginger.png",
-  "source_sha256": "795eec22b27ba5a2527d99e60a31be61e06a45a39250c39b24b36438e963c4aa",
-  "source_license": "CC0-1.0",
-  "source_author": "MargaretToigo",
-  "face_resolution": [
-    4096,
-    4096
-  ],
-  "eye_resolution": [
-    2048,
-    2048
-  ],
-  "skin_height_encoding": "16-bit UNORM; shader bump distance defines physical amplitude",
-  "eye_uv_contract": "GNM native eye-interior disk; pupil radius .04985 UV, iris radius .18492 UV; separate L/R maps",
   "native_uvs": "Unchanged GNM Head 3.0 per-region quad_uvs",
-  "seam_refinement": {
-    "method": "Paired native cut-edge color constraints with smooth local correction on both charts",
-    "dense_paired_samples": 20212,
-    "iterations": 4,
-    "feather_width_px": 18,
-    "p95_rgb_rms_before": 0.03740032855421307,
-    "p95_rgb_rms_after": 0.00605955687351525,
-    "scope": "Albedo cut continuity only; render review still required. Geometry and UV coordinates are unchanged."
+  "status": "Submission texture set",
+  "source_license": "CC0-1.0 primary skin and eye sources; CC-BY-3.0 scan skin detail",
+  "eye_source": {
+    "file": "assets/eye_refinement/green_eye.png",
+    "sha256": "b9864ac4f4fa484b24e18f6aba030d70dbc8820cbbacfbe63a974c76772c2009",
+    "license": "CC0-1.0"
   },
-  "status": "Generated; visual/portability review pending",
   "skin_detail_source": {
-    "file": "assets/skin_detail/Infinite-Level_02_Disp_NoSmoothUV-4096.jpg",
-    "license": "CC-BY-3.0",
     "author": "Lee Perry-Smith / Infinite-Realities",
-    "method": "Landmark-registered frontal high-frequency detail; native UVs unchanged; authored amplitude, not measured deformation"
+    "license": "CC-BY-3.0",
+    "color_dimensions": [
+      4096,
+      4096
+    ],
+    "height_dimensions": [
+      6000,
+      6000
+    ]
   },
-  "iris_source": {
-    "file": "assets/iris/iris_stroma_master.png",
-    "sha256": "8796db733081e2f99e9ab60331d30145d87782d36e2cfdd60c984c9d2b267b01",
-    "origin": "Original AI-authored appearance texture; source pupil and limbus registered to native GNM annulus"
-  },
-  "modifications": "CC0 diffuse transferred onto native GNM UVs, scalp/lip corrections, seam feathering and attributed scan microdetail. Original iris plate annulus-registered and color-varied per look; procedural scleral vessels. No metric or photographic ground-truth claim for the appearance assets.",
   "files": {
-    "eye_L_basecolor.png": {
-      "sha256": "2125435e85c43b3db476b45e015674a254afa0a6458b3c1e7dcf4d16aa9f746c",
-      "bytes": 1489817
+    "eye_L_iris_basecolor.png": {
+      "sha256": "55e1aa55f21b4130795bab53f355c916db1d801072eff0143577a7a8025d5f5c",
+      "bytes": 3600758
     },
-    "eye_L_height.png": {
-      "sha256": "bc515ae29720592dde363989711db425b20f26f6cdf1054da9cd8640f324357e",
-      "bytes": 750154
+    "eye_L_sclera_basecolor.png": {
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
     },
-    "eye_R_basecolor.png": {
-      "sha256": "bdae38e3f0d4982f5d9ec6c6e8574a7477f134548346ee9c4d3238bdf5d3e091",
-      "bytes": 1465549
+    "eye_R_iris_basecolor.png": {
+      "sha256": "c1d6ca71519d757253ab59eb3e0b93be5dcb2bbc024611eb5ab38cdd9d422943",
+      "bytes": 3600758
     },
-    "eye_R_height.png": {
-      "sha256": "6668535be92052708978c4f503d3f4f6dfe74d20bd3cb50ae4d8436baad984dd",
-      "bytes": 745410
+    "eye_R_sclera_basecolor.png": {
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
     },
     "skin_basecolor.png": {
-      "sha256": "ab8b5ea92e6e53f44ce4ca6352fa031c0f1dda27f72a61dd3c1150999840ffbc",
-      "bytes": 11897480
+      "sha256": "187bdf245d5ccd8da97529032c551e3748daa44ffbd4851ca75cfda8691e3f0a",
+      "bytes": 11131360
     },
     "skin_coverage.png": {
       "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
       "bytes": 33526
     },
     "skin_height.png": {
-      "sha256": "093e4e6ac47cb1ec12d71bb8a9f47722edb86626a789707d5eae84654a20c771",
-      "bytes": 25767323
+      "sha256": "2cd982a51093c9a8a4d699e672231168fb99cfebdbc4b95b007ea61bf2cd182e",
+      "bytes": 23435709
     },
     "skin_roughness.png": {
       "sha256": "c09d25fcaff692454fb9e7a086d4201dce9cf75715ea6b75f3d28bd52df88e41",

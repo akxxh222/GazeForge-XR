@@ -107,8 +107,8 @@ def eye_crop(frame, pose, size=256):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--input', type=Path, default=ROOT/'work/milestone4/capture')
-    parser.add_argument('--output', type=Path, default=ROOT/'tests/milestone4')
+    parser.add_argument('--input', type=Path, default=ROOT/'runtime/capture')
+    parser.add_argument('--output', type=Path, default=ROOT/'runtime/audit')
     parser.add_argument('--partial', action='store_true')
     args = parser.parse_args()
     folder, output = args.input.resolve(), args.output.resolve()
@@ -333,7 +333,7 @@ def main():
               'passed': sum(c['passed'] for c in checks), 'failed': failed, 'checks': checks,
               'missing': missing, 'modes': modes, 'clockwise': clockwise,
               'validator_sha256': sha(Path(__file__)),
-              'scope': 'Actual decoded video/source order, calibrated geometric labels and temporal image metrics. Pinhole labels are not apparent refracted centroids; visual review is separate. M2 photorealism remains open.'}
+              'scope': 'Actual decoded video/source order, calibrated geometric labels and temporal image metrics. Pinhole labels are not apparent refracted centroids; visual review is separate. Appearance limits are documented separately.'}
     (output/('progress.json' if args.partial else 'report.json')).write_text(json.dumps(report, indent=2, allow_nan=False)+'\n', encoding='utf-8')
     print('IRISX_CAPTURE_AUDIT', report['status'], report['passed'], failed, 'missing', missing)
     if failed:

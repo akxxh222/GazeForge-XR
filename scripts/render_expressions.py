@@ -17,8 +17,11 @@ def main():
     parser.add_argument('--fps', type=int, default=24)
     parser.add_argument('--resolution', type=int, default=720)
     parser.add_argument('--samples', type=int, default=64)
-    parser.add_argument('--output', type=Path, default=ROOT / 'work/milestone4/capture')
-    parser.add_argument('--scene', type=Path, default=DEFAULT_SCENE)
+    packaged = (ROOT / 'submission.json').is_file()
+    parser.add_argument('--output', type=Path, default=ROOT / ('runtime/capture' if packaged else 'work/milestone4/capture'))
+    packaged_scene = ROOT / 'scene.blend'
+    default_scene = packaged_scene if (ROOT / 'submission.json').is_file() else DEFAULT_SCENE
+    parser.add_argument('--scene', type=Path, default=default_scene)
     parser.add_argument('--official', action='store_true')
     parser.add_argument('--official-only', action='store_true')
     parser.add_argument('--official-samples', type=int, default=128)

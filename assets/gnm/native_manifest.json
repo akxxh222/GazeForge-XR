@@ -76,6 +76,5 @@
       "native_uv_sha256": "b471c625a7b55feb688b041c41fbf2198149fe22831f4775f225311bcb4835a3"
     }
   ],
-  "draft_scene": "work/gnm/scene_baseline.blend",
   "modifications": "Rigid coordinate conversion, component separation, eye rig, draft materials and subdivision. Original vertex/face IDs and native UVs retained."
 }

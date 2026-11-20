@@ -1,0 +1,17 @@
+{
+  "author": "Lee Perry-Smith / Infinite-Realities; format conversion Morgan McGuire and Guedis Cardenas; Unity distribution Keijiro Takahashi",
+  "license": "CC-BY-3.0",
+  "color_dimensions": [
+    4096,
+    4096
+  ],
+  "height_dimensions": [
+    6000,
+    6000
+  ],
+  "height_bit_depth": 16,
+  "color_sha256": "4fc7297835e2081cb914d1a8507fc837687102eed7bd3c6bed25b72960a09e08",
+  "height_sha256": "18a3eeff4c3c704e3134282ac3c868ce50cadb6c8f3e27af0e05314b752e2e4b",
+  "color_url": "https://raw.githubusercontent.com/keijiro/InfiniteScan/150b6c46ebb6a011b93ed2e0fee9b612df78281b/Assets/InfiniteScan/Textures/lambertian.jpg",
+  "height_url": "https://raw.githubusercontent.com/NVIDIAGameWorks/FaceWorks/1624b67e26b984d393f053fbf2761e5c6207b44e/samples/media/LPSHead/bump.png"
+}

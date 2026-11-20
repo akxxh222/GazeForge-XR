@@ -1,0 +1,90 @@
+{
+  "team": "VITChennai_IrisX",
+  "status": "PASS",
+  "scene_sha256": "46b09e753c9f0941f3177f318d7d5695dced3e15712a597c6d5ae00940a01f17",
+  "checks": {
+    "scene": {
+      "passed": 1388,
+      "failed": 0,
+      "report": "scene.json",
+      "sha256": "fac0a9446523e3d6760e1a498c7a644ca2a13bb77dd408ded8ad90b07b7ab14a"
+    },
+    "anatomy": {
+      "passed": 51,
+      "failed": 0,
+      "report": "anatomy.json",
+      "sha256": "e9507940d7f3939b0a32414e5964146cf357ea5dff2cef45a56b660665b7df58"
+    },
+    "native_application": {
+      "passed": 55,
+      "failed": 0,
+      "report": "native_application.json",
+      "sha256": "082b5b2f0d93295ab618a210d40d014ea1963c48e1ce1d9ecff14d39d1087a2c"
+    },
+    "capture": {
+      "passed": 5419,
+      "failed": 0,
+      "report": "capture.json",
+      "sha256": "60554b72cf6859829630f207f00fb75ce2b3cf27d8fcce45473a0097ddd0e878"
+    },
+    "looks": {
+      "passed": 112,
+      "failed": 0,
+      "report": "looks.json",
+      "sha256": "f4738839562b7a99768a7726f45ae3f9527998f82f12029185435093160f2450"
+    },
+    "directions": {
+      "passed": 27,
+      "failed": 0,
+      "report": "directions.json",
+      "sha256": "27cecbd7b88a408c86049ad95dfea8588a29298af1b50f6093c946faa50d3bbf"
+    }
+  },
+  "rendered_video_frames": 432,
+  "official_images": 10,
+  "native_looks": 5,
+  "render_settings": {
+    "videos": {
+      "frames_each": 144,
+      "fps": 24,
+      "resolution": [
+        720,
+        720
+      ],
+      "samples": 96
+    },
+    "official": {
+      "resolution": [
+        1024,
+        1024
+      ],
+      "samples": 192
+    }
+  },
+  "visual_review": {
+    "scope": "Actual generated footage, five native looks, all clockwise samples and sampled full blink images.",
+    "notes": [
+      "Both pupils are visible and follow the shared target.",
+      "The final groom, lid margin and skin detail remain authored approximations.",
+      "This is not a biological validation or a photorealism score."
+    ]
+  },
+  "fresh_extraction": {
+    "status": "PASS",
+    "report": "fresh_extraction.json",
+    "passed": 38,
+    "scope": "Fresh extraction only: three one-second clips at 4 fps, 128px, one sample, plus ten 1024px one-sample clockwise renders. All three commands completed; decoded smoke frames and geometric metadata match. The supplied six-second media were separately rendered and checked in full. This is not a second full-quality rerender."
+  },
+  "presentation": {
+    "slides": 9,
+    "package_and_layout": "PASS",
+    "visual_review": "All nine exported slide previews reviewed.",
+    "file": "demo/presentation.pptx",
+    "sha256": "de10b8501a275d86ed74c9c27e393ffeae690594d8b09e509a99a712e90ea4ed"
+  },
+  "overview": {
+    "status": "PASS",
+    "frames": 2160,
+    "duration_s": 90
+  }
+}

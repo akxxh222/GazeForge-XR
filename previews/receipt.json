@@ -1,0 +1,1166 @@
+{
+  "schema": "IrisX five-look render 1",
+  "scene_sha256": "46b09e753c9f0941f3177f318d7d5695dced3e15712a597c6d5ae00940a01f17",
+  "renderer_sha256": "5dffa8361051300614e5d61a70376ca2c4b91e90f916eef0e6e43730b94bed34",
+  "looks": [
+    {
+      "id": "look_01",
+      "appearance": {
+        "id": "look_01",
+        "method": "Explicit portable native skin/sclera/iris maps; original layered optical rig retained",
+        "manifest_sha256": "f86b702d541b23b136c47a2376552879efa820a631eaf09290ded06091a7321e",
+        "application_module_sha256": "250ca832db01c094f82ea6a3c4796e7b7e6f6d251ee987d50a611579c9ead41a",
+        "status": "Submission texture set"
+      },
+      "device": "OPTIX: NVIDIA GeForce RTX 3050 Laptop GPU",
+      "renders": [
+        {
+          "file": "look_01_front.png",
+          "sha256": "9befd12f2fb2ec4b03315f533668d1d58639091fb118d27393acd023ff4153ab",
+          "camera": "RenderCamera",
+          "seconds": 12.929458999977214,
+          "state": {
+            "frame": 0,
+            "theta": 0.0,
+            "input": {
+              "h": 0.0,
+              "v": 0.0
+            },
+            "camera_matrix": [
+              [
+                1137.77783203125,
+                512.0,
+                8.341539069078863e-05,
+                204.8000030517578
+              ],
+              [
+                0.0,
+                512.0001831054688,
+                -1137.7777099609375,
+                204.80007934570312
+              ],
+              [
+                0.0,
+                1.0,
+                1.6292068494294654e-07,
+                0.4000000059604645
+              ]
+            ],
+            "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+            "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+            "fixation_world_m": [
+              0.0,
+              -0.3499999940395355,
+              0.0
+            ],
+            "eye_rotation_L": [
+              -7.327558705583215e-05,
+              -0.0,
+              3.053680896759033
+            ],
+            "eye_quaternion_wxyz_L": [
+              0.04394174739718437,
+              -1.6099286312964978e-06,
+              -3.6602403270080686e-05,
+              0.9990341067314148
+            ],
+            "pupil_center_3D_L": [
+              0.02973792515695095,
+              -0.012771597132086754,
+              -4.576235733111389e-05
+            ],
+            "pupil_center_2D_L": [
+              599.3777465820312,
+              512.1346435546875
+            ],
+            "eye_center_3D_L": [
+              0.030852630734443665,
+              4.524737596511841e-05,
+              2.574920654296875e-05
+            ],
+            "eye_rotation_R": [
+              7.329439540626481e-05,
+              4.547473508864641e-13,
+              -3.0536582469940186
+            ],
+            "eye_quaternion_wxyz_R": [
+              0.04395304247736931,
+              1.610755930414598e-06,
+              -3.661177834146656e-05,
+              -0.9990336298942566
+            ],
+            "pupil_center_3D_R": [
+              -0.029753273352980614,
+              -0.012863293290138245,
+              -9.808775212150067e-05
+            ],
+            "pupil_center_2D_R": [
+              424.5564270019531,
+              512.2884521484375
+            ],
+            "eye_center_3D_R": [
+              -0.030852630734443665,
+              -4.525482654571533e-05,
+              -2.574920654296875e-05
+            ],
+            "opening_L": 1.0,
+            "opening_R": 1.0,
+            "brow_raise": {
+              "L": 0.0,
+              "R": 0.0
+            },
+            "pupil_constriction": {
+              "L": 0.699999988079071,
+              "R": 0.699999988079071
+            },
+            "lid_follow": {
+              "Up_L": 0.0,
+              "Down_L": 0.0,
+              "Up_R": 0.0,
+              "Down_R": 0.0
+            }
+          }
+        },
+        {
+          "file": "look_01_eyes.png",
+          "sha256": "78ab2c66a608595a03e6a64882939ee8e87b0823c660aea441a67a120dd24432",
+          "camera": "Review_macro",
+          "seconds": 16.281470099987928,
+          "state": {
+            "frame": 0,
+            "theta": 0.0,
+            "input": {
+              "h": 0.0,
+              "v": 0.0
+            },
+            "camera_matrix": [
+              [
+                4124.4443359375,
+                512.0,
+                8.341539069078863e-05,
+                204.8000030517578
+              ],
+              [
+                0.0,
+                512.0006713867188,
+                -4124.4443359375,
+                204.80027770996094
+              ],
+              [
+                0.0,
+                1.0,
+                1.6292068494294654e-07,
+                0.4000000059604645
+              ]
+            ],
+            "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+            "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+            "fixation_world_m": [
+              0.0,
+              -0.3499999940395355,
+              0.0
+            ],
+            "eye_rotation_L": [
+              -7.327558705583215e-05,
+              -0.0,
+              3.053680896759033
+            ],
+            "eye_quaternion_wxyz_L": [
+              0.04394174739718437,
+              -1.6099286312964978e-06,
+              -3.6602403270080686e-05,
+              0.9990341067314148
+            ],
+            "pupil_center_3D_L": [
+              0.02973792515695095,
+              -0.012771597132086754,
+              -4.576235733111389e-05
+            ],
+            "pupil_center_2D_L": [
+              828.744384765625,
+              512.4880981445312
+            ],
+            "eye_center_3D_L": [
+              0.030852630734443665,
+              4.524737596511841e-05,
+              2.574920654296875e-05
+            ],
+            "eye_rotation_R": [
+              7.329439540626481e-05,
+              4.547473508864641e-13,
+              -3.0536582469940186
+            ],
+            "eye_quaternion_wxyz_R": [
+              0.04395304247736931,
+              1.610755930414598e-06,
+              -3.661177834146656e-05,
+              -0.9990336298942566
+            ],
+            "pupil_center_3D_R": [
+              -0.029753273352980614,
+              -0.012863293290138245,
+              -9.808775212150067e-05
+            ],
+            "pupil_center_2D_R": [
+              195.01707458496094,
+              513.0456848144531
+            ],
+            "eye_center_3D_R": [
+              -0.030852630734443665,
+              -4.525482654571533e-05,
+              -2.574920654296875e-05
+            ],
+            "opening_L": 1.0,
+            "opening_R": 1.0,
+            "brow_raise": {
+              "L": 0.0,
+              "R": 0.0
+            },
+            "pupil_constriction": {
+              "L": 0.699999988079071,
+              "R": 0.699999988079071
+            },
+            "lid_follow": {
+              "Up_L": 0.0,
+              "Down_L": 0.0,
+              "Up_R": 0.0,
+              "Down_R": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "look_02",
+      "appearance": {
+        "id": "look_02",
+        "method": "Explicit portable native skin/sclera/iris maps; original layered optical rig retained",
+        "manifest_sha256": "2179bc22909064220429ef4f251665cac54c91fd6855302048dea5edba34cc5c",
+        "application_module_sha256": "250ca832db01c094f82ea6a3c4796e7b7e6f6d251ee987d50a611579c9ead41a",
+        "status": "Submission texture set"
+      },
+      "device": "OPTIX: NVIDIA GeForce RTX 3050 Laptop GPU",
+      "renders": [
+        {
+          "file": "look_02_front.png",
+          "sha256": "44fad4fb793c2358996480f3c36eb9b3c6d535e8b912f5d428dc05b8b3f8601e",
+          "camera": "RenderCamera",
+          "seconds": 11.4124332999927,
+          "state": {
+            "frame": 0,
+            "theta": 0.0,
+            "input": {
+              "h": 0.0,
+              "v": 0.0
+            },
+            "camera_matrix": [
+              [
+                1137.77783203125,
+                512.0,
+                8.341539069078863e-05,
+                204.8000030517578
+              ],
+              [
+                0.0,
+                512.0001831054688,
+                -1137.7777099609375,
+                204.80007934570312
+              ],
+              [
+                0.0,
+                1.0,
+                1.6292068494294654e-07,
+                0.4000000059604645
+              ]
+            ],
+            "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+            "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+            "fixation_world_m": [
+              0.0,
+              -0.3499999940395355,
+              0.0
+            ],
+            "eye_rotation_L": [
+              -7.327558705583215e-05,
+              -0.0,
+              3.053680896759033
+            ],
+            "eye_quaternion_wxyz_L": [
+              0.04394174739718437,
+              -1.6099286312964978e-06,
+              -3.6602403270080686e-05,
+              0.9990341067314148
+            ],
+            "pupil_center_3D_L": [
+              0.02973792515695095,
+              -0.012771597132086754,
+              -4.576235733111389e-05
+            ],
+            "pupil_center_2D_L": [
+              599.3777465820312,
+              512.1346435546875
+            ],
+            "eye_center_3D_L": [
+              0.030852630734443665,
+              4.524737596511841e-05,
+              2.574920654296875e-05
+            ],
+            "eye_rotation_R": [
+              7.329439540626481e-05,
+              4.547473508864641e-13,
+              -3.0536582469940186
+            ],
+            "eye_quaternion_wxyz_R": [
+              0.04395304247736931,
+              1.610755930414598e-06,
+              -3.661177834146656e-05,
+              -0.9990336298942566
+            ],
+            "pupil_center_3D_R": [
+              -0.029753273352980614,
+              -0.012863293290138245,
+              -9.808775212150067e-05
+            ],
+            "pupil_center_2D_R": [
+              424.5564270019531,
+              512.2884521484375
+            ],
+            "eye_center_3D_R": [
+              -0.030852630734443665,
+              -4.525482654571533e-05,
+              -2.574920654296875e-05
+            ],
+            "opening_L": 1.0,
+            "opening_R": 1.0,
+            "brow_raise": {
+              "L": 0.0,
+              "R": 0.0
+            },
+            "pupil_constriction": {
+              "L": 0.699999988079071,
+              "R": 0.699999988079071
+            },
+            "lid_follow": {
+              "Up_L": 0.0,
+              "Down_L": 0.0,
+              "Up_R": 0.0,
+              "Down_R": 0.0
+            }
+          }
+        },
+        {
+          "file": "look_02_eyes.png",
+          "sha256": "b17178f3f5ab2608376615c30b07e12e399f52f842da024f384ab313eb757697",
+          "camera": "Review_macro",
+          "seconds": 13.969871100009186,
+          "state": {
+            "frame": 0,
+            "theta": 0.0,
+            "input": {
+              "h": 0.0,
+              "v": 0.0
+            },
+            "camera_matrix": [
+              [
+                4124.4443359375,
+                512.0,
+                8.341539069078863e-05,
+                204.8000030517578
+              ],
+              [
+                0.0,
+                512.0006713867188,
+                -4124.4443359375,
+                204.80027770996094
+              ],
+              [
+                0.0,
+                1.0,
+                1.6292068494294654e-07,
+                0.4000000059604645
+              ]
+            ],
+            "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+            "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+            "fixation_world_m": [
+              0.0,
+              -0.3499999940395355,
+              0.0
+            ],
+            "eye_rotation_L": [
+              -7.327558705583215e-05,
+              -0.0,
+              3.053680896759033
+            ],
+            "eye_quaternion_wxyz_L": [
+              0.04394174739718437,
+              -1.6099286312964978e-06,
+              -3.6602403270080686e-05,
+              0.9990341067314148
+            ],
+            "pupil_center_3D_L": [
+              0.02973792515695095,
+              -0.012771597132086754,
+              -4.576235733111389e-05
+            ],
+            "pupil_center_2D_L": [
+              828.744384765625,
+              512.4880981445312
+            ],
+            "eye_center_3D_L": [
+              0.030852630734443665,
+              4.524737596511841e-05,
+              2.574920654296875e-05
+            ],
+            "eye_rotation_R": [
+              7.329439540626481e-05,
+              4.547473508864641e-13,
+              -3.0536582469940186
+            ],
+            "eye_quaternion_wxyz_R": [
+              0.04395304247736931,
+              1.610755930414598e-06,
+              -3.661177834146656e-05,
+              -0.9990336298942566
+            ],
+            "pupil_center_3D_R": [
+              -0.029753273352980614,
+              -0.012863293290138245,
+              -9.808775212150067e-05
+            ],
+            "pupil_center_2D_R": [
+              195.01707458496094,
+              513.0456848144531
+            ],
+            "eye_center_3D_R": [
+              -0.030852630734443665,
+              -4.525482654571533e-05,
+              -2.574920654296875e-05
+            ],
+            "opening_L": 1.0,
+            "opening_R": 1.0,
+            "brow_raise": {
+              "L": 0.0,
+              "R": 0.0
+            },
+            "pupil_constriction": {
+              "L": 0.699999988079071,
+              "R": 0.699999988079071
+            },
+            "lid_follow": {
+              "Up_L": 0.0,
+              "Down_L": 0.0,
+              "Up_R": 0.0,
+              "Down_R": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "look_03",
+      "appearance": {
+        "id": "look_03",
+        "method": "Explicit portable native skin/sclera/iris maps; original layered optical rig retained",
+        "manifest_sha256": "d4d41aeb395a0cb99a94166fe21a82caca49d170f91229217d116964f64fd72e",
+        "application_module_sha256": "250ca832db01c094f82ea6a3c4796e7b7e6f6d251ee987d50a611579c9ead41a",
+        "status": "Submission texture set"
+      },
+      "device": "OPTIX: NVIDIA GeForce RTX 3050 Laptop GPU",
+      "renders": [
+        {
+          "file": "look_03_front.png",
+          "sha256": "e79548b3883827358bb3b171d434a46c18084fb4bc9e2df22e6565098c0347a5",
+          "camera": "RenderCamera",
+          "seconds": 12.203014299971983,
+          "state": {
+            "frame": 0,
+            "theta": 0.0,
+            "input": {
+              "h": 0.0,
+              "v": 0.0
+            },
+            "camera_matrix": [
+              [
+                1137.77783203125,
+                512.0,
+                8.341539069078863e-05,
+                204.8000030517578
+              ],
+              [
+                0.0,
+                512.0001831054688,
+                -1137.7777099609375,
+                204.80007934570312
+              ],
+              [
+                0.0,
+                1.0,
+                1.6292068494294654e-07,
+                0.4000000059604645
+              ]
+            ],
+            "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+            "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+            "fixation_world_m": [
+              0.0,
+              -0.3499999940395355,
+              0.0
+            ],
+            "eye_rotation_L": [
+              -7.327558705583215e-05,
+              -0.0,
+              3.053680896759033
+            ],
+            "eye_quaternion_wxyz_L": [
+              0.04394174739718437,
+              -1.6099286312964978e-06,
+              -3.6602403270080686e-05,
+              0.9990341067314148
+            ],
+            "pupil_center_3D_L": [
+              0.02973792515695095,
+              -0.012771597132086754,
+              -4.576235733111389e-05
+            ],
+            "pupil_center_2D_L": [
+              599.3777465820312,
+              512.1346435546875
+            ],
+            "eye_center_3D_L": [
+              0.030852630734443665,
+              4.524737596511841e-05,
+              2.574920654296875e-05
+            ],
+            "eye_rotation_R": [
+              7.329439540626481e-05,
+              4.547473508864641e-13,
+              -3.0536582469940186
+            ],
+            "eye_quaternion_wxyz_R": [
+              0.04395304247736931,
+              1.610755930414598e-06,
+              -3.661177834146656e-05,
+              -0.9990336298942566
+            ],
+            "pupil_center_3D_R": [
+              -0.029753273352980614,
+              -0.012863293290138245,
+              -9.808775212150067e-05
+            ],
+            "pupil_center_2D_R": [
+              424.5564270019531,
+              512.2884521484375
+            ],
+            "eye_center_3D_R": [
+              -0.030852630734443665,
+              -4.525482654571533e-05,
+              -2.574920654296875e-05
+            ],
+            "opening_L": 1.0,
+            "opening_R": 1.0,
+            "brow_raise": {
+              "L": 0.0,
+              "R": 0.0
+            },
+            "pupil_constriction": {
+              "L": 0.699999988079071,
+              "R": 0.699999988079071
+            },
+            "lid_follow": {
+              "Up_L": 0.0,
+              "Down_L": 0.0,
+              "Up_R": 0.0,
+              "Down_R": 0.0
+            }
+          }
+        },
+        {
+          "file": "look_03_eyes.png",
+          "sha256": "512de179e240266799a1b78bf005ecd9f216738068a805ee7237323226b37a3f",
+          "camera": "Review_macro",
+          "seconds": 16.958216099999845,
+          "state": {
+            "frame": 0,
+            "theta": 0.0,
+            "input": {
+              "h": 0.0,
+              "v": 0.0
+            },
+            "camera_matrix": [
+              [
+                4124.4443359375,
+                512.0,
+                8.341539069078863e-05,
+                204.8000030517578
+              ],
+              [
+                0.0,
+                512.0006713867188,
+                -4124.4443359375,
+                204.80027770996094
+              ],
+              [
+                0.0,
+                1.0,
+                1.6292068494294654e-07,
+                0.4000000059604645
+              ]
+            ],
+            "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+            "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+            "fixation_world_m": [
+              0.0,
+              -0.3499999940395355,
+              0.0
+            ],
+            "eye_rotation_L": [
+              -7.327558705583215e-05,
+              -0.0,
+              3.053680896759033
+            ],
+            "eye_quaternion_wxyz_L": [
+              0.04394174739718437,
+              -1.6099286312964978e-06,
+              -3.6602403270080686e-05,
+              0.9990341067314148
+            ],
+            "pupil_center_3D_L": [
+              0.02973792515695095,
+              -0.012771597132086754,
+              -4.576235733111389e-05
+            ],
+            "pupil_center_2D_L": [
+              828.744384765625,
+              512.4880981445312
+            ],
+            "eye_center_3D_L": [
+              0.030852630734443665,
+              4.524737596511841e-05,
+              2.574920654296875e-05
+            ],
+            "eye_rotation_R": [
+              7.329439540626481e-05,
+              4.547473508864641e-13,
+              -3.0536582469940186
+            ],
+            "eye_quaternion_wxyz_R": [
+              0.04395304247736931,
+              1.610755930414598e-06,
+              -3.661177834146656e-05,
+              -0.9990336298942566
+            ],
+            "pupil_center_3D_R": [
+              -0.029753273352980614,
+              -0.012863293290138245,
+              -9.808775212150067e-05
+            ],
+            "pupil_center_2D_R": [
+              195.01707458496094,
+              513.0456848144531
+            ],
+            "eye_center_3D_R": [
+              -0.030852630734443665,
+              -4.525482654571533e-05,
+              -2.574920654296875e-05
+            ],
+            "opening_L": 1.0,
+            "opening_R": 1.0,
+            "brow_raise": {
+              "L": 0.0,
+              "R": 0.0
+            },
+            "pupil_constriction": {
+              "L": 0.699999988079071,
+              "R": 0.699999988079071
+            },
+            "lid_follow": {
+              "Up_L": 0.0,
+              "Down_L": 0.0,
+              "Up_R": 0.0,
+              "Down_R": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "look_04",
+      "appearance": {
+        "id": "look_04",
+        "method": "Explicit portable native skin/sclera/iris maps; original layered optical rig retained",
+        "manifest_sha256": "b59942aa09198a0cb1a3ea68193d115847f43dee6d7b9d472bb644d0474b6e96",
+        "application_module_sha256": "250ca832db01c094f82ea6a3c4796e7b7e6f6d251ee987d50a611579c9ead41a",
+        "status": "Submission texture set"
+      },
+      "device": "OPTIX: NVIDIA GeForce RTX 3050 Laptop GPU",
+      "renders": [
+        {
+          "file": "look_04_front.png",
+          "sha256": "789eaac46707273e8f249a492d02d9b552ba510bb1d08b43109d2e39160e6120",
+          "camera": "RenderCamera",
+          "seconds": 12.223053800000343,
+          "state": {
+            "frame": 0,
+            "theta": 0.0,
+            "input": {
+              "h": 0.0,
+              "v": 0.0
+            },
+            "camera_matrix": [
+              [
+                1137.77783203125,
+                512.0,
+                8.341539069078863e-05,
+                204.8000030517578
+              ],
+              [
+                0.0,
+                512.0001831054688,
+                -1137.7777099609375,
+                204.80007934570312
+              ],
+              [
+                0.0,
+                1.0,
+                1.6292068494294654e-07,
+                0.4000000059604645
+              ]
+            ],
+            "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+            "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+            "fixation_world_m": [
+              0.0,
+              -0.3499999940395355,
+              0.0
+            ],
+            "eye_rotation_L": [
+              -7.327558705583215e-05,
+              -0.0,
+              3.053680896759033
+            ],
+            "eye_quaternion_wxyz_L": [
+              0.04394174739718437,
+              -1.6099286312964978e-06,
+              -3.6602403270080686e-05,
+              0.9990341067314148
+            ],
+            "pupil_center_3D_L": [
+              0.02973792515695095,
+              -0.012771597132086754,
+              -4.576235733111389e-05
+            ],
+            "pupil_center_2D_L": [
+              599.3777465820312,
+              512.1346435546875
+            ],
+            "eye_center_3D_L": [
+              0.030852630734443665,
+              4.524737596511841e-05,
+              2.574920654296875e-05
+            ],
+            "eye_rotation_R": [
+              7.329439540626481e-05,
+              4.547473508864641e-13,
+              -3.0536582469940186
+            ],
+            "eye_quaternion_wxyz_R": [
+              0.04395304247736931,
+              1.610755930414598e-06,
+              -3.661177834146656e-05,
+              -0.9990336298942566
+            ],
+            "pupil_center_3D_R": [
+              -0.029753273352980614,
+              -0.012863293290138245,
+              -9.808775212150067e-05
+            ],
+            "pupil_center_2D_R": [
+              424.5564270019531,
+              512.2884521484375
+            ],
+            "eye_center_3D_R": [
+              -0.030852630734443665,
+              -4.525482654571533e-05,
+              -2.574920654296875e-05
+            ],
+            "opening_L": 1.0,
+            "opening_R": 1.0,
+            "brow_raise": {
+              "L": 0.0,
+              "R": 0.0
+            },
+            "pupil_constriction": {
+              "L": 0.699999988079071,
+              "R": 0.699999988079071
+            },
+            "lid_follow": {
+              "Up_L": 0.0,
+              "Down_L": 0.0,
+              "Up_R": 0.0,
+              "Down_R": 0.0
+            }
+          }
+        },
+        {
+          "file": "look_04_eyes.png",
+          "sha256": "66356ad4cd195459721695bd9d6ea6c83a161e38a6330fcca8dcd52b8f2914eb",
+          "camera": "Review_macro",
+          "seconds": 17.06872859998839,
+          "state": {
+            "frame": 0,
+            "theta": 0.0,
+            "input": {
+              "h": 0.0,
+              "v": 0.0
+            },
+            "camera_matrix": [
+              [
+                4124.4443359375,
+                512.0,
+                8.341539069078863e-05,
+                204.8000030517578
+              ],
+              [
+                0.0,
+                512.0006713867188,
+                -4124.4443359375,
+                204.80027770996094
+              ],
+              [
+                0.0,
+                1.0,
+                1.6292068494294654e-07,
+                0.4000000059604645
+              ]
+            ],
+            "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+            "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+            "fixation_world_m": [
+              0.0,
+              -0.3499999940395355,
+              0.0
+            ],
+            "eye_rotation_L": [
+              -7.327558705583215e-05,
+              -0.0,
+              3.053680896759033
+            ],
+            "eye_quaternion_wxyz_L": [
+              0.04394174739718437,
+              -1.6099286312964978e-06,
+              -3.6602403270080686e-05,
+              0.9990341067314148
+            ],
+            "pupil_center_3D_L": [
+              0.02973792515695095,
+              -0.012771597132086754,
+              -4.576235733111389e-05
+            ],
+            "pupil_center_2D_L": [
+              828.744384765625,
+              512.4880981445312
+            ],
+            "eye_center_3D_L": [
+              0.030852630734443665,
+              4.524737596511841e-05,
+              2.574920654296875e-05
+            ],
+            "eye_rotation_R": [
+              7.329439540626481e-05,
+              4.547473508864641e-13,
+              -3.0536582469940186
+            ],
+            "eye_quaternion_wxyz_R": [
+              0.04395304247736931,
+              1.610755930414598e-06,
+              -3.661177834146656e-05,
+              -0.9990336298942566
+            ],
+            "pupil_center_3D_R": [
+              -0.029753273352980614,
+              -0.012863293290138245,
+              -9.808775212150067e-05
+            ],
+            "pupil_center_2D_R": [
+              195.01707458496094,
+              513.0456848144531
+            ],
+            "eye_center_3D_R": [
+              -0.030852630734443665,
+              -4.525482654571533e-05,
+              -2.574920654296875e-05
+            ],
+            "opening_L": 1.0,
+            "opening_R": 1.0,
+            "brow_raise": {
+              "L": 0.0,
+              "R": 0.0
+            },
+            "pupil_constriction": {
+              "L": 0.699999988079071,
+              "R": 0.699999988079071
+            },
+            "lid_follow": {
+              "Up_L": 0.0,
+              "Down_L": 0.0,
+              "Up_R": 0.0,
+              "Down_R": 0.0
+            }
+          }
+        }
+      ]
+    },
+    {
+      "id": "look_05",
+      "appearance": {
+        "id": "look_05",
+        "method": "Explicit portable native skin/sclera/iris maps; original layered optical rig retained",
+        "manifest_sha256": "3d4157490f57edb4a56d3ed5e5eb08289503e781ea7f8a69ebc9931378304283",
+        "application_module_sha256": "250ca832db01c094f82ea6a3c4796e7b7e6f6d251ee987d50a611579c9ead41a",
+        "status": "Submission texture set"
+      },
+      "device": "OPTIX: NVIDIA GeForce RTX 3050 Laptop GPU",
+      "renders": [
+        {
+          "file": "look_05_front.png",
+          "sha256": "6fc65b2db40825d12063138b6534a2e0e4ee7e68f373bcb39668c1932780e600",
+          "camera": "RenderCamera",
+          "seconds": 11.989628799987258,
+          "state": {
+            "frame": 0,
+            "theta": 0.0,
+            "input": {
+              "h": 0.0,
+              "v": 0.0
+            },
+            "camera_matrix": [
+              [
+                1137.77783203125,
+                512.0,
+                8.341539069078863e-05,
+                204.8000030517578
+              ],
+              [
+                0.0,
+                512.0001831054688,
+                -1137.7777099609375,
+                204.80007934570312
+              ],
+              [
+                0.0,
+                1.0,
+                1.6292068494294654e-07,
+                0.4000000059604645
+              ]
+            ],
+            "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+            "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+            "fixation_world_m": [
+              0.0,
+              -0.3499999940395355,
+              0.0
+            ],
+            "eye_rotation_L": [
+              -7.327558705583215e-05,
+              -0.0,
+              3.053680896759033
+            ],
+            "eye_quaternion_wxyz_L": [
+              0.04394174739718437,
+              -1.6099286312964978e-06,
+              -3.6602403270080686e-05,
+              0.9990341067314148
+            ],
+            "pupil_center_3D_L": [
+              0.02973792515695095,
+              -0.012771597132086754,
+              -4.576235733111389e-05
+            ],
+            "pupil_center_2D_L": [
+              599.3777465820312,
+              512.1346435546875
+            ],
+            "eye_center_3D_L": [
+              0.030852630734443665,
+              4.524737596511841e-05,
+              2.574920654296875e-05
+            ],
+            "eye_rotation_R": [
+              7.329439540626481e-05,
+              4.547473508864641e-13,
+              -3.0536582469940186
+            ],
+            "eye_quaternion_wxyz_R": [
+              0.04395304247736931,
+              1.610755930414598e-06,
+              -3.661177834146656e-05,
+              -0.9990336298942566
+            ],
+            "pupil_center_3D_R": [
+              -0.029753273352980614,
+              -0.012863293290138245,
+              -9.808775212150067e-05
+            ],
+            "pupil_center_2D_R": [
+              424.5564270019531,
+              512.2884521484375
+            ],
+            "eye_center_3D_R": [
+              -0.030852630734443665,
+              -4.525482654571533e-05,
+              -2.574920654296875e-05
+            ],
+            "opening_L": 1.0,
+            "opening_R": 1.0,
+            "brow_raise": {
+              "L": 0.0,
+              "R": 0.0
+            },
+            "pupil_constriction": {
+              "L": 0.699999988079071,
+              "R": 0.699999988079071
+            },
+            "lid_follow": {
+              "Up_L": 0.0,
+              "Down_L": 0.0,
+              "Up_R": 0.0,
+              "Down_R": 0.0
+            }
+          }
+        },
+        {
+          "file": "look_05_eyes.png",
+          "sha256": "4c0178fbfe1d79a1387c02ffd5297e480ec98d0f9c8503d0c9ee51c14ea5f20f",
+          "camera": "Review_macro",
+          "seconds": 16.29236779999337,
+          "state": {
+            "frame": 0,
+            "theta": 0.0,
+            "input": {
+              "h": 0.0,
+              "v": 0.0
+            },
+            "camera_matrix": [
+              [
+                4124.4443359375,
+                512.0,
+                8.341539069078863e-05,
+                204.8000030517578
+              ],
+              [
+                0.0,
+                512.0006713867188,
+                -4124.4443359375,
+                204.80027770996094
+              ],
+              [
+                0.0,
+                1.0,
+                1.6292068494294654e-07,
+                0.4000000059604645
+              ]
+            ],
+            "camera_matrix_convention": "3x4: [u*w,v*w,w]=P@[X,Y,Z,1]; u right, v down; continuous edge-origin pixels",
+            "eye_rotation_convention": "world XYZ Euler radians, mesh local +Y optical axis",
+            "fixation_world_m": [
+              0.0,
+              -0.3499999940395355,
+              0.0
+            ],
+            "eye_rotation_L": [
+              -7.327558705583215e-05,
+              -0.0,
+              3.053680896759033
+            ],
+            "eye_quaternion_wxyz_L": [
+              0.04394174739718437,
+              -1.6099286312964978e-06,
+              -3.6602403270080686e-05,
+              0.9990341067314148
+            ],
+            "pupil_center_3D_L": [
+              0.02973792515695095,
+              -0.012771597132086754,
+              -4.576235733111389e-05
+            ],
+            "pupil_center_2D_L": [
+              828.744384765625,
+              512.4880981445312
+            ],
+            "eye_center_3D_L": [
+              0.030852630734443665,
+              4.524737596511841e-05,
+              2.574920654296875e-05
+            ],
+            "eye_rotation_R": [
+              7.329439540626481e-05,
+              4.547473508864641e-13,
+              -3.0536582469940186
+            ],
+            "eye_quaternion_wxyz_R": [
+              0.04395304247736931,
+              1.610755930414598e-06,
+              -3.661177834146656e-05,
+              -0.9990336298942566
+            ],
+            "pupil_center_3D_R": [
+              -0.029753273352980614,
+              -0.012863293290138245,
+              -9.808775212150067e-05
+            ],
+            "pupil_center_2D_R": [
+              195.01707458496094,
+              513.0456848144531
+            ],
+            "eye_center_3D_R": [
+              -0.030852630734443665,
+              -4.525482654571533e-05,
+              -2.574920654296875e-05
+            ],
+            "opening_L": 1.0,
+            "opening_R": 1.0,
+            "brow_raise": {
+              "L": 0.0,
+              "R": 0.0
+            },
+            "pupil_constriction": {
+              "L": 0.699999988079071,
+              "R": 0.699999988079071
+            },
+            "lid_follow": {
+              "Up_L": 0.0,
+              "Down_L": 0.0,
+              "Up_R": 0.0,
+              "Down_R": 0.0
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "test": "look_01 native Basis/UV/topology unchanged after fresh application",
+      "passed": true
+    },
+    {
+      "test": "look_02 native Basis/UV/topology unchanged after fresh application",
+      "passed": true
+    },
+    {
+      "test": "look_03 native Basis/UV/topology unchanged after fresh application",
+      "passed": true
+    },
+    {
+      "test": "look_04 native Basis/UV/topology unchanged after fresh application",
+      "passed": true
+    },
+    {
+      "test": "look_05 native Basis/UV/topology unchanged after fresh application",
+      "passed": true
+    }
+  ],
+  "visual_status": "Final texture previews; appearance limits are documented in README.md",
+  "status": "COMPLETE"
+}

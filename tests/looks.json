@@ -1,0 +1,532 @@
+{
+  "status": "PASS",
+  "passed": 112,
+  "failed": 0,
+  "checks": [
+    {
+      "test": "exact scene source",
+      "passed": true
+    },
+    {
+      "test": "all five looks complete",
+      "passed": true
+    },
+    {
+      "test": "native geometry preserved on every fresh application",
+      "passed": true
+    },
+    {
+      "test": "exact render source",
+      "passed": true
+    },
+    {
+      "test": "look_01 application manifest hash",
+      "passed": true
+    },
+    {
+      "test": "look_01 application code hash",
+      "passed": true
+    },
+    {
+      "test": "look_01 texture hash eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native export size eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 texture hash eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native export size eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 texture hash eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native export size eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 texture hash eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native export size eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 texture hash skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native export size skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 texture hash skin_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native export size skin_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 texture hash skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native export size skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 texture hash skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native export size skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 two expected cameras",
+      "passed": true
+    },
+    {
+      "test": "look_01 real PNG RenderCamera",
+      "passed": true
+    },
+    {
+      "test": "look_01 real PNG Review_macro",
+      "passed": true
+    },
+    {
+      "test": "look_02 application manifest hash",
+      "passed": true
+    },
+    {
+      "test": "look_02 application code hash",
+      "passed": true
+    },
+    {
+      "test": "look_02 texture hash eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native export size eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 texture hash eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native export size eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 texture hash eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native export size eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 texture hash eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native export size eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 texture hash skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native export size skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 texture hash skin_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native export size skin_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 texture hash skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native export size skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 texture hash skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native export size skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 two expected cameras",
+      "passed": true
+    },
+    {
+      "test": "look_02 real PNG RenderCamera",
+      "passed": true
+    },
+    {
+      "test": "look_02 real PNG Review_macro",
+      "passed": true
+    },
+    {
+      "test": "look_03 application manifest hash",
+      "passed": true
+    },
+    {
+      "test": "look_03 application code hash",
+      "passed": true
+    },
+    {
+      "test": "look_03 texture hash eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native export size eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 texture hash eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native export size eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 texture hash eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native export size eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 texture hash eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native export size eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 texture hash skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native export size skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 texture hash skin_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native export size skin_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 texture hash skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native export size skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 texture hash skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native export size skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 two expected cameras",
+      "passed": true
+    },
+    {
+      "test": "look_03 real PNG RenderCamera",
+      "passed": true
+    },
+    {
+      "test": "look_03 real PNG Review_macro",
+      "passed": true
+    },
+    {
+      "test": "look_04 application manifest hash",
+      "passed": true
+    },
+    {
+      "test": "look_04 application code hash",
+      "passed": true
+    },
+    {
+      "test": "look_04 texture hash eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native export size eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 texture hash eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native export size eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 texture hash eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native export size eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 texture hash eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native export size eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 texture hash skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native export size skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 texture hash skin_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native export size skin_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 texture hash skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native export size skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 texture hash skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native export size skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 two expected cameras",
+      "passed": true
+    },
+    {
+      "test": "look_04 real PNG RenderCamera",
+      "passed": true
+    },
+    {
+      "test": "look_04 real PNG Review_macro",
+      "passed": true
+    },
+    {
+      "test": "look_05 application manifest hash",
+      "passed": true
+    },
+    {
+      "test": "look_05 application code hash",
+      "passed": true
+    },
+    {
+      "test": "look_05 texture hash eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native export size eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 texture hash eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native export size eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 texture hash eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native export size eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 texture hash eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native export size eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 texture hash skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native export size skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 texture hash skin_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native export size skin_coverage.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 texture hash skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native export size skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 texture hash skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native export size skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 two expected cameras",
+      "passed": true
+    },
+    {
+      "test": "look_05 real PNG RenderCamera",
+      "passed": true
+    },
+    {
+      "test": "look_05 real PNG Review_macro",
+      "passed": true
+    },
+    {
+      "test": "five distinct face maps",
+      "passed": true
+    },
+    {
+      "test": "five distinct iris color maps",
+      "passed": true
+    },
+    {
+      "test": "all look face regions differ in actual pixels",
+      "passed": true
+    }
+  ],
+  "scene_sha256": "46b09e753c9f0941f3177f318d7d5695dced3e15712a597c6d5ae00940a01f17",
+  "receipt_sha256": "6cfc2c388b39ae06de46efb4c67c1815e4ee9eddef4988723b0fa1cfd0ae2b74",
+  "validator_sha256": "6ff099dccce8a94afe031055a9668418e93c56df54a76bc8d203e70a802f6ced",
+  "comparison_sha256": "a53c0bc23ae6ee950064d71ad4dac2bb15e0f91977edbd3e706dfd9273fb0afc",
+  "face_distinctness": [
+    {
+      "pair": [
+        1,
+        2
+      ],
+      "face_rgb_mae_8bit": 63.81003189086914
+    },
+    {
+      "pair": [
+        1,
+        3
+      ],
+      "face_rgb_mae_8bit": 13.648594856262207
+    },
+    {
+      "pair": [
+        1,
+        4
+      ],
+      "face_rgb_mae_8bit": 12.374297142028809
+    },
+    {
+      "pair": [
+        1,
+        5
+      ],
+      "face_rgb_mae_8bit": 4.8323259353637695
+    },
+    {
+      "pair": [
+        2,
+        3
+      ],
+      "face_rgb_mae_8bit": 77.37342834472656
+    },
+    {
+      "pair": [
+        2,
+        4
+      ],
+      "face_rgb_mae_8bit": 76.01907348632812
+    },
+    {
+      "pair": [
+        2,
+        5
+      ],
+      "face_rgb_mae_8bit": 62.17380142211914
+    },
+    {
+      "pair": [
+        3,
+        4
+      ],
+      "face_rgb_mae_8bit": 1.5602507591247559
+    },
+    {
+      "pair": [
+        3,
+        5
+      ],
+      "face_rgb_mae_8bit": 15.424360275268555
+    },
+    {
+      "pair": [
+        4,
+        5
+      ],
+      "face_rgb_mae_8bit": 14.051733016967773
+    }
+  ],
+  "scope": "Five distinct native maps and ten actual source-bound renders. Photorealism and full-head seam review remain independent visual gates."
+}

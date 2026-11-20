@@ -1,0 +1,8 @@
+{
+  "team": "VITChennai_IrisX",
+  "schema": "IrisX submission 1",
+  "status": "SUBMISSION_READY",
+  "scene_sha256": "46b09e753c9f0941f3177f318d7d5695dced3e15712a597c6d5ae00940a01f17",
+  "entry_point": "README.md",
+  "validation": "tests/report.json"
+}

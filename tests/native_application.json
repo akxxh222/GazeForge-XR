@@ -1,0 +1,233 @@
+{
+  "status": "PASS",
+  "passed": 55,
+  "failed": 0,
+  "checks": [
+    {
+      "test": "look_01 all six original native geometries/UVs/topology/transforms unchanged",
+      "passed": true
+    },
+    {
+      "test": "look_01 native channel bound and packed skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native channel bound and packed skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native channel bound and packed skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native channel bound and packed eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native channel bound and packed eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native channel bound and packed eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 native channel bound and packed eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 all seven explicit surface channels",
+      "passed": true
+    },
+    {
+      "test": "look_01 distinct Cycles/EEVEE optics L",
+      "passed": true
+    },
+    {
+      "test": "look_01 distinct Cycles/EEVEE optics R",
+      "passed": true
+    },
+    {
+      "test": "look_02 all six original native geometries/UVs/topology/transforms unchanged",
+      "passed": true
+    },
+    {
+      "test": "look_02 native channel bound and packed skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native channel bound and packed skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native channel bound and packed skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native channel bound and packed eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native channel bound and packed eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native channel bound and packed eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 native channel bound and packed eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 all seven explicit surface channels",
+      "passed": true
+    },
+    {
+      "test": "look_02 distinct Cycles/EEVEE optics L",
+      "passed": true
+    },
+    {
+      "test": "look_02 distinct Cycles/EEVEE optics R",
+      "passed": true
+    },
+    {
+      "test": "look_03 all six original native geometries/UVs/topology/transforms unchanged",
+      "passed": true
+    },
+    {
+      "test": "look_03 native channel bound and packed skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native channel bound and packed skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native channel bound and packed skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native channel bound and packed eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native channel bound and packed eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native channel bound and packed eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 native channel bound and packed eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 all seven explicit surface channels",
+      "passed": true
+    },
+    {
+      "test": "look_03 distinct Cycles/EEVEE optics L",
+      "passed": true
+    },
+    {
+      "test": "look_03 distinct Cycles/EEVEE optics R",
+      "passed": true
+    },
+    {
+      "test": "look_04 all six original native geometries/UVs/topology/transforms unchanged",
+      "passed": true
+    },
+    {
+      "test": "look_04 native channel bound and packed skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native channel bound and packed skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native channel bound and packed skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native channel bound and packed eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native channel bound and packed eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native channel bound and packed eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 native channel bound and packed eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 all seven explicit surface channels",
+      "passed": true
+    },
+    {
+      "test": "look_04 distinct Cycles/EEVEE optics L",
+      "passed": true
+    },
+    {
+      "test": "look_04 distinct Cycles/EEVEE optics R",
+      "passed": true
+    },
+    {
+      "test": "look_05 all six original native geometries/UVs/topology/transforms unchanged",
+      "passed": true
+    },
+    {
+      "test": "look_05 native channel bound and packed skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native channel bound and packed skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native channel bound and packed skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native channel bound and packed eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native channel bound and packed eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native channel bound and packed eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 native channel bound and packed eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 all seven explicit surface channels",
+      "passed": true
+    },
+    {
+      "test": "look_05 distinct Cycles/EEVEE optics L",
+      "passed": true
+    },
+    {
+      "test": "look_05 distinct Cycles/EEVEE optics R",
+      "passed": true
+    }
+  ],
+  "baseline_sha256": "50c0228fec23637a80c52664b1a637d5b4eaffbd42dacd747573a3d95cc6bb22",
+  "template_scene_sha256": "46b09e753c9f0941f3177f318d7d5695dced3e15712a597c6d5ae00940a01f17",
+  "template_manifest_sha256": "70f9e1c25f30943314b770a9dd5a4588c29ca733ae6f9311695de875b31e041e",
+  "installer_sha256": "c35666a85ce3ff9bd2d2f80849bdf2d5b9438fa4e0e443f4141cc3c2a915af8f",
+  "validator_sha256": "6b8d2022583464949d7be15b396145d5c50a7714803de2b257ad674780063cc0",
+  "scope": "Five independent loads of the actual M1 native GNM head receive all exported material channels without geometry, UV, topology or transform changes. No texture-transfer meshes or source maps are needed; visual acceptance is separate."
+}

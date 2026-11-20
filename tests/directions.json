@@ -1,0 +1,235 @@
+{
+  "status": "PASS",
+  "passed": 27,
+  "failed": 0,
+  "checks": [
+    {
+      "test": "complete six-image diagnostic receipt",
+      "passed": true
+    },
+    {
+      "test": "exact portable scene",
+      "passed": true
+    },
+    {
+      "test": "reset 1024px PNG and checksum",
+      "passed": true
+    },
+    {
+      "test": "reset pose stable through render",
+      "passed": true
+    },
+    {
+      "test": "reset both actual pixel pupils measured",
+      "passed": true
+    },
+    {
+      "test": "left 1024px PNG and checksum",
+      "passed": true
+    },
+    {
+      "test": "left pose stable through render",
+      "passed": true
+    },
+    {
+      "test": "left both actual pixel pupils measured",
+      "passed": true
+    },
+    {
+      "test": "right 1024px PNG and checksum",
+      "passed": true
+    },
+    {
+      "test": "right pose stable through render",
+      "passed": true
+    },
+    {
+      "test": "right both actual pixel pupils measured",
+      "passed": true
+    },
+    {
+      "test": "up 1024px PNG and checksum",
+      "passed": true
+    },
+    {
+      "test": "up pose stable through render",
+      "passed": true
+    },
+    {
+      "test": "up both actual pixel pupils measured",
+      "passed": true
+    },
+    {
+      "test": "down 1024px PNG and checksum",
+      "passed": true
+    },
+    {
+      "test": "down pose stable through render",
+      "passed": true
+    },
+    {
+      "test": "down both actual pixel pupils measured",
+      "passed": true
+    },
+    {
+      "test": "reset_repeat 1024px PNG and checksum",
+      "passed": true
+    },
+    {
+      "test": "reset_repeat pose stable through render",
+      "passed": true
+    },
+    {
+      "test": "reset_repeat both actual pixel pupils measured",
+      "passed": true
+    },
+    {
+      "test": "left both measured pupils shift correctly",
+      "passed": true
+    },
+    {
+      "test": "right both measured pupils shift correctly",
+      "passed": true
+    },
+    {
+      "test": "up both measured pupils shift correctly",
+      "passed": true
+    },
+    {
+      "test": "down both measured pupils shift correctly",
+      "passed": true
+    },
+    {
+      "test": "repeat reset exact transforms and metadata",
+      "passed": true
+    },
+    {
+      "test": "repeat reset pixel mean difference under one level",
+      "passed": true
+    },
+    {
+      "test": "both measured reset centers return",
+      "passed": true
+    }
+  ],
+  "receipt_sha256": "41ee0f09580c6b4b18958e0919a2dc17712f284fb9344981cc3648463508267c",
+  "contact_sheet_sha256": "e29aec860a98c161afeb3506a4ac838eb116a368fbd52c21ecfaed5f261d023c",
+  "directions": {
+    "left": {
+      "L": -5.172043010752759,
+      "R": -4.8573913043478
+    },
+    "right": {
+      "L": 4.834677419354762,
+      "R": 4.987154150197625
+    },
+    "up": {
+      "L": -4.892321671967295,
+      "R": -5.245533055390183
+    },
+    "down": {
+      "L": 4.863955119214552,
+      "R": 4.74160945842857
+    }
+  },
+  "pixel_pupils": {
+    "reset": {
+      "L": {
+        "center_2D": [
+          598.9569892473119,
+          512.483870967742
+        ],
+        "dark_area_px": 93
+      },
+      "R": {
+        "center_2D": [
+          423.7173913043478,
+          512.7934782608696
+        ],
+        "dark_area_px": 92
+      }
+    },
+    "left": {
+      "L": {
+        "center_2D": [
+          593.7849462365591,
+          512.505376344086
+        ],
+        "dark_area_px": 93
+      },
+      "R": {
+        "center_2D": [
+          418.86,
+          512.26
+        ],
+        "dark_area_px": 100
+      }
+    },
+    "right": {
+      "L": {
+        "center_2D": [
+          603.7916666666666,
+          512.1458333333334
+        ],
+        "dark_area_px": 96
+      },
+      "R": {
+        "center_2D": [
+          428.70454545454544,
+          512.7727272727273
+        ],
+        "dark_area_px": 88
+      }
+    },
+    "up": {
+      "L": {
+        "center_2D": [
+          598.8028169014085,
+          507.59154929577466
+        ],
+        "dark_area_px": 71
+      },
+      "R": {
+        "center_2D": [
+          423.71232876712327,
+          507.54794520547944
+        ],
+        "dark_area_px": 73
+      }
+    },
+    "down": {
+      "L": {
+        "center_2D": [
+          598.8,
+          517.3478260869565
+        ],
+        "dark_area_px": 115
+      },
+      "R": {
+        "center_2D": [
+          423.86842105263156,
+          517.5350877192982
+        ],
+        "dark_area_px": 114
+      }
+    },
+    "reset_repeat": {
+      "L": {
+        "center_2D": [
+          598.9569892473119,
+          512.483870967742
+        ],
+        "dark_area_px": 93
+      },
+      "R": {
+        "center_2D": [
+          423.7173913043478,
+          512.7934782608696
+        ],
+        "dark_area_px": 92
+      }
+    }
+  },
+  "repeated_reset_rgb_mae_8bit": 2.0345052083333332e-05,
+  "scope": "Five visible directions plus repeated reset at 1024px. Dark-component centroids measured in actual pixels are directional diagnostics, not refracted optical ground truth."
+}

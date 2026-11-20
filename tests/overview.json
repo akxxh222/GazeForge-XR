@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "frames_decoded": 2160,
+  "fps": 24.0,
+  "resolution": [
+    1280,
+    720
+  ],
+  "duration_s": 90,
+  "sha256": "20c8b52cc44b0128f2847c10445018223dc899b2f47d88a1be8975535c9267a2",
+  "source_hashes_match": true,
+  "scope": "Full video decode, duration, dimensions and chapter source checksums; representative caption frames reviewed visually."
+}

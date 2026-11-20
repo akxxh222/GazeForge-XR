@@ -1,0 +1,5562 @@
+{
+  "status": "PASS",
+  "passed": 1388,
+  "failed": 0,
+  "checks": [
+    {
+      "test": "look_01 fresh native Basis/UV/topology",
+      "passed": true
+    },
+    {
+      "test": "look_01 every file image packed",
+      "passed": true
+    },
+    {
+      "test": "look_01 original native geometry after map application",
+      "passed": true
+    },
+    {
+      "test": "look_01 packed channel skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 exact exported channel skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 packed channel skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 exact exported channel skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 packed channel skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 exact exported channel skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 packed channel eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 exact exported channel eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 packed channel eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 exact exported channel eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 packed channel eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 exact exported channel eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 packed channel eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 exact exported channel eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_01 seven explicit native skin and eye channels",
+      "passed": true
+    },
+    {
+      "test": "40 cm fixed render camera",
+      "passed": true
+    },
+    {
+      "test": "all three action bundles saved",
+      "passed": true
+    },
+    {
+      "test": "left/1 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/1 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/1 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/2 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/2 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/2 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/3 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/3 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/3 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/4 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/4 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/4 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/5 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/5 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/5 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/6 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/6 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/6 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/7 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/7 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/7 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/8 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/8 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/8 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/9 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/9 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/9 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/10 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/10 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/10 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/11 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/11 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/11 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/12 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/12 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/12 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/13 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/13 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/13 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/14 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/14 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/14 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/15 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/15 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/15 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/16 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/16 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/16 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/17 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/17 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/17 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/18 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/18 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/18 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/19 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/19 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/19 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/20 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/20 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/20 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/21 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/21 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/21 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/22 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/22 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/22 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/23 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/23 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/23 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/24 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/24 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/24 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/25 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/25 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/25 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/26 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/26 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/26 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/27 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/27 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/27 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/28 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/28 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/28 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/29 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/29 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/29 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/30 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/30 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/30 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/31 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/31 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/31 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/32 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/32 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/32 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/33 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/33 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/33 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/34 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/34 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/34 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/35 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/35 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/35 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/36 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/36 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/36 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/37 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/37 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/37 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/38 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/38 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/38 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/39 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/39 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/39 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/40 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/40 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/40 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/41 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/41 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/41 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/42 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/42 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/42 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/43 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/43 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/43 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/44 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/44 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/44 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/45 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/45 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/45 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/46 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/46 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/46 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/47 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/47 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/47 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/48 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/48 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/48 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/49 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/49 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/49 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/50 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/50 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/50 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/51 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/51 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/51 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/52 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/52 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/52 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/53 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/53 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/53 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/54 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/54 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/54 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/55 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/55 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/55 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/56 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/56 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/56 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/57 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/57 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/57 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/58 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/58 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/58 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/59 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/59 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/59 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/60 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/60 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/60 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/61 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/61 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/61 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/62 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/62 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/62 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/63 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/63 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/63 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/64 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/64 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/64 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/65 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/65 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/65 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/66 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/66 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/66 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/67 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/67 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/67 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/68 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/68 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/68 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/69 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/69 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/69 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/70 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/70 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/70 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/71 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/71 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/71 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/72 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/72 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/72 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/73 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/73 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/73 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/74 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/74 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/74 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/75 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/75 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/75 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/76 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/76 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/76 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/77 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/77 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/77 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/78 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/78 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/78 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/79 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/79 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/79 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/80 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/80 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/80 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/81 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/81 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/81 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/82 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/82 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/82 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/83 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/83 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/83 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/84 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/84 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/84 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/85 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/85 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/85 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/86 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/86 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/86 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/87 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/87 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/87 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/88 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/88 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/88 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/89 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/89 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/89 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/90 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/90 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/90 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/91 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/91 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/91 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/92 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/92 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/92 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/93 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/93 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/93 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/94 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/94 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/94 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/95 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/95 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/95 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/96 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/96 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/96 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/97 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/97 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/97 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/98 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/98 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/98 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/99 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/99 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/99 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/100 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/100 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/100 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/101 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/101 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/101 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/102 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/102 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/102 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/103 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/103 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/103 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/104 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/104 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/104 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/105 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/105 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/105 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/106 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/106 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/106 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/107 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/107 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/107 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/108 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/108 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/108 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/109 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/109 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/109 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/110 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/110 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/110 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/111 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/111 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/111 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/112 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/112 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/112 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/113 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/113 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/113 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/114 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/114 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/114 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/115 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/115 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/115 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/116 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/116 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/116 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/117 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/117 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/117 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/118 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/118 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/118 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/119 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/119 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/119 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/120 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/120 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/120 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/121 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/121 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/121 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/122 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/122 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/122 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/123 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/123 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/123 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/124 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/124 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/124 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/125 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/125 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/125 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/126 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/126 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/126 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/127 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/127 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/127 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/128 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/128 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/128 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/129 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/129 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/129 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/130 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/130 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/130 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/131 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/131 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/131 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/132 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/132 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/132 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/133 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/133 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/133 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/134 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/134 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/134 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/135 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/135 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/135 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/136 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/136 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/136 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/137 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/137 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/137 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/138 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/138 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/138 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/139 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/139 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/139 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/140 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/140 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/140 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/141 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/141 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/141 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/142 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/142 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/142 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/143 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/143 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/143 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "left/144 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "left/144 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "left/144 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/1 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/1 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/1 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/2 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/2 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/2 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/3 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/3 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/3 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/4 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/4 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/4 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/5 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/5 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/5 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/6 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/6 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/6 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/7 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/7 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/7 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/8 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/8 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/8 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/9 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/9 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/9 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/10 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/10 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/10 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/11 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/11 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/11 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/12 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/12 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/12 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/13 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/13 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/13 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/14 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/14 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/14 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/15 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/15 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/15 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/16 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/16 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/16 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/17 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/17 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/17 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/18 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/18 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/18 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/19 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/19 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/19 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/20 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/20 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/20 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/21 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/21 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/21 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/22 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/22 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/22 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/23 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/23 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/23 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/24 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/24 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/24 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/25 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/25 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/25 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/26 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/26 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/26 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/27 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/27 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/27 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/28 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/28 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/28 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/29 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/29 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/29 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/30 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/30 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/30 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/31 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/31 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/31 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/32 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/32 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/32 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/33 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/33 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/33 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/34 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/34 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/34 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/35 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/35 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/35 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/36 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/36 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/36 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/37 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/37 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/37 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/38 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/38 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/38 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/39 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/39 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/39 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/40 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/40 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/40 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/41 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/41 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/41 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/42 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/42 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/42 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/43 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/43 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/43 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/44 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/44 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/44 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/45 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/45 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/45 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/46 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/46 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/46 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/47 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/47 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/47 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/48 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/48 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/48 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/49 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/49 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/49 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/50 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/50 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/50 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/51 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/51 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/51 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/52 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/52 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/52 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/53 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/53 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/53 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/54 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/54 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/54 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/55 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/55 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/55 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/56 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/56 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/56 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/57 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/57 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/57 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/58 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/58 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/58 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/59 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/59 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/59 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/60 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/60 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/60 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/61 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/61 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/61 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/62 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/62 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/62 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/63 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/63 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/63 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/64 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/64 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/64 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/65 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/65 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/65 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/66 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/66 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/66 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/67 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/67 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/67 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/68 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/68 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/68 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/69 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/69 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/69 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/70 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/70 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/70 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/71 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/71 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/71 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/72 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/72 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/72 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/73 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/73 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/73 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/74 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/74 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/74 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/75 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/75 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/75 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/76 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/76 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/76 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/77 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/77 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/77 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/78 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/78 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/78 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/79 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/79 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/79 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/80 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/80 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/80 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/81 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/81 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/81 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/82 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/82 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/82 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/83 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/83 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/83 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/84 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/84 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/84 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/85 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/85 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/85 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/86 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/86 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/86 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/87 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/87 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/87 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/88 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/88 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/88 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/89 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/89 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/89 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/90 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/90 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/90 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/91 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/91 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/91 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/92 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/92 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/92 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/93 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/93 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/93 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/94 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/94 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/94 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/95 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/95 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/95 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/96 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/96 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/96 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/97 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/97 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/97 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/98 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/98 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/98 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/99 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/99 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/99 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/100 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/100 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/100 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/101 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/101 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/101 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/102 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/102 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/102 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/103 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/103 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/103 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/104 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/104 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/104 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/105 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/105 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/105 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/106 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/106 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/106 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/107 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/107 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/107 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/108 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/108 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/108 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/109 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/109 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/109 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/110 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/110 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/110 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/111 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/111 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/111 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/112 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/112 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/112 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/113 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/113 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/113 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/114 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/114 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/114 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/115 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/115 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/115 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/116 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/116 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/116 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/117 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/117 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/117 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/118 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/118 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/118 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/119 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/119 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/119 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/120 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/120 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/120 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/121 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/121 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/121 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/122 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/122 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/122 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/123 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/123 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/123 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/124 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/124 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/124 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/125 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/125 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/125 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/126 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/126 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/126 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/127 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/127 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/127 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/128 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/128 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/128 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/129 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/129 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/129 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/130 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/130 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/130 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/131 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/131 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/131 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/132 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/132 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/132 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/133 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/133 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/133 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/134 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/134 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/134 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/135 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/135 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/135 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/136 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/136 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/136 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/137 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/137 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/137 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/138 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/138 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/138 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/139 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/139 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/139 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/140 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/140 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/140 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/141 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/141 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/141 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/142 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/142 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/142 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/143 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/143 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/143 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "right/144 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "right/144 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "right/144 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/1 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/1 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/1 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/2 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/2 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/2 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/3 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/3 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/3 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/4 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/4 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/4 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/5 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/5 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/5 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/6 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/6 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/6 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/7 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/7 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/7 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/8 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/8 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/8 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/9 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/9 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/9 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/10 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/10 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/10 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/11 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/11 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/11 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/12 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/12 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/12 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/13 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/13 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/13 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/14 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/14 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/14 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/15 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/15 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/15 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/16 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/16 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/16 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/17 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/17 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/17 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/18 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/18 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/18 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/19 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/19 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/19 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/20 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/20 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/20 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/21 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/21 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/21 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/22 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/22 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/22 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/23 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/23 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/23 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/24 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/24 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/24 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/25 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/25 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/25 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/26 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/26 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/26 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/27 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/27 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/27 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/28 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/28 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/28 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/29 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/29 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/29 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/30 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/30 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/30 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/31 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/31 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/31 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/32 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/32 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/32 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/33 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/33 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/33 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/34 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/34 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/34 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/35 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/35 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/35 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/36 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/36 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/36 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/37 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/37 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/37 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/38 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/38 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/38 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/39 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/39 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/39 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/40 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/40 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/40 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/41 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/41 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/41 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/42 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/42 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/42 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/43 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/43 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/43 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/44 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/44 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/44 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/45 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/45 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/45 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/46 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/46 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/46 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/47 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/47 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/47 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/48 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/48 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/48 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/49 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/49 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/49 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/50 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/50 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/50 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/51 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/51 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/51 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/52 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/52 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/52 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/53 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/53 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/53 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/54 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/54 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/54 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/55 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/55 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/55 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/56 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/56 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/56 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/57 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/57 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/57 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/58 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/58 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/58 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/59 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/59 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/59 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/60 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/60 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/60 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/61 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/61 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/61 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/62 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/62 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/62 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/63 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/63 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/63 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/64 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/64 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/64 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/65 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/65 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/65 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/66 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/66 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/66 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/67 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/67 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/67 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/68 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/68 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/68 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/69 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/69 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/69 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/70 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/70 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/70 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/71 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/71 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/71 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/72 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/72 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/72 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/73 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/73 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/73 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/74 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/74 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/74 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/75 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/75 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/75 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/76 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/76 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/76 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/77 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/77 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/77 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/78 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/78 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/78 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/79 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/79 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/79 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/80 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/80 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/80 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/81 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/81 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/81 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/82 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/82 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/82 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/83 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/83 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/83 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/84 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/84 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/84 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/85 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/85 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/85 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/86 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/86 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/86 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/87 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/87 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/87 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/88 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/88 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/88 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/89 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/89 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/89 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/90 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/90 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/90 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/91 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/91 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/91 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/92 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/92 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/92 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/93 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/93 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/93 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/94 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/94 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/94 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/95 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/95 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/95 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/96 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/96 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/96 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/97 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/97 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/97 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/98 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/98 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/98 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/99 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/99 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/99 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/100 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/100 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/100 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/101 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/101 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/101 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/102 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/102 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/102 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/103 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/103 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/103 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/104 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/104 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/104 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/105 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/105 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/105 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/106 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/106 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/106 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/107 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/107 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/107 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/108 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/108 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/108 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/109 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/109 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/109 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/110 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/110 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/110 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/111 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/111 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/111 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/112 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/112 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/112 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/113 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/113 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/113 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/114 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/114 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/114 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/115 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/115 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/115 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/116 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/116 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/116 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/117 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/117 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/117 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/118 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/118 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/118 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/119 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/119 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/119 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/120 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/120 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/120 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/121 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/121 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/121 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/122 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/122 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/122 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/123 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/123 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/123 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/124 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/124 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/124 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/125 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/125 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/125 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/126 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/126 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/126 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/127 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/127 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/127 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/128 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/128 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/128 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/129 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/129 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/129 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/130 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/130 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/130 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/131 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/131 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/131 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/132 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/132 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/132 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/133 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/133 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/133 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/134 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/134 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/134 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/135 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/135 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/135 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/136 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/136 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/136 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/137 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/137 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/137 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/138 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/138 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/138 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/139 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/139 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/139 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/140 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/140 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/140 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/141 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/141 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/141 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/142 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/142 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/142 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/143 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/143 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/143 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/144 calibrated target bounds",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/144 fixed physical pivot and common aim L",
+      "passed": true
+    },
+    {
+      "test": "generate_motion/144 fixed physical pivot and common aim R",
+      "passed": true
+    },
+    {
+      "test": "look_02 fresh native Basis/UV/topology",
+      "passed": true
+    },
+    {
+      "test": "look_02 every file image packed",
+      "passed": true
+    },
+    {
+      "test": "look_02 original native geometry after map application",
+      "passed": true
+    },
+    {
+      "test": "look_02 packed channel skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 exact exported channel skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 packed channel skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 exact exported channel skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 packed channel skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 exact exported channel skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 packed channel eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 exact exported channel eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 packed channel eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 exact exported channel eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 packed channel eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 exact exported channel eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 packed channel eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 exact exported channel eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_02 seven explicit native skin and eye channels",
+      "passed": true
+    },
+    {
+      "test": "look_03 fresh native Basis/UV/topology",
+      "passed": true
+    },
+    {
+      "test": "look_03 every file image packed",
+      "passed": true
+    },
+    {
+      "test": "look_03 original native geometry after map application",
+      "passed": true
+    },
+    {
+      "test": "look_03 packed channel skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 exact exported channel skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 packed channel skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 exact exported channel skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 packed channel skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 exact exported channel skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 packed channel eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 exact exported channel eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 packed channel eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 exact exported channel eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 packed channel eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 exact exported channel eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 packed channel eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 exact exported channel eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_03 seven explicit native skin and eye channels",
+      "passed": true
+    },
+    {
+      "test": "look_04 fresh native Basis/UV/topology",
+      "passed": true
+    },
+    {
+      "test": "look_04 every file image packed",
+      "passed": true
+    },
+    {
+      "test": "look_04 original native geometry after map application",
+      "passed": true
+    },
+    {
+      "test": "look_04 packed channel skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 exact exported channel skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 packed channel skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 exact exported channel skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 packed channel skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 exact exported channel skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 packed channel eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 exact exported channel eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 packed channel eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 exact exported channel eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 packed channel eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 exact exported channel eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 packed channel eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 exact exported channel eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_04 seven explicit native skin and eye channels",
+      "passed": true
+    },
+    {
+      "test": "look_05 fresh native Basis/UV/topology",
+      "passed": true
+    },
+    {
+      "test": "look_05 every file image packed",
+      "passed": true
+    },
+    {
+      "test": "look_05 original native geometry after map application",
+      "passed": true
+    },
+    {
+      "test": "look_05 packed channel skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 exact exported channel skin_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 packed channel skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 exact exported channel skin_roughness.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 packed channel skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 exact exported channel skin_height.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 packed channel eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 exact exported channel eye_L_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 packed channel eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 exact exported channel eye_L_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 packed channel eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 exact exported channel eye_R_sclera_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 packed channel eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 exact exported channel eye_R_iris_basecolor.png",
+      "passed": true
+    },
+    {
+      "test": "look_05 seven explicit native skin and eye channels",
+      "passed": true
+    }
+  ],
+  "scene_sha256": "46b09e753c9f0941f3177f318d7d5695dced3e15712a597c6d5ae00940a01f17",
+  "validator_sha256": "c81af2e879c1da9bfda1d138a7374d1e07d3cea83f5f87ec8a67d59de2421d30",
+  "scope": "Fresh packed-scene loads, five exported look applications on unchanged native GNM, and all 432 integer-frame physical aim/pivot checks. Visual acceptance remains separate."
+}

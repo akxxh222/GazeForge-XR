@@ -1,0 +1,418 @@
+{
+  "status": "PASS",
+  "passed": 51,
+  "failed": 0,
+  "scene_sha256": "46b09e753c9f0941f3177f318d7d5695dced3e15712a597c6d5ae00940a01f17",
+  "checks": [
+    {
+      "test": "eye_L_height.png.002 packed exported texture",
+      "passed": true
+    },
+    {
+      "test": "eye_L_iris_basecolor.png packed exported texture",
+      "passed": true
+    },
+    {
+      "test": "eye_L_sclera_basecolor.png packed exported texture",
+      "passed": true
+    },
+    {
+      "test": "eye_R_height.png.002 packed exported texture",
+      "passed": true
+    },
+    {
+      "test": "eye_R_iris_basecolor.png packed exported texture",
+      "passed": true
+    },
+    {
+      "test": "eye_R_sclera_basecolor.png packed exported texture",
+      "passed": true
+    },
+    {
+      "test": "skin_basecolor.png.001 packed exported texture",
+      "passed": true
+    },
+    {
+      "test": "skin_height.png.001 packed exported texture",
+      "passed": true
+    },
+    {
+      "test": "skin_roughness.png packed exported texture",
+      "passed": true
+    },
+    {
+      "test": "0,0,1.0 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,0,1.0 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,0,0.5 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,0,0.5 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,0,0.0 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,0 L full blink closes eye",
+      "passed": true
+    },
+    {
+      "test": "0,0,0.0 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,0 R full blink closes eye",
+      "passed": true
+    },
+    {
+      "test": "-1,0,1.0 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "-1,0,1.0 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "-1,0,0.5 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "-1,0,0.5 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "-1,0,0.0 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "-1,0 L full blink closes eye",
+      "passed": true
+    },
+    {
+      "test": "-1,0,0.0 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "-1,0 R full blink closes eye",
+      "passed": true
+    },
+    {
+      "test": "1,0,1.0 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "1,0,1.0 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "1,0,0.5 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "1,0,0.5 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "1,0,0.0 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "1,0 L full blink closes eye",
+      "passed": true
+    },
+    {
+      "test": "1,0,0.0 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "1,0 R full blink closes eye",
+      "passed": true
+    },
+    {
+      "test": "0,1,1.0 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,1,1.0 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,1,0.5 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,1,0.5 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,1,0.0 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,1 L full blink closes eye",
+      "passed": true
+    },
+    {
+      "test": "0,1,0.0 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,1 R full blink closes eye",
+      "passed": true
+    },
+    {
+      "test": "0,-1,1.0 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,-1,1.0 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,-1,0.5 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,-1,0.5 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,-1,0.0 L lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,-1 L full blink closes eye",
+      "passed": true
+    },
+    {
+      "test": "0,-1,0.0 R lashes and canthi clear eyes",
+      "passed": true
+    },
+    {
+      "test": "0,-1 R full blink closes eye",
+      "passed": true
+    },
+    {
+      "test": "original 64000 strand groom",
+      "passed": true
+    },
+    {
+      "test": "no imported demo groom remains",
+      "passed": true
+    }
+  ],
+  "poses": [
+    {
+      "h": 0,
+      "v": 0,
+      "opening": 1.0,
+      "minimum_detail_clearance_m": {
+        "L": 5.5644800113441306e-05,
+        "R": 5.580239167102263e-05
+      },
+      "uncovered_closed_eye_rays": {}
+    },
+    {
+      "h": 0,
+      "v": 0,
+      "opening": 0.5,
+      "minimum_detail_clearance_m": {
+        "L": 5.549423667616793e-05,
+        "R": 5.5708703484924627e-05
+      },
+      "uncovered_closed_eye_rays": {}
+    },
+    {
+      "h": 0,
+      "v": 0,
+      "opening": 0.0,
+      "minimum_detail_clearance_m": {
+        "L": 5.537802258004376e-05,
+        "R": 5.5776579301891616e-05
+      },
+      "uncovered_closed_eye_rays": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "h": -1,
+      "v": 0,
+      "opening": 1.0,
+      "minimum_detail_clearance_m": {
+        "L": 5.8152474366579554e-05,
+        "R": 5.716926057175442e-05
+      },
+      "uncovered_closed_eye_rays": {}
+    },
+    {
+      "h": -1,
+      "v": 0,
+      "opening": 0.5,
+      "minimum_detail_clearance_m": {
+        "L": 5.8205066807204275e-05,
+        "R": 5.695182449017011e-05
+      },
+      "uncovered_closed_eye_rays": {}
+    },
+    {
+      "h": -1,
+      "v": 0,
+      "opening": 0.0,
+      "minimum_detail_clearance_m": {
+        "L": 5.5341870393021964e-05,
+        "R": 5.693110847460048e-05
+      },
+      "uncovered_closed_eye_rays": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "h": 1,
+      "v": 0,
+      "opening": 1.0,
+      "minimum_detail_clearance_m": {
+        "L": 5.713584528166393e-05,
+        "R": 5.832757733514882e-05
+      },
+      "uncovered_closed_eye_rays": {}
+    },
+    {
+      "h": 1,
+      "v": 0,
+      "opening": 0.5,
+      "minimum_detail_clearance_m": {
+        "L": 5.715864972444251e-05,
+        "R": 5.8357008697385027e-05
+      },
+      "uncovered_closed_eye_rays": {}
+    },
+    {
+      "h": 1,
+      "v": 0,
+      "opening": 0.0,
+      "minimum_detail_clearance_m": {
+        "L": 5.6919646112874034e-05,
+        "R": 5.781324546205724e-05
+      },
+      "uncovered_closed_eye_rays": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "h": 0,
+      "v": 1,
+      "opening": 1.0,
+      "minimum_detail_clearance_m": {
+        "L": 5.4041436669649556e-05,
+        "R": 5.43969367754471e-05
+      },
+      "uncovered_closed_eye_rays": {}
+    },
+    {
+      "h": 0,
+      "v": 1,
+      "opening": 0.5,
+      "minimum_detail_clearance_m": {
+        "L": 5.411383813225257e-05,
+        "R": 5.7461317965135095e-05
+      },
+      "uncovered_closed_eye_rays": {}
+    },
+    {
+      "h": 0,
+      "v": 1,
+      "opening": 0.0,
+      "minimum_detail_clearance_m": {
+        "L": 5.3223940085445065e-05,
+        "R": 5.342892950466194e-05
+      },
+      "uncovered_closed_eye_rays": {
+        "L": 0,
+        "R": 0
+      }
+    },
+    {
+      "h": 0,
+      "v": -1,
+      "opening": 1.0,
+      "minimum_detail_clearance_m": {
+        "L": 5.689525005436735e-05,
+        "R": 5.692991430805705e-05
+      },
+      "uncovered_closed_eye_rays": {}
+    },
+    {
+      "h": 0,
+      "v": -1,
+      "opening": 0.5,
+      "minimum_detail_clearance_m": {
+        "L": 5.5907224918883e-05,
+        "R": 5.5608919979022176e-05
+      },
+      "uncovered_closed_eye_rays": {}
+    },
+    {
+      "h": 0,
+      "v": -1,
+      "opening": 0.0,
+      "minimum_detail_clearance_m": {
+        "L": 5.2873213917337125e-05,
+        "R": 5.4111348845253815e-05
+      },
+      "uncovered_closed_eye_rays": {
+        "L": 0,
+        "R": 0
+      }
+    }
+  ],
+  "packed_images": [
+    {
+      "name": "eye_L_height.png.002",
+      "sha256": "7b9694160be44ecca49e0f3480dcfbbd98b3641c948589184ba7829ab236d953"
+    },
+    {
+      "name": "eye_L_iris_basecolor.png",
+      "sha256": "0624e0489e29945dc5a0b2c5cf66ce4b1d31f1f148bf75583548e78a5ecc3fb6"
+    },
+    {
+      "name": "eye_L_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c"
+    },
+    {
+      "name": "eye_R_height.png.002",
+      "sha256": "7b9694160be44ecca49e0f3480dcfbbd98b3641c948589184ba7829ab236d953"
+    },
+    {
+      "name": "eye_R_iris_basecolor.png",
+      "sha256": "500d60bb9bef69f04a860ec564ad260abb982fb58edc2f49e8e921e5890a8688"
+    },
+    {
+      "name": "eye_R_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c"
+    },
+    {
+      "name": "skin_basecolor.png.001",
+      "sha256": "05c7d7a469d5dfaaa7cea490f5a1ea475e73519b045c8d9595d597e913333021"
+    },
+    {
+      "name": "skin_height.png.001",
+      "sha256": "35aac6612e926b104688f5c6ff16a38bee4c22a7fd89238f6e1c00f5b523d8d9"
+    },
+    {
+      "name": "skin_roughness.png",
+      "sha256": "153771d4bd20d24e516f1a71e9393fa604d286fedb52fa136e25a5e02d5da3b7"
+    }
+  ],
+  "scope": "15 manual gaze/opening poses, full helper-point clearance, 81x81 frontal closure rays, original groom and packed texture allowlist."
+}

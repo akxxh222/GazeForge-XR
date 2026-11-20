@@ -1,0 +1,290 @@
+{
+  "schema": "IrisX actual-render overview 1",
+  "duration_s": 90,
+  "frames": 2160,
+  "fps": 24,
+  "resolution": [
+    1280,
+    720
+  ],
+  "file": "overview.mp4",
+  "sha256": "20c8b52cc44b0128f2847c10445018223dc899b2f47d88a1be8975535c9267a2",
+  "chapters": [
+    {
+      "title": "GazeForge XR",
+      "start_s": 0,
+      "end_s": 6,
+      "source": "previews/look_01_front.png",
+      "sha256": "9befd12f2fb2ec4b03315f533668d1d58639091fb118d27393acd023ff4153ab",
+      "captions": [
+        "Synthetic gaze data",
+        "Samsung XR Track 01",
+        "Actual Blender renders"
+      ]
+    },
+    {
+      "title": "Metric calibration",
+      "start_s": 6,
+      "end_s": 18,
+      "source": "previews/look_01_eyes.png",
+      "sha256": "78ab2c66a608595a03e6a64882939ee8e87b0823c660aea441a67a120dd24432",
+      "captions": [
+        "40 cm fixed camera",
+        "35 cm fixation plane",
+        "Target offsets within 5 cm",
+        "Shared target, separate pivots"
+      ]
+    },
+    {
+      "title": "Python controls",
+      "start_s": 18,
+      "end_s": 30,
+      "source": "previews/look_02_eyes.png",
+      "sha256": "b17178f3f5ab2608376615c30b07e12e399f52f842da024f384ab313eb757697",
+      "captions": [
+        "eyes.move(h, v)",
+        "eyes.reset()",
+        "eyes.render()",
+        "Saved editable eye/lid actions"
+      ]
+    },
+    {
+      "title": "Left",
+      "start_s": 30,
+      "end_s": 36,
+      "source": "videos/left.mp4",
+      "sha256": "bd31eb2d4d50490a74563d7bab8fb9cbd2195f8293c5d885790569a3e639e5be",
+      "captions": [
+        "144 actual rendered frames",
+        "24 fps, six seconds",
+        "720 px, Cycles 96 samples"
+      ]
+    },
+    {
+      "title": "Right",
+      "start_s": 36,
+      "end_s": 42,
+      "source": "videos/right.mp4",
+      "sha256": "b86b1055c8c5116ca0d9fbe9cda869c7c443a98bef3243c795180a8a2cb8c37d",
+      "captions": [
+        "144 actual rendered frames",
+        "24 fps, six seconds",
+        "720 px, Cycles 96 samples"
+      ]
+    },
+    {
+      "title": "Generate Motion",
+      "start_s": 42,
+      "end_s": 48,
+      "source": "videos/generate_motion.mp4",
+      "sha256": "8eb886a42ad76d2cc81a0446f4fb9babefec8ace9caee9bb33643a43f5cc98d0",
+      "captions": [
+        "144 actual rendered frames",
+        "24 fps, six seconds",
+        "720 px, Cycles 96 samples"
+      ]
+    },
+    {
+      "title": "Native look 01",
+      "start_s": 48,
+      "end_s": 51,
+      "source": "previews/look_01_front.png",
+      "sha256": "9befd12f2fb2ec4b03315f533668d1d58639091fb118d27393acd023ff4153ab",
+      "captions": [
+        "Original GNM UVs",
+        "Portable skin and eye maps"
+      ]
+    },
+    {
+      "title": "Native look 02",
+      "start_s": 51,
+      "end_s": 54,
+      "source": "previews/look_02_front.png",
+      "sha256": "44fad4fb793c2358996480f3c36eb9b3c6d535e8b912f5d428dc05b8b3f8601e",
+      "captions": [
+        "Original GNM UVs",
+        "Portable skin and eye maps"
+      ]
+    },
+    {
+      "title": "Native look 03",
+      "start_s": 54,
+      "end_s": 57,
+      "source": "previews/look_03_front.png",
+      "sha256": "e79548b3883827358bb3b171d434a46c18084fb4bc9e2df22e6565098c0347a5",
+      "captions": [
+        "Original GNM UVs",
+        "Portable skin and eye maps"
+      ]
+    },
+    {
+      "title": "Native look 04",
+      "start_s": 57,
+      "end_s": 60,
+      "source": "previews/look_04_front.png",
+      "sha256": "789eaac46707273e8f249a492d02d9b552ba510bb1d08b43109d2e39160e6120",
+      "captions": [
+        "Original GNM UVs",
+        "Portable skin and eye maps"
+      ]
+    },
+    {
+      "title": "Native look 05",
+      "start_s": 60,
+      "end_s": 63,
+      "source": "previews/look_05_front.png",
+      "sha256": "6fc65b2db40825d12063138b6534a2e0e4ee7e68f373bcb39668c1932780e600",
+      "captions": [
+        "Original GNM UVs",
+        "Portable skin and eye maps"
+      ]
+    },
+    {
+      "title": "Clockwise sample 00",
+      "start_s": 63.0,
+      "end_s": 64.5,
+      "source": "renders/frame_00.png",
+      "sha256": "4352e9d107cc1cd25624594808b405d7ac4a40657f2c7f3566eb39d87c1b603b",
+      "captions": [
+        "h = +0.000",
+        "v = +1.000",
+        "1024-square PNG",
+        "Geometric projection labels"
+      ]
+    },
+    {
+      "title": "Clockwise sample 01",
+      "start_s": 64.5,
+      "end_s": 66.0,
+      "source": "renders/frame_01.png",
+      "sha256": "d2e2084682e2f2ec4c69d2f00325bf4fccaf2766103bb5ccb888d5f1954cb2fb",
+      "captions": [
+        "h = +0.588",
+        "v = +0.809",
+        "1024-square PNG",
+        "Geometric projection labels"
+      ]
+    },
+    {
+      "title": "Clockwise sample 02",
+      "start_s": 66.0,
+      "end_s": 67.5,
+      "source": "renders/frame_02.png",
+      "sha256": "68f8be547cb9112c21480b92497ad2a01e773bab9aaeb1759734ccd3bdf62b8e",
+      "captions": [
+        "h = +0.951",
+        "v = +0.309",
+        "1024-square PNG",
+        "Geometric projection labels"
+      ]
+    },
+    {
+      "title": "Clockwise sample 03",
+      "start_s": 67.5,
+      "end_s": 69.0,
+      "source": "renders/frame_03.png",
+      "sha256": "794c53b6f65d1c2211a086bcae564132915ee53d8958a34647a8ccc39ae8b510",
+      "captions": [
+        "h = +0.951",
+        "v = -0.309",
+        "1024-square PNG",
+        "Geometric projection labels"
+      ]
+    },
+    {
+      "title": "Clockwise sample 04",
+      "start_s": 69.0,
+      "end_s": 70.5,
+      "source": "renders/frame_04.png",
+      "sha256": "943c794c312a131296ab5710e398c9d1c641f5f717d780a3f609e91e2c71b533",
+      "captions": [
+        "h = +0.588",
+        "v = -0.809",
+        "1024-square PNG",
+        "Geometric projection labels"
+      ]
+    },
+    {
+      "title": "Clockwise sample 05",
+      "start_s": 70.5,
+      "end_s": 72.0,
+      "source": "renders/frame_05.png",
+      "sha256": "14f6f109c79fe4a485b4ade6d7de1f849ba0ad66a551b12dda6c75344e6aa1bd",
+      "captions": [
+        "h = +0.000",
+        "v = -1.000",
+        "1024-square PNG",
+        "Geometric projection labels"
+      ]
+    },
+    {
+      "title": "Clockwise sample 06",
+      "start_s": 72.0,
+      "end_s": 73.5,
+      "source": "renders/frame_06.png",
+      "sha256": "4ecd13874a9184c83e03ce091b758e24713d41fdc66e7035574685ff2daea382",
+      "captions": [
+        "h = -0.588",
+        "v = -0.809",
+        "1024-square PNG",
+        "Geometric projection labels"
+      ]
+    },
+    {
+      "title": "Clockwise sample 07",
+      "start_s": 73.5,
+      "end_s": 75.0,
+      "source": "renders/frame_07.png",
+      "sha256": "a03b3fb5b4888cc4a13784b390dd22ff0eda56d8d41078b5cfc68e1112ca8b75",
+      "captions": [
+        "h = -0.951",
+        "v = -0.309",
+        "1024-square PNG",
+        "Geometric projection labels"
+      ]
+    },
+    {
+      "title": "Clockwise sample 08",
+      "start_s": 75.0,
+      "end_s": 76.5,
+      "source": "renders/frame_08.png",
+      "sha256": "e5291f3ee53bfc379c4b60c693587070de09299df28659704339b9eb1d3d2eec",
+      "captions": [
+        "h = -0.951",
+        "v = +0.309",
+        "1024-square PNG",
+        "Geometric projection labels"
+      ]
+    },
+    {
+      "title": "Clockwise sample 09",
+      "start_s": 76.5,
+      "end_s": 78.0,
+      "source": "renders/frame_09.png",
+      "sha256": "6d51f0b79d8a3b80f9eb2f462a5ac9678e60156a529a6b80e4c33ab7abf09782",
+      "captions": [
+        "h = -0.588",
+        "v = +0.809",
+        "1024-square PNG",
+        "Geometric projection labels"
+      ]
+    },
+    {
+      "title": "Results and limits",
+      "start_s": 78,
+      "end_s": 90,
+      "source": "previews/look_04_eyes.png",
+      "sha256": "66356ad4cd195459721695bd9d6ea6c83a161e38a6330fcca8dcd52b8f2914eb",
+      "captions": [
+        "5,419 capture checks pass",
+        "Five native texture looks",
+        "Scan detail is transferred",
+        "Motion is authored",
+        "Setup and credits in README"
+      ]
+    }
+  ],
+  "capture_report_sha256": "60554b72cf6859829630f207f00fb75ce2b3cf27d8fcce45473a0097ddd0e878",
+  "builder_sha256": "19b761bb7a4ae961329262a1041eadad46a00834d4bf728ed301f0cf0d80a11a",
+  "scope": "Silent captioned overview assembled from existing actual Blender renders and complete rendered clips. It is additional presentation media, not a live screen recording or new physical render sequence."
+}

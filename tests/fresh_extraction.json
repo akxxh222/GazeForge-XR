@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "passed": 38,
+  "failed": 0,
+  "checks": [
+    {
+      "test": "scene identical after fresh extraction",
+      "passed": true
+    },
+    {
+      "test": "expressions.py identical after extraction",
+      "passed": true
+    },
+    {
+      "test": "eyes.py identical after extraction",
+      "passed": true
+    },
+    {
+      "test": "lids.py identical after extraction",
+      "passed": true
+    },
+    {
+      "test": "metadata.py identical after extraction",
+      "passed": true
+    },
+    {
+      "test": "native_textures.py identical after extraction",
+      "passed": true
+    },
+    {
+      "test": "sequences.py identical after extraction",
+      "passed": true
+    },
+    {
+      "test": "submission_looks.py identical after extraction",
+      "passed": true
+    },
+    {
+      "test": "__init__.py identical after extraction",
+      "passed": true
+    },
+    {
+      "test": "left actual short capture complete",
+      "passed": true
+    },
+    {
+      "test": "left smoke frame 0 resolution",
+      "passed": true
+    },
+    {
+      "test": "left smoke frame 1 resolution",
+      "passed": true
+    },
+    {
+      "test": "left smoke frame 2 resolution",
+      "passed": true
+    },
+    {
+      "test": "left smoke frame 3 resolution",
+      "passed": true
+    },
+    {
+      "test": "left full smoke video decoded",
+      "passed": true
+    },
+    {
+      "test": "right actual short capture complete",
+      "passed": true
+    },
+    {
+      "test": "right smoke frame 0 resolution",
+      "passed": true
+    },
+    {
+      "test": "right smoke frame 1 resolution",
+      "passed": true
+    },
+    {
+      "test": "right smoke frame 2 resolution",
+      "passed": true
+    },
+    {
+      "test": "right smoke frame 3 resolution",
+      "passed": true
+    },
+    {
+      "test": "right full smoke video decoded",
+      "passed": true
+    },
+    {
+      "test": "generate_motion actual short capture complete",
+      "passed": true
+    },
+    {
+      "test": "generate_motion smoke frame 0 resolution",
+      "passed": true
+    },
+    {
+      "test": "generate_motion smoke frame 1 resolution",
+      "passed": true
+    },
+    {
+      "test": "generate_motion smoke frame 2 resolution",
+      "passed": true
+    },
+    {
+      "test": "generate_motion smoke frame 3 resolution",
+      "passed": true
+    },
+    {
+      "test": "generate_motion full smoke video decoded",
+      "passed": true
+    },
+    {
+      "test": "fresh official capture completes",
+      "passed": true
+    },
+    {
+      "test": "official 0 inputs and geometric labels reproduced",
+      "passed": true
+    },
+    {
+      "test": "official 1 inputs and geometric labels reproduced",
+      "passed": true
+    },
+    {
+      "test": "official 2 inputs and geometric labels reproduced",
+      "passed": true
+    },
+    {
+      "test": "official 3 inputs and geometric labels reproduced",
+      "passed": true
+    },
+    {
+      "test": "official 4 inputs and geometric labels reproduced",
+      "passed": true
+    },
+    {
+      "test": "official 5 inputs and geometric labels reproduced",
+      "passed": true
+    },
+    {
+      "test": "official 6 inputs and geometric labels reproduced",
+      "passed": true
+    },
+    {
+      "test": "official 7 inputs and geometric labels reproduced",
+      "passed": true
+    },
+    {
+      "test": "official 8 inputs and geometric labels reproduced",
+      "passed": true
+    },
+    {
+      "test": "official 9 inputs and geometric labels reproduced",
+      "passed": true
+    }
+  ],
+  "scene_sha256": "46b09e753c9f0941f3177f318d7d5695dced3e15712a597c6d5ae00940a01f17",
+  "wrapper_sha256": {
+    "expressions.py": "92002c4c4b2688ac0b2b8880a2d6ea2beda402d514645b9e5e3f1047b8544a47",
+    "eyes.py": "5c28eedf34e71deef394e93a1932a40e94b22dbe406b10dab737f6ffb3178730",
+    "lids.py": "2b39a3ae0563ce168730e4dc861f01cac9f1d651402657a0255cc10ddb07584e",
+    "metadata.py": "e4cd2e64120e82dbabe4fe465b5fb911361986402bc8d2cd94b6cbcfe0f95771",
+    "native_textures.py": "c35666a85ce3ff9bd2d2f80849bdf2d5b9438fa4e0e443f4141cc3c2a915af8f",
+    "sequences.py": "e171635072c8407b99fbb7e40c655f3738139b4a45f3601ac1bba0909580e995",
+    "submission_looks.py": "250ca832db01c094f82ea6a3c4796e7b7e6f6d251ee987d50a611579c9ead41a",
+    "__init__.py": "d9d56da4a78cdf24c50e0d39c5d183ef3434ad62e097b7e191408b094f73ba12"
+  },
+  "preflight_archive_sha256": "4f1cc6cc776bd7c57e005ee776327fba3d528da115816ac60eacd58d74aef5d2",
+  "scope": "Fresh extraction only: three one-second clips at 4 fps, 128px, one sample, plus ten 1024px one-sample clockwise renders. All three commands completed; decoded smoke frames and geometric metadata match. The supplied six-second media were separately rendered and checked in full. This is not a second full-quality rerender."
+}

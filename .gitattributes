@@ -1,17 +1,6 @@
-# Keep authoring code hashes stable across Windows and Unix checkouts.
-scripts/*.py text eol=lf
-wrapper/*.py text eol=lf
-# Review metadata hashes the exact generated texture manifest bytes.
-textures/**/manifest.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
-# Preserve downloaded GNM source/license bytes and their recorded SHA-256 values.
-assets/gnm/reference/** -text
-assets/gnm/LICENSE.Apache-2.0.txt -text
-assets/skin_detail/LeePerrySmith_License.txt -text
-# Preserve authored review receipts and their byte-based source hashes.
-work/**/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
-
-# Retain the downloaded asset credits verbatim.
-assets/public_candidates/SOURCE_NOTICES.txt -text -whitespace
-tests/milestone4/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
-tests/milestone4/temporal/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
-tests/eye_refinement/*.json -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+* -text
+*.blend binary
+*.png binary
+*.mp4 binary
+*.pptx binary
+*.zip binary

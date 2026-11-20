@@ -1,48 +1,86 @@
-# GazeForge XR - VITChennai_IrisX
+# GazeForge XR
 
-Native GNM Head 3.0 project for Samsung XR Track 01. Milestone 1 is complete. Milestone 3 articulation is complete. Milestone 4 expression/capture work is complete. Milestone 2 reference-level visual refinement and final submission remain pending. See [the five-stage plan](MILESTONES.md) and [checkpoint history](docs/CHECKPOINTS.md).
+**VITChennai_IrisX · Samsung XR Track 01**
 
-Milestone 4 now includes [Left](work/milestone4/capture/left/left.mp4), [Right](work/milestone4/capture/right/right.mp4) and [Generate Motion](work/milestone4/capture/generate_motion/generate_motion.mp4): six seconds each at 24 fps and 720x720. The ten official 1024x1024 PNGs and metadata are in `work/milestone4/capture/clockwise/`. All 961 control and 5419 capture checks pass; [evidence](tests/milestone4/README.md) and [capture commands](docs/EXPRESSION_CAPTURE.md). Milestone 4 is committed in `d2420a0`; the separate eye-refinement candidate is committed in `9db0bca`. Milestone 3 commits remain `b353ece` and `5b9a045`.
+We built a Blender face rig that generates labelled gaze images and short eye-movement sequences. Both eyes rotate about their own centres and follow one fixation target. The scene includes eyelid closure, gaze follow, eyebrow controls and five texture looks on the original GNM UVs.
 
-## Open the current work
+## Start here
 
-- Latest eye appearance candidate: **`work/review/eye_refinement/IRISX_EYE_REFINEMENT.blend`**. A packed CC0 iris, slightly relaxed lids and an extra 96-frame fixation/hold action are under visual review. [Before/after comparison](tests/eye_refinement/comparison.png), [review notes](docs/EYE_REFINEMENT_REVIEW.md). This separate candidate does not replace accepted M3/M4 outputs or close the realism gate.
+1. Open `scene.blend` in **Blender 5.2.3 LTS**. The textures are packed; no add-ons are needed.
+2. Press **F12** for the Cycles render. Material Preview is useful for navigation, but its hair and cornea shading differs from the final render.
+3. Play frames **1–144** to see the six-second gaze sequence and blinks.
+4. Open `videos/` for the three final clips, `previews/` for the five face/eye looks, or `demo/presentation.pptx` for the project slides.
 
-- Completed articulation scene: **`work/milestone3/final/IRISX_MILESTONE3.blend`**. Play frames 1-144 at 24 fps. [Six-second actual-render preview](work/milestone3/final/milestone3_preview.mp4), [evidence and controls](tests/milestone3/final/README.md). All three saved action bundles are available through `expressions.use_action()`.
-- Earlier gaze/lid/brow prototype: `work/milestone3/gaze_lids/IRISX_GAZE_LIDS_RIG.blend`. Play frames 1-144 for a six-second scan with coordinated lids and two blinks. [Current motion evidence](tests/milestone3/gaze_lids/README.md).
-- Earlier committed blink-only scene: `work/milestone3/IRISX_BLINK_PROTOTYPE.blend`. Play frames 1-72 at 24 fps for two blinks. Independent `Blink.L` / `Blink.R` shape keys, lashes, brows and waterlines follow the native head deformation. [Blink preview](work/milestone3/blink_preview.mp4) and [motion evidence](tests/milestone3/README.md).
-- Corrected static scene: `work/review/lids/IRISX_LIDS_REVIEW.blend`. Material Preview shows the iris/sclera through an EEVEE corneal surface; F12 uses physical Cycles refraction. [Static correction evidence](tests/milestone2/lid_review/README.md).
-- Public asset parent: `work/review/cyberpunk/IRISX_ASSET_REVIEW.blend`. [Source/adaptation notes](assets/public_candidates/README.md).
-- Five native-UV looks: [texture instructions](textures/README.md), [contact sheet](tests/milestone2/contact_sheet.png), and [visual defect ledger](tests/milestone2/REVIEW.md).
+| Path | Contents |
+| --- | --- |
+| `scene.blend` | Editable face, eye bones, lids, materials, camera and lights |
+| `wrapper/` | Gaze, expression, texture and capture controls |
+| `renders/` + `metadata.json` | Ten clockwise 1024 × 1024 PNGs and their labels |
+| `videos/` | Left, Right and GenerateMotion; six seconds each |
+| `textures/` | Five native face/eye map sets and shared sclera height maps |
+| `previews/` | One front and one eye close-up per look |
+| `demo/` | Presentation and 90-second overview |
+| `tests/` | Validation results and capture receipts |
+| `docs/` | Rig/metadata notes and asset credits |
 
-Selected authored review scenes, pose images, receipts and short blink MP4s are versioned explicitly. Other `work/` downloads, caches, older experiments, raw animation frames and Blender backups remain local/rebuildable. The root MPFB scene, old deck/demo/ZIP and legacy packaging scripts are preserved locally and are outside these native-GNM checkpoints.
+## Render again
 
-## Reproduce the calibrated baseline
-
-Use Blender 5.2.3 LTS and the Python dependencies in `requirements.txt`. Replace the executable path on another computer.
+Run these commands from this folder. Replace the Blender executable path if needed.
 
 ```powershell
-& ./scripts/fetch_gnm.ps1
-$env:OPTIX_CACHE_PATH = Join-Path (Get-Location) 'tests/.optix_cache'
-& 'E:\Apps\blender.exe' --factory-startup -b --disable-autoexec --python-exit-code 1 --python scripts/build_gnm_baseline.py
-& 'E:\Apps\blender.exe' --factory-startup -b work/gnm/scene_baseline.blend --disable-autoexec --python-exit-code 1 --python scripts/validate_gnm_baseline.py -- --render
-python scripts/make_gnm_contact_sheet.py
+& 'E:\Apps\blender.exe' --background --factory-startup --disable-autoexec --python-exit-code 1 --python scripts/render_expressions.py -- --mode all --duration 6 --fps 24 --resolution 720 --samples 96 --official --official-samples 192
 ```
 
-The main model NPZ is downloaded and verified against Google's published checksum, and remains excluded from Git. Native geometry, per-region UVs and original vertex/quad identifiers are preserved. [Asset details](assets/gnm/README.md) and [baseline evidence](tests/milestone1/README.md).
+This renders every video frame from the 3D scene. New files go under `runtime/capture/`; the supplied results stay in place. To generate only the ten official images, replace `--mode all --official` with `--official-only`.
 
-The fixed camera is 0.40 m ahead of the eye midpoint. The common fixation target is 0.35 m ahead with +/-0.05 m horizontal/vertical bounds. `wrapper.eyes.move(h,v)`, `reset()` and `render()` control rigid binocular rotations about the native physical eye centers. Macro/side cameras serve review only. Labels are geometric pinhole projections; refraction can shift visible apparent pupil centers.
+Cycles uses an available GPU and falls back to the CPU. The supplied clips are 720 × 720 at 24 fps. The official PNGs are 1024 × 1024. Rendering the full set can take a while, especially on the CPU.
 
-## Verification and remaining gates
+## Python controls
 
-Latest applicable reports: 82 baseline checks, 133 texture/source checks, 80 material portability checks, 70 render/provenance checks, 105 five-look groom checks, 46 public-asset checks, 41 preview/lid checks, 58 blink-scene checks and 8 decoded-video checks. These reports apply to their documented scene revisions and do not constitute a photorealism score.
+In Blender's Python Console, add this folder to the import path:
 
-The completed articulation checkpoint passes 1313 scene/control/motion checks and 21 decoded-video checks, with no failures. Its 144 changing 384px Cycles frames form a six-second diagnostic, separate from the three final expression videos. Native contact sampling and visual limits are explicit in the evidence notes.
+```python
+import bpy, sys
+from pathlib import Path
+project = Path(bpy.data.filepath).parent
+sys.path.insert(0, str(project))
+from wrapper import eyes, expressions, submission_looks
+```
 
-The older blink diagnostic contains 36 changing Cycles frames at 512x512, encoded at 24 fps for 1.5 seconds. It is separate from the final three expression-mode videos. The later final articulation checkpoint passes gaze-follow, sampled native skin/eye and lid-intersection checks, canthal/attachment fit and native-UV deformation review. Reference-level skin/eye/hair acceptance remains open. Reproduction commands and the manual-versus-timeline control behavior are documented in the relevant evidence notes.
+`eyes.move(h, v)` accepts values from −1 to +1. Positive `h` means image right; positive `v` means up. `eyes.reset()` returns to the centre. A manual gaze pauses the eye/target actions so rendering does not replace the requested pose.
 
-## Provenance and licensing
+For a manual render with open lids:
 
-Original project code uses [MIT](LICENSE). GNM native model/semantic derivatives retain Apache-2.0. Skin sources combine CC0 diffuse maps and attributed Lee Perry-Smith CC BY 3.0 scan detail. The adapted Splash Fox iris shader retains CC BY-SA 3.0. The Hair Styles source states CC BY-SA without a version; its derivatives remain local review material pending resolution before final redistribution. See [the asset license ledger](assets/LICENSES.md).
+```python
+with expressions.manual():
+    expressions.reset()
+    eyes.move(-1, 0)
+    eyes.render('runtime/manual_left.png')
+```
 
-The calibrated controller/render-device selector were reused from the earlier local MPFB prototype; the removed original commit remains in its local recovery bundle. No Chris Jones / Universal Human asset files are imported. [Human Progress](docs/HUMAN_PROGRESS_REFERENCE.md) informs the independently authored rig only. The final ZIP has not been rebuilt or certified against the new evaluation requirements.
+The context restores the previous timeline actions afterwards. Select a saved sequence with `expressions.use_action('left')`, `'right'` or `'generate_motion'`. Switch textures with `submission_looks.apply_look('look_02')`; IDs run from `look_01` to `look_05`.
+
+## Calibration and labels
+
+The camera is fixed **40 cm** in front of the eye midpoint. The target plane is **35 cm** forward with horizontal/vertical offsets up to **±5 cm**. Ten clockwise samples use `theta = 2*pi*k/10`, `h = sin(theta)`, `v = cos(theta)`, starting at the top.
+
+World axes are X right, Y behind the subject and Z up. Distances are metres; rotations are world XYZ Euler angles in radians. Anatomical eye L appears on the right of the image. Pixel coordinates start at the top-left.
+
+Pupil labels describe the geometric aperture centre projected by the camera. They are not apparent pupil centres measured through corneal refraction. The 3 × 4 `camera_matrix` maps a world point to homogeneous pixel coordinates; divide its first two outputs by the third. [Rig and metadata details](docs/METHODS.md).
+
+## Check the submission
+
+```powershell
+python -m pip install -r requirements.txt
+python scripts/verify_submission.py
+```
+
+The check covers file hashes, video decoding, image sizes, sequence order and metadata. Full rerender checks and the fresh-extraction smoke run are recorded in `tests/report.json`.
+
+Build the team ZIP with `python scripts/package_submission.py`. The generated ZIP and its checksum file stay local and are excluded from Git.
+
+## Notes
+
+The face uses transferred skin detail and an original strand groom. Fine eyelid detail and the closely combed temples remain approximations. The cornea uses an artistic shadow-transmission adjustment; the scene is not a measured optical model. We have not biologically validated the motion. Asset credits and licence terms are in [docs/ASSETS.md](docs/ASSETS.md).
+
+If the viewport looks grey, switch out of Solid shading. If a manual pose disappears, use the manual context above. Keep the whole folder together when switching texture looks; the default scene's textures are also packed for direct opening.

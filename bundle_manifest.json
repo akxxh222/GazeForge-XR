@@ -1,0 +1,656 @@
+{
+  "team": "VITChennai_IrisX",
+  "schema": "IrisX submission hashes 1",
+  "files": [
+    {
+      "file": "LICENSE",
+      "sha256": "eb8f3e549478f5f28ad0df37e0fd8f6c009d9bd3a9558e00f71cc1af8c02be20",
+      "bytes": 1082
+    },
+    {
+      "file": "MILESTONES.md",
+      "sha256": "0693dd0ff7f244b83d2a261e817098380792963a23a8b628f2f5506482b42d22",
+      "bytes": 758
+    },
+    {
+      "file": "README.md",
+      "sha256": "ecbee8a057a9d466af4fb3fd8cac9af1cc356694e7d20cb0662e082f6f0fbd41",
+      "bytes": 5127
+    },
+    {
+      "file": "assets/eye_refinement/green_eye.png",
+      "sha256": "b9864ac4f4fa484b24e18f6aba030d70dbc8820cbbacfbe63a974c76772c2009",
+      "bytes": 662241
+    },
+    {
+      "file": "assets/gnm/LICENSE.Apache-2.0.txt",
+      "sha256": "ba12fffb7f905c67daa3e0d9656e8638d3a0d0eee70862ec17da7db429be19f0",
+      "bytes": 12823
+    },
+    {
+      "file": "assets/gnm/download_manifest.json",
+      "sha256": "ef1a783c6b8b307cfe84e89a6507b851e41886d7f97034d484ce5d0f283b0347",
+      "bytes": 6613
+    },
+    {
+      "file": "assets/gnm/native_manifest.json",
+      "sha256": "5919db03a3b49bdbb04ac2c8c06b17cc9e0b789ece0cc8cfff429584e13c63a0",
+      "bytes": 2406
+    },
+    {
+      "file": "assets/skin_detail/License.txt",
+      "sha256": "19640b8bbcc488694b24798a8fb7de9e111007bcaef8512ff830a4270c9bc927",
+      "bytes": 1747
+    },
+    {
+      "file": "assets/skin_detail/source_manifest.json",
+      "sha256": "e80073129664d69143ec00fea240e771a39a3c001a344e8968592050dcf7005f",
+      "bytes": 795
+    },
+    {
+      "file": "assets/source_skins/manifest.json",
+      "sha256": "a2ff97d75a316424524d7c777e0d0fbe74e9a7ae479e09c06b303f5cb6b553c7",
+      "bytes": 3491
+    },
+    {
+      "file": "contact_sheet.png",
+      "sha256": "6a116e2a1b8294d088e1f467c322000e905d841b00aa7a41804957a7fcdee80c",
+      "bytes": 156720
+    },
+    {
+      "file": "demo/overview.mp4",
+      "sha256": "20c8b52cc44b0128f2847c10445018223dc899b2f47d88a1be8975535c9267a2",
+      "bytes": 6232299
+    },
+    {
+      "file": "demo/presentation.pptx",
+      "sha256": "de10b8501a275d86ed74c9c27e393ffeae690594d8b09e509a99a712e90ea4ed",
+      "bytes": 8898434
+    },
+    {
+      "file": "docs/ASSETS.md",
+      "sha256": "10cc885221db15b5aa120bbf46b79c2e7c39411e02c323ef728a8ebd6872fba6",
+      "bytes": 2521
+    },
+    {
+      "file": "docs/METHODS.md",
+      "sha256": "19e9021bf86e63bc49c117dd948a5e0a557fc8e9f45aac73bb9d625f15328ac0",
+      "bytes": 3356
+    },
+    {
+      "file": "metadata.json",
+      "sha256": "b15a380d3295ff04eb45b52d55943a710f5a658f32eda9a1eac2bfa3d833adb3",
+      "bytes": 33538
+    },
+    {
+      "file": "native_materials.json",
+      "sha256": "70f9e1c25f30943314b770a9dd5a4588c29ca733ae6f9311695de875b31e041e",
+      "bytes": 927
+    },
+    {
+      "file": "previews/look_01_eyes.png",
+      "sha256": "78ab2c66a608595a03e6a64882939ee8e87b0823c660aea441a67a120dd24432",
+      "bytes": 1025916
+    },
+    {
+      "file": "previews/look_01_front.png",
+      "sha256": "9befd12f2fb2ec4b03315f533668d1d58639091fb118d27393acd023ff4153ab",
+      "bytes": 1019854
+    },
+    {
+      "file": "previews/look_02_eyes.png",
+      "sha256": "b17178f3f5ab2608376615c30b07e12e399f52f842da024f384ab313eb757697",
+      "bytes": 1060247
+    },
+    {
+      "file": "previews/look_02_front.png",
+      "sha256": "44fad4fb793c2358996480f3c36eb9b3c6d535e8b912f5d428dc05b8b3f8601e",
+      "bytes": 992578
+    },
+    {
+      "file": "previews/look_03_eyes.png",
+      "sha256": "512de179e240266799a1b78bf005ecd9f216738068a805ee7237323226b37a3f",
+      "bytes": 1009235
+    },
+    {
+      "file": "previews/look_03_front.png",
+      "sha256": "e79548b3883827358bb3b171d434a46c18084fb4bc9e2df22e6565098c0347a5",
+      "bytes": 1015423
+    },
+    {
+      "file": "previews/look_04_eyes.png",
+      "sha256": "66356ad4cd195459721695bd9d6ea6c83a161e38a6330fcca8dcd52b8f2914eb",
+      "bytes": 1020899
+    },
+    {
+      "file": "previews/look_04_front.png",
+      "sha256": "789eaac46707273e8f249a492d02d9b552ba510bb1d08b43109d2e39160e6120",
+      "bytes": 1034145
+    },
+    {
+      "file": "previews/look_05_eyes.png",
+      "sha256": "4c0178fbfe1d79a1387c02ffd5297e480ec98d0f9c8503d0c9ee51c14ea5f20f",
+      "bytes": 1022778
+    },
+    {
+      "file": "previews/look_05_front.png",
+      "sha256": "6fc65b2db40825d12063138b6534a2e0e4ee7e68f373bcb39668c1932780e600",
+      "bytes": 1013265
+    },
+    {
+      "file": "previews/receipt.json",
+      "sha256": "6cfc2c388b39ae06de46efb4c67c1815e4ee9eddef4988723b0fa1cfd0ae2b74",
+      "bytes": 37071
+    },
+    {
+      "file": "renders/frame_00.png",
+      "sha256": "4352e9d107cc1cd25624594808b405d7ac4a40657f2c7f3566eb39d87c1b603b",
+      "bytes": 1021657
+    },
+    {
+      "file": "renders/frame_01.png",
+      "sha256": "d2e2084682e2f2ec4c69d2f00325bf4fccaf2766103bb5ccb888d5f1954cb2fb",
+      "bytes": 1021419
+    },
+    {
+      "file": "renders/frame_02.png",
+      "sha256": "68f8be547cb9112c21480b92497ad2a01e773bab9aaeb1759734ccd3bdf62b8e",
+      "bytes": 1021510
+    },
+    {
+      "file": "renders/frame_03.png",
+      "sha256": "794c53b6f65d1c2211a086bcae564132915ee53d8958a34647a8ccc39ae8b510",
+      "bytes": 1020681
+    },
+    {
+      "file": "renders/frame_04.png",
+      "sha256": "943c794c312a131296ab5710e398c9d1c641f5f717d780a3f609e91e2c71b533",
+      "bytes": 1020599
+    },
+    {
+      "file": "renders/frame_05.png",
+      "sha256": "14f6f109c79fe4a485b4ade6d7de1f849ba0ad66a551b12dda6c75344e6aa1bd",
+      "bytes": 1020652
+    },
+    {
+      "file": "renders/frame_06.png",
+      "sha256": "4ecd13874a9184c83e03ce091b758e24713d41fdc66e7035574685ff2daea382",
+      "bytes": 1020554
+    },
+    {
+      "file": "renders/frame_07.png",
+      "sha256": "a03b3fb5b4888cc4a13784b390dd22ff0eda56d8d41078b5cfc68e1112ca8b75",
+      "bytes": 1021130
+    },
+    {
+      "file": "renders/frame_08.png",
+      "sha256": "e5291f3ee53bfc379c4b60c693587070de09299df28659704339b9eb1d3d2eec",
+      "bytes": 1021311
+    },
+    {
+      "file": "renders/frame_09.png",
+      "sha256": "6d51f0b79d8a3b80f9eb2f462a5ac9678e60156a529a6b80e4c33ab7abf09782",
+      "bytes": 1021505
+    },
+    {
+      "file": "requirements.txt",
+      "sha256": "259b471be9c6dcc4ded5dd1ec68c69e8b2b22a810cb1c1f0e5e338d0f9df6343",
+      "bytes": 46
+    },
+    {
+      "file": "scene.blend",
+      "sha256": "46b09e753c9f0941f3177f318d7d5695dced3e15712a597c6d5ae00940a01f17",
+      "bytes": 66897281
+    },
+    {
+      "file": "scene_build.json",
+      "sha256": "1e7dc6cdab5dcd425772ebe13b1f1bb3a52be3408cf6280168fb7b57ca6ff600",
+      "bytes": 2021
+    },
+    {
+      "file": "scripts/audit_submission_directions.py",
+      "sha256": "24a4020c0e9861bd4bacecf033203f38ad83c8ff9401b5599e0a42e3b8627c7b",
+      "bytes": 3950
+    },
+    {
+      "file": "scripts/audit_submission_looks.py",
+      "sha256": "6ff099dccce8a94afe031055a9668418e93c56df54a76bc8d203e70a802f6ced",
+      "bytes": 5021
+    },
+    {
+      "file": "scripts/make_submission_demo.py",
+      "sha256": "19b761bb7a4ae961329262a1041eadad46a00834d4bf728ed301f0cf0d80a11a",
+      "bytes": 5231
+    },
+    {
+      "file": "scripts/package_submission.py",
+      "sha256": "172c2c22884aed5afcc76c129feb189d76f40a08820dbf345e18d579c91a9fb3",
+      "bytes": 2120
+    },
+    {
+      "file": "scripts/render_device.py",
+      "sha256": "27ddb54f48c603bff0bf25ec7c920b722eff0f32ed2acb74a769ec3341ec26b3",
+      "bytes": 680
+    },
+    {
+      "file": "scripts/render_expressions.py",
+      "sha256": "db56f40fab859a3fab84f07e302ba59042c93fce7ae15c7b05bc54275fbe513b",
+      "bytes": 2201
+    },
+    {
+      "file": "scripts/render_submission_directions.py",
+      "sha256": "fc214c8f534c40d9b08d1677624d824573578cde87f974c92d64469665f931f6",
+      "bytes": 1636
+    },
+    {
+      "file": "scripts/render_submission_looks.py",
+      "sha256": "5dffa8361051300614e5d61a70376ca2c4b91e90f916eef0e6e43730b94bed34",
+      "bytes": 3137
+    },
+    {
+      "file": "scripts/validate_anatomy.py",
+      "sha256": "a13fa523a0bd7b3670922402115c508cfc12315ac42e5bdb971638df8f5bb94c",
+      "bytes": 4912
+    },
+    {
+      "file": "scripts/validate_expression_capture.py",
+      "sha256": "cefbf09998379f64ea500b3a998fec3e22742e226945471dfd59fe63a551e386",
+      "bytes": 20988
+    },
+    {
+      "file": "scripts/validate_submission_scene.py",
+      "sha256": "c81af2e879c1da9bfda1d138a7374d1e07d3cea83f5f87ec8a67d59de2421d30",
+      "bytes": 4857
+    },
+    {
+      "file": "scripts/verify_submission.py",
+      "sha256": "c38f2fe18ca6a45a5805d938ae6af11ae5edea00b908fcbe362a1f49b70fc92a",
+      "bytes": 4504
+    },
+    {
+      "file": "scripts/verify_submission_archive.py",
+      "sha256": "774366af5cd3a55820654f0403038a02de3344b902b4b31c5571cfcd68b2317f",
+      "bytes": 2980
+    },
+    {
+      "file": "submission.json",
+      "sha256": "d54a75e4ac762d70cbe1c404e7985f69e6369f4f8f1d2b93727c4ad7b2afabf3",
+      "bytes": 260
+    },
+    {
+      "file": "tests/anatomy.json",
+      "sha256": "e9507940d7f3939b0a32414e5964146cf357ea5dff2cef45a56b660665b7df58",
+      "bytes": 10031
+    },
+    {
+      "file": "tests/capture.json",
+      "sha256": "60554b72cf6859829630f207f00fb75ce2b3cf27d8fcce45473a0097ddd0e878",
+      "bytes": 585725
+    },
+    {
+      "file": "tests/directions.json",
+      "sha256": "27cecbd7b88a408c86049ad95dfea8588a29298af1b50f6093c946faa50d3bbf",
+      "bytes": 5232
+    },
+    {
+      "file": "tests/fresh_extraction.json",
+      "sha256": "ba34e44974921c2f4c0132ed4944e3feffa70bdb7fd634670ca50ddc7be1e7ff",
+      "bytes": 4957
+    },
+    {
+      "file": "tests/looks.json",
+      "sha256": "f4738839562b7a99768a7726f45ae3f9527998f82f12029185435093160f2450",
+      "bytes": 12557
+    },
+    {
+      "file": "tests/native_application.json",
+      "sha256": "082b5b2f0d93295ab618a210d40d014ea1963c48e1ce1d9ecff14d39d1087a2c",
+      "bytes": 7004
+    },
+    {
+      "file": "tests/overview.json",
+      "sha256": "3dcff20ddc7ef59a40d5fffdd6350df2459ba8ff9b40f4458bc39bb2b3f038c9",
+      "bytes": 382
+    },
+    {
+      "file": "tests/presentation.json",
+      "sha256": "d49182469f4e520f459fe4ed269e39f0936fce29a0d73650067fb8d139db8d4e",
+      "bytes": 4120
+    },
+    {
+      "file": "tests/receipts/clockwise.json",
+      "sha256": "8cef1cdfb11d1ff549ab484fcf109dd1bc655e8e9a92a3e915618913676ded01",
+      "bytes": 37049
+    },
+    {
+      "file": "tests/receipts/generate_motion.json",
+      "sha256": "91ad051ca1fbeddea75a87347b0bc42bcea432f701bfc9135aa2cb8d4061ff12",
+      "bytes": 450286
+    },
+    {
+      "file": "tests/receipts/left.json",
+      "sha256": "4ff5a97d30a31f94d0d9fe73a70f371eda030b2a9e25126b72dc0d98c45f7e6b",
+      "bytes": 451711
+    },
+    {
+      "file": "tests/receipts/overview.json",
+      "sha256": "7d0bda5c3a890ff6ba71c2c9128549c1c0e93f3439cbae7d88a696d7124a1c96",
+      "bytes": 8577
+    },
+    {
+      "file": "tests/receipts/right.json",
+      "sha256": "6088b3ede4110deb330f0e01ca0c3ca0079673bbc24ce25ab00aac74cf2aa520",
+      "bytes": 450241
+    },
+    {
+      "file": "tests/report.json",
+      "sha256": "8167b155d9e5a1e82c84ac1e033569f6ab1973b4874b1c8f273889dd776371d0",
+      "bytes": 2860
+    },
+    {
+      "file": "tests/report.md",
+      "sha256": "f6b625da9705c54e184bec088f4194420b7b83f8776bcb0492fa1581b0a7b6d4",
+      "bytes": 878
+    },
+    {
+      "file": "tests/scene.json",
+      "sha256": "fac0a9446523e3d6760e1a498c7a644ca2a13bb77dd408ded8ad90b07b7ab14a",
+      "bytes": 140711
+    },
+    {
+      "file": "textures/look_01/eye_L_iris_basecolor.png",
+      "sha256": "0624e0489e29945dc5a0b2c5cf66ce4b1d31f1f148bf75583548e78a5ecc3fb6",
+      "bytes": 3687596
+    },
+    {
+      "file": "textures/look_01/eye_L_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
+    },
+    {
+      "file": "textures/look_01/eye_R_iris_basecolor.png",
+      "sha256": "500d60bb9bef69f04a860ec564ad260abb982fb58edc2f49e8e921e5890a8688",
+      "bytes": 3687596
+    },
+    {
+      "file": "textures/look_01/eye_R_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
+    },
+    {
+      "file": "textures/look_01/manifest.json",
+      "sha256": "f86b702d541b23b136c47a2376552879efa820a631eaf09290ded06091a7321e",
+      "bytes": 1888
+    },
+    {
+      "file": "textures/look_01/skin_basecolor.png",
+      "sha256": "05c7d7a469d5dfaaa7cea490f5a1ea475e73519b045c8d9595d597e913333021",
+      "bytes": 10399339
+    },
+    {
+      "file": "textures/look_01/skin_coverage.png",
+      "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+      "bytes": 33526
+    },
+    {
+      "file": "textures/look_01/skin_height.png",
+      "sha256": "35aac6612e926b104688f5c6ff16a38bee4c22a7fd89238f6e1c00f5b523d8d9",
+      "bytes": 23409870
+    },
+    {
+      "file": "textures/look_01/skin_roughness.png",
+      "sha256": "153771d4bd20d24e516f1a71e9393fa604d286fedb52fa136e25a5e02d5da3b7",
+      "bytes": 7151701
+    },
+    {
+      "file": "textures/look_02/eye_L_iris_basecolor.png",
+      "sha256": "3a3aac488157adb7144e31538ae278763bbb210d9597dab87a7a103a480eab43",
+      "bytes": 3637950
+    },
+    {
+      "file": "textures/look_02/eye_L_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
+    },
+    {
+      "file": "textures/look_02/eye_R_iris_basecolor.png",
+      "sha256": "2c2cae351095e6ba129ec9f877f2a590f932e56272582c7b1f217e7651f3c732",
+      "bytes": 3637950
+    },
+    {
+      "file": "textures/look_02/eye_R_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
+    },
+    {
+      "file": "textures/look_02/manifest.json",
+      "sha256": "2179bc22909064220429ef4f251665cac54c91fd6855302048dea5edba34cc5c",
+      "bytes": 1880
+    },
+    {
+      "file": "textures/look_02/skin_basecolor.png",
+      "sha256": "064a230d5c3b944c13bd3f77c3dca41a3db02f78414b027941ff8468d67d7569",
+      "bytes": 8549038
+    },
+    {
+      "file": "textures/look_02/skin_coverage.png",
+      "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+      "bytes": 33526
+    },
+    {
+      "file": "textures/look_02/skin_height.png",
+      "sha256": "68679bda5f9971af59c4386a7ce820068304b8a8cbec4e00732050504e095aa1",
+      "bytes": 23468617
+    },
+    {
+      "file": "textures/look_02/skin_roughness.png",
+      "sha256": "a683687b84f8dde00e388c4afdcb3d3fdc51916e87929b907c2bfa946fa74c78",
+      "bytes": 7333150
+    },
+    {
+      "file": "textures/look_03/eye_L_iris_basecolor.png",
+      "sha256": "a0429cef4f66b25d3937393f03267f6f8e09ed80facc1885292ca199e526e337",
+      "bytes": 3662994
+    },
+    {
+      "file": "textures/look_03/eye_L_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
+    },
+    {
+      "file": "textures/look_03/eye_R_iris_basecolor.png",
+      "sha256": "b07d0da9ba157acb64e264b59179ca1ceef278c896da23068926840feb7a7be5",
+      "bytes": 3662994
+    },
+    {
+      "file": "textures/look_03/eye_R_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
+    },
+    {
+      "file": "textures/look_03/manifest.json",
+      "sha256": "d4d41aeb395a0cb99a94166fe21a82caca49d170f91229217d116964f64fd72e",
+      "bytes": 1880
+    },
+    {
+      "file": "textures/look_03/skin_basecolor.png",
+      "sha256": "3644f08b6e09e61740b904b9d908a8593e26ed9d356e430622e5219a35d53ace",
+      "bytes": 10358244
+    },
+    {
+      "file": "textures/look_03/skin_coverage.png",
+      "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+      "bytes": 33526
+    },
+    {
+      "file": "textures/look_03/skin_height.png",
+      "sha256": "9e9ecc6313db96d3d750fdcc62021b84ef1379a6fe40932a68e3bcedbe483b3e",
+      "bytes": 23333685
+    },
+    {
+      "file": "textures/look_03/skin_roughness.png",
+      "sha256": "626571edfae4c3ccf7fff3d1120db6da6168d536473f88f2d45300802d897bb6",
+      "bytes": 6479204
+    },
+    {
+      "file": "textures/look_04/eye_L_iris_basecolor.png",
+      "sha256": "55e1aa55f21b4130795bab53f355c916db1d801072eff0143577a7a8025d5f5c",
+      "bytes": 3600758
+    },
+    {
+      "file": "textures/look_04/eye_L_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
+    },
+    {
+      "file": "textures/look_04/eye_R_iris_basecolor.png",
+      "sha256": "c1d6ca71519d757253ab59eb3e0b93be5dcb2bbc024611eb5ab38cdd9d422943",
+      "bytes": 3600758
+    },
+    {
+      "file": "textures/look_04/eye_R_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
+    },
+    {
+      "file": "textures/look_04/manifest.json",
+      "sha256": "b59942aa09198a0cb1a3ea68193d115847f43dee6d7b9d472bb644d0474b6e96",
+      "bytes": 1882
+    },
+    {
+      "file": "textures/look_04/skin_basecolor.png",
+      "sha256": "187bdf245d5ccd8da97529032c551e3748daa44ffbd4851ca75cfda8691e3f0a",
+      "bytes": 11131360
+    },
+    {
+      "file": "textures/look_04/skin_coverage.png",
+      "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+      "bytes": 33526
+    },
+    {
+      "file": "textures/look_04/skin_height.png",
+      "sha256": "2cd982a51093c9a8a4d699e672231168fb99cfebdbc4b95b007ea61bf2cd182e",
+      "bytes": 23435709
+    },
+    {
+      "file": "textures/look_04/skin_roughness.png",
+      "sha256": "c09d25fcaff692454fb9e7a086d4201dce9cf75715ea6b75f3d28bd52df88e41",
+      "bytes": 7103904
+    },
+    {
+      "file": "textures/look_05/eye_L_iris_basecolor.png",
+      "sha256": "565594a0a8ad457a10bc6b02234fbb60acdd117e5e847a9e03c9e244dad2d482",
+      "bytes": 3706085
+    },
+    {
+      "file": "textures/look_05/eye_L_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
+    },
+    {
+      "file": "textures/look_05/eye_R_iris_basecolor.png",
+      "sha256": "7a57ae9ef22e99bd4b8262edf946c38a63c722326157d99a7c439918f4bbad98",
+      "bytes": 3706085
+    },
+    {
+      "file": "textures/look_05/eye_R_sclera_basecolor.png",
+      "sha256": "dbcd08f1e3658e0510c6698b77e2c38904394d42765167af3e20ce900053a95c",
+      "bytes": 486191
+    },
+    {
+      "file": "textures/look_05/manifest.json",
+      "sha256": "3d4157490f57edb4a56d3ed5e5eb08289503e781ea7f8a69ebc9931378304283",
+      "bytes": 1877
+    },
+    {
+      "file": "textures/look_05/skin_basecolor.png",
+      "sha256": "6ad58465257bc551d9cf67340c4e7501740c990bd057144176fac485a0fefeaa",
+      "bytes": 9845195
+    },
+    {
+      "file": "textures/look_05/skin_coverage.png",
+      "sha256": "fbe642c89fc351f93b6e26b0097c4f6787bcc68a38f5be1a908b7a6d7228db2d",
+      "bytes": 33526
+    },
+    {
+      "file": "textures/look_05/skin_height.png",
+      "sha256": "b8e2a77ee02acba0e130e639859a50ef94549679161df739572828cf75b0440e",
+      "bytes": 23380843
+    },
+    {
+      "file": "textures/look_05/skin_roughness.png",
+      "sha256": "0d9a17dae98026cfbeb0311486427091dc40d6f5cde6eb9ad82b2ffc8c6c37ea",
+      "bytes": 6727338
+    },
+    {
+      "file": "textures/shared/eye_L_height.png",
+      "sha256": "7b9694160be44ecca49e0f3480dcfbbd98b3641c948589184ba7829ab236d953",
+      "bytes": 1698081
+    },
+    {
+      "file": "textures/shared/eye_R_height.png",
+      "sha256": "7b9694160be44ecca49e0f3480dcfbbd98b3641c948589184ba7829ab236d953",
+      "bytes": 1698081
+    },
+    {
+      "file": "textures/shared/manifest.json",
+      "sha256": "0fce28cb095d72c8e8944c299318377a151e8623a7a9c6eb7630e4768ec62a82",
+      "bytes": 501
+    },
+    {
+      "file": "videos/generate_motion.mp4",
+      "sha256": "8eb886a42ad76d2cc81a0446f4fb9babefec8ace9caee9bb33643a43f5cc98d0",
+      "bytes": 261697
+    },
+    {
+      "file": "videos/left.mp4",
+      "sha256": "bd31eb2d4d50490a74563d7bab8fb9cbd2195f8293c5d885790569a3e639e5be",
+      "bytes": 252301
+    },
+    {
+      "file": "videos/right.mp4",
+      "sha256": "b86b1055c8c5116ca0d9fbe9cda869c7c443a98bef3243c795180a8a2cb8c37d",
+      "bytes": 253142
+    },
+    {
+      "file": "wrapper/__init__.py",
+      "sha256": "d9d56da4a78cdf24c50e0d39c5d183ef3434ad62e097b7e191408b094f73ba12",
+      "bytes": 38
+    },
+    {
+      "file": "wrapper/expressions.py",
+      "sha256": "92002c4c4b2688ac0b2b8880a2d6ea2beda402d514645b9e5e3f1047b8544a47",
+      "bytes": 3402
+    },
+    {
+      "file": "wrapper/eyes.py",
+      "sha256": "5c28eedf34e71deef394e93a1932a40e94b22dbe406b10dab737f6ffb3178730",
+      "bytes": 4489
+    },
+    {
+      "file": "wrapper/lids.py",
+      "sha256": "2b39a3ae0563ce168730e4dc861f01cac9f1d651402657a0255cc10ddb07584e",
+      "bytes": 1013
+    },
+    {
+      "file": "wrapper/metadata.py",
+      "sha256": "e4cd2e64120e82dbabe4fe465b5fb911361986402bc8d2cd94b6cbcfe0f95771",
+      "bytes": 2707
+    },
+    {
+      "file": "wrapper/native_textures.py",
+      "sha256": "c35666a85ce3ff9bd2d2f80849bdf2d5b9438fa4e0e443f4141cc3c2a915af8f",
+      "bytes": 2428
+    },
+    {
+      "file": "wrapper/sequences.py",
+      "sha256": "e171635072c8407b99fbb7e40c655f3738139b4a45f3601ac1bba0909580e995",
+      "bytes": 14253
+    },
+    {
+      "file": "wrapper/submission_looks.py",
+      "sha256": "250ca832db01c094f82ea6a3c4796e7b7e6f6d251ee987d50a611579c9ead41a",
+      "bytes": 2505
+    }
+  ]
+}

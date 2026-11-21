@@ -9,22 +9,55 @@
 
 ## Quick review
 
-1. Open `scene.blend` in **Blender 5.2.3 LTS**. The textures are packed; no add-ons are needed.
+1. Open [scene.blend](scene.blend) in **Blender 5.2.3 LTS**. The textures are packed; no add-ons are needed.
 2. Press **F12** for the Cycles render. Material Preview is useful for navigation, but its hair and cornea shading differs from the final render.
 3. Play frames **1–144** to see the six-second gaze sequence and blinks.
-4. Open `videos/` for the three final clips, `previews/` for the five face/eye looks, or `demo/presentation.pptx` for the project slides.
+4. Review the [presentation](demo/presentation.pptx), [90-second overview](demo/overview.mp4) and rendered images below.
 
 | Path | Contents |
 | --- | --- |
-| `scene.blend` | Editable face, eye bones, lids, materials, camera and lights |
-| `wrapper/` | Gaze, expression, texture and capture controls |
-| `renders/` + `metadata.json` | Ten clockwise 1024 × 1024 PNGs and their labels |
-| `videos/` | Left, Right and GenerateMotion; six seconds each |
-| `textures/` | Five native face/eye map sets and shared sclera height maps |
-| `previews/` | One front and one eye close-up per look |
-| `demo/` | Presentation and 90-second overview |
-| `tests/` | Validation results and capture receipts |
-| `docs/` | Rig/metadata notes and asset credits |
+| [scene.blend](scene.blend) | Editable face, eye bones, lids, materials, camera and lights |
+| [wrapper/](wrapper/) | Gaze, expression, texture and capture controls |
+| [renders/](renders/) + [metadata.json](metadata.json) | Ten clockwise 1024 × 1024 PNGs and their labels |
+| [videos/](videos/) | Left, Right and GenerateMotion; six seconds each |
+| [textures/](textures/) | Five native face/eye map sets and shared sclera height maps |
+| [previews/](previews/) | One front and one eye close-up per look |
+| [demo/](demo/) | Presentation and 90-second overview |
+| [tests/](tests/) | Validation results and capture receipts |
+| [docs/](docs/) | Rig/metadata notes and asset credits |
+
+## Documents and videos
+
+| Item | Link |
+| --- | --- |
+| Presentation | [PowerPoint deck](demo/presentation.pptx) |
+| Project overview | [90-second video](demo/overview.mp4) |
+| Motion sequences | [Left](videos/left.mp4) · [Right](videos/right.mp4) · [GenerateMotion](videos/generate_motion.mp4) |
+| Milestones | [Five-stage progress summary](MILESTONES.md) |
+| Methods | [Rig, textures and metadata](docs/METHODS.md) |
+| Asset credits | [Sources and licences](docs/ASSETS.md) |
+| Validation | [Results summary](tests/report.md) · [Detailed results](tests/report.json) |
+| Portability check | [Extracted ZIP results](tests/fresh_extraction.json) |
+| Project licence | [MIT licence](LICENSE) |
+
+## Rendered images
+
+Ten official clockwise gaze renders, combined in one contact sheet:
+
+[![Ten clockwise gaze renders](contact_sheet.png)](contact_sheet.png)
+
+| Official PNGs | Individual frames |
+| --- | --- |
+| 00–04 | [00](renders/frame_00.png) · [01](renders/frame_01.png) · [02](renders/frame_02.png) · [03](renders/frame_03.png) · [04](renders/frame_04.png) |
+| 05–09 | [05](renders/frame_05.png) · [06](renders/frame_06.png) · [07](renders/frame_07.png) · [08](renders/frame_08.png) · [09](renders/frame_09.png) |
+
+| Texture look | Face render | Eye close-up |
+| --- | --- | --- |
+| 01 | [Face](previews/look_01_front.png) | [Eyes](previews/look_01_eyes.png) |
+| 02 | [Face](previews/look_02_front.png) | [Eyes](previews/look_02_eyes.png) |
+| 03 | [Face](previews/look_03_front.png) | [Eyes](previews/look_03_eyes.png) |
+| 04 | [Face](previews/look_04_front.png) | [Eyes](previews/look_04_eyes.png) |
+| 05 | [Face](previews/look_05_front.png) | [Eyes](previews/look_05_eyes.png) |
 
 ## Rendering
 
@@ -99,7 +132,7 @@ python scripts/verify_submission.py
 
 - Verification covers file hashes, video decoding, image sizes, sequence order and metadata.
 - Results summary: [tests/report.md](tests/report.md).
-- Detailed results: `tests/report.json`.
+- Detailed results: [tests/report.json](tests/report.json).
 - ZIP build command: `python scripts/package_submission.py`.
 - The generated ZIP and checksum stay local and are excluded from Git.
 

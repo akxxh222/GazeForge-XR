@@ -79,6 +79,12 @@ The check covers file hashes, video decoding, image sizes, sequence order and me
 
 Build the team ZIP with `python scripts/package_submission.py`. The generated ZIP and its checksum file stay local and are excluded from Git.
 
+## AI disclosure
+
+We used OpenAI Codex for substantial assistance with the Blender/Python implementation, rig and material setup, debugging, rendering automation, validation, documentation and presentation preparation. We set the requirements and reviewed the scene through successive revisions, including eye alignment and appearance.
+
+The final images and motion clips are Blender renders made with the credited public assets listed in [docs/ASSETS.md](docs/ASSETS.md). The overview video combines those renders with captions. An AI-generated iris texture was tested during prototyping, then replaced, together with its derived maps, before the final renders. That experiment remains in earlier Git commits; it is absent from the current files and submission ZIP. No generative-AI images or video clips are included in the final presentation or rendered media.
+
 ## Notes
 
 The face uses transferred skin detail and an original strand groom. Fine eyelid detail and the closely combed temples remain approximations. The cornea uses an artistic shadow-transmission adjustment; the scene is not a measured optical model. We have not biologically validated the motion. Asset credits and licence terms are in [docs/ASSETS.md](docs/ASSETS.md).

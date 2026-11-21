@@ -8,7 +8,7 @@ def files(root):
     result=[root/n for n in names]
     for folder in ('wrapper','scripts','textures','renders','videos','previews','demo','docs','assets','tests'):
         for p in (root/folder).rglob('*'):
-            if p.is_file() and '__pycache__' not in p.parts and not p.name.endswith(('.pyc','.log','.blend1')):result.append(p)
+            if p.is_file() and '__pycache__' not in p.parts and not p.name.startswith('~$') and not p.name.endswith(('.pyc','.log','.blend1')):result.append(p)
     return sorted(result,key=lambda p:p.relative_to(root).as_posix())
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('--root',type=Path,default=ROOT);parser.add_argument('--output',type=Path)

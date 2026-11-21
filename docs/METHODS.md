@@ -2,23 +2,41 @@
 
 ## Eye motion
 
-We use the original GNM face and its per-region UV layout. The two eyeballs have separate fixed pivots. A shared target is placed at `(0.05*h, -0.35, 0.05*v)` relative to the eye midpoint. Each eye aims at that target, so the angles differ slightly for near fixation. Matching their Euler angles would remove this convergence.
-
-The eye mesh's local +Y axis is its optical axis. World X points right in the image, world −Y points forward from the face, and Z points up. The camera stays at 40 cm. Camera, lighting and exposure remain constant during a capture.
+- Base mesh: original GNM face with its per-region UV layout.
+- Each eyeball rotates around its own fixed pivot.
+- Shared target: `(0.05*h, -0.35, 0.05*v)`, relative to the eye midpoint.
+- Both eyes aim at that point. Their rotation angles differ because of near-target convergence.
+- Eye mesh optical axis: local +Y.
+- World axes: X image right, −Y forward from the face, Z up.
+- Camera distance: 40 cm. Camera, lighting and exposure stay fixed during capture.
 
 ## Lids and surface details
 
-Blink and brow controls are saved in the scene. Geometry Nodes deform the lids and keep the lashes and moist margins attached to the evaluated head surface. Clearance nodes keep those details outside the eye shells. The inner-corner fold is smaller at open rest and unfolds near full closure to cover the canthus.
-
-The three action bundles are Left, Right and GenerateMotion. Each has 144 frames at 24 fps. All frames in the videos are rendered from the scene; there is no image interpolation. A separate short fixation/hold action remains available in the scene for editing.
+- Blink and brow controls are saved in the scene.
+- Geometry Nodes deform the lids and attach the lashes and moist margins to the deformed head surface.
+- Clearance nodes keep those details outside the eye shells.
+- The inner-corner fold expands near full closure to cover the eye corner.
+- Actions: Left, Right and GenerateMotion; 144 frames each at 24 fps.
+- Every video frame is rendered from the scene, without image interpolation.
+- A separate short fixation/hold action is available for editing.
 
 ## Texture looks
 
-We transferred five CC0 MakeHuman skin sources to the native GNM UVs and added registered detail from the Lee Perry-Smith scan. The source colour map is 4096 × 4096; its height source is 6000 × 6000, 16-bit. Closed eyes, brows, markers, lips and nostrils from the scan are masked out during transfer. We use local frequency bands rather than importing the source scan's geometry or broad lighting.
+- Five CC0 MakeHuman skin sources were transferred to native GNM UVs.
+- Added skin detail comes from the Lee Perry-Smith scan.
+- Scan sources: 4096 × 4096 colour map; 6000 × 6000, 16-bit height map.
+- Closed eyes, brows, markers, lips and nostrils are masked out during transfer.
+- Only local texture detail is transferred; scan geometry and broad lighting are excluded.
+- Skin height maps use an authored strength, rather than calibrated metric displacement.
+- Eye maps come from the public MakeHuman eye texture.
+- Scalp hair: 64,000 strands with original root sampling and paths.
 
-The exported skin height maps are shader inputs with an authored amplitude. They are not calibrated metric displacement. The eye maps come from the public MakeHuman eye texture. The 64,000-strand scalp groom uses our original root sampling and trajectories.
+| Module | Role |
+| --- | --- |
+| `wrapper/submission_looks.py` | Switches face, iris and sclera image channels |
+| `wrapper/native_textures.py` | Checks UV hashes and assigns exported materials to a separately loaded GNM head |
 
-`wrapper/submission_looks.py` swaps the face, iris and sclera image channels. `wrapper/native_textures.py` can assign the exported materials to a separately loaded GNM head after checking its UV hashes. The application does not change mesh geometry or transforms.
+- Material assignment preserves mesh geometry and transforms.
 
 ## Metadata
 
@@ -30,12 +48,24 @@ h = sin(theta)
 v = cos(theta)
 ```
 
-Each record includes the input, target, eye rotations, geometric pupil centres in 3D and 2D, and the camera projection. Rotations are radians; world positions are metres; 2D positions are continuous pixels from the image's top-left edge.
+| Field | Meaning |
+| --- | --- |
+| Input and target | Normalised control values and world target position |
+| Eye rotations | World XYZ Euler angles, in radians |
+| 3D pupil centres | Geometric aperture centres, in metres |
+| 2D pupil centres | Continuous pixel coordinates from the top-left image edge |
+| Camera matrix | 3 × 4 world-to-image projection matrix |
 
-For a world point `[X, Y, Z, 1]`, multiply by the 3 × 4 camera matrix to obtain `[a, b, c]`. The pixel is `[a/c, b/c]`. These pinhole labels track the geometric pupil aperture. Refraction can shift its apparent centre in a rendered image, so image measurements are checked separately.
+- Projection: `camera_matrix * [X, Y, Z, 1] = [a, b, c]`.
+- Pixel position: `[a/c, b/c]`.
+- Labels describe the geometric pupil aperture.
+- Refraction may shift its apparent centre; rendered image measurements are checked separately.
 
 ## Validation
 
-We check native UV/geometry preservation, target bounds, fixed eye pivots, common-target aiming, texture hashes, full blink coverage and detail clearance. Video checks decode every frame, compare it with the rendered source and measure direction changes in the image. The final archive is extracted and the documented workflow is exercised again.
-
-The reports describe the poses and frames actually checked. They do not give a photorealism score or guarantee continuous-pose collision freedom beyond the sampled cases.
+- Scene checks: native UVs and geometry, target bounds, fixed eye pivots and shared-target aiming.
+- Surface checks: texture hashes, full blink coverage and detail clearance.
+- Video checks: full decoding, comparison with source renders and image direction measurements.
+- Portability check: archive extraction and a reduced rendering run from the extracted folder.
+- Results apply to the sampled poses and frames.
+- No photorealism score or collision guarantee for every possible pose is claimed.

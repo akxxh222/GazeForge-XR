@@ -9,13 +9,13 @@
     },
     {
       "file": "MILESTONES.md",
-      "sha256": "0693dd0ff7f244b83d2a261e817098380792963a23a8b628f2f5506482b42d22",
-      "bytes": 758
+      "sha256": "a21f490107c53af567a7e9e16e28092b7475170c29ecdb8269efb1fc45aeec21",
+      "bytes": 744
     },
     {
       "file": "README.md",
-      "sha256": "a35b248dddb98652f72e547473f35836617d3ee3cb5992b25cb27054c8852908",
-      "bytes": 5997
+      "sha256": "5d7eb095d89e51120d9cf9ea5192dda1c31d168c6c9a358bd136e48911ec0ba3",
+      "bytes": 5552
     },
     {
       "file": "assets/eye_refinement/green_eye.png",
@@ -69,13 +69,13 @@
     },
     {
       "file": "docs/ASSETS.md",
-      "sha256": "10cc885221db15b5aa120bbf46b79c2e7c39411e02c323ef728a8ebd6872fba6",
-      "bytes": 2521
+      "sha256": "e0a51895863d521b340eb99b9da5486d79de79ead77dccc55b3cccc5b4166cee",
+      "bytes": 2555
     },
     {
       "file": "docs/METHODS.md",
-      "sha256": "19e9021bf86e63bc49c117dd948a5e0a557fc8e9f45aac73bb9d625f15328ac0",
-      "bytes": 3356
+      "sha256": "c5230ed1bb5fedb4587661d878ce103ddc6cfea399fe32b457c934f9f817eb08",
+      "bytes": 3193
     },
     {
       "file": "metadata.json",
@@ -224,8 +224,8 @@
     },
     {
       "file": "scripts/package_submission.py",
-      "sha256": "172c2c22884aed5afcc76c129feb189d76f40a08820dbf345e18d579c91a9fb3",
-      "bytes": 2120
+      "sha256": "28881678097a3b8865e9a11be4a9053fe50659c865ef3286000c009d95c91c10",
+      "bytes": 2152
     },
     {
       "file": "scripts/render_device.py",
@@ -349,8 +349,8 @@
     },
     {
       "file": "tests/report.md",
-      "sha256": "f6b625da9705c54e184bec088f4194420b7b83f8776bcb0492fa1581b0a7b6d4",
-      "bytes": 878
+      "sha256": "b6ff0fa9368a95ac22fa040d929ac9da16033d29cf9aeabbd505b6f55b9e9864",
+      "bytes": 1544
     },
     {
       "file": "tests/scene.json",

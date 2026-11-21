@@ -8,4 +8,6 @@
 | 4 | Python controls, three rendered sequences and ten labelled images | Complete |
 | 5 | Validation, presentation, clean repository and submission ZIP | Complete |
 
-Each stage builds on the previous one. The scene and exported maps keep the native GNM topology and UVs. We keep measured checks separate from appearance judgements; passing the controller tests does not establish photorealism.
+- Each stage builds on the previous stage.
+- The scene and exported maps retain the native GNM topology and UVs.
+- Validation covers measured behaviour. Passing controller checks does not establish photorealism.

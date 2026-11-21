@@ -2,9 +2,12 @@
 
 **VITChennai_IrisX · Samsung XR Track 01**
 
-We built a Blender face rig that generates labelled gaze images and short eye-movement sequences. Both eyes rotate about their own centres and follow one fixation target. The scene includes eyelid closure, gaze follow, eyebrow controls and five texture looks on the original GNM UVs.
+- Blender face rig for labelled gaze images and eye-movement sequences.
+- Both eyes rotate about fixed centres and follow one shared target.
+- Eyelid closure, gaze follow and eyebrow controls.
+- Five texture looks using the original GNM UV layout.
 
-## Start here
+## Quick review
 
 1. Open `scene.blend` in **Blender 5.2.3 LTS**. The textures are packed; no add-ons are needed.
 2. Press **F12** for the Cycles render. Material Preview is useful for navigation, but its hair and cornea shading differs from the final render.
@@ -23,21 +26,24 @@ We built a Blender face rig that generates labelled gaze images and short eye-mo
 | `tests/` | Validation results and capture receipts |
 | `docs/` | Rig/metadata notes and asset credits |
 
-## Render again
+## Rendering
 
-Run these commands from this folder. Replace the Blender executable path if needed.
+- Working directory: repository root.
+- Blender executable in this example: `E:\Apps\blender.exe`.
 
 ```powershell
 & 'E:\Apps\blender.exe' --background --factory-startup --disable-autoexec --python-exit-code 1 --python scripts/render_expressions.py -- --mode all --duration 6 --fps 24 --resolution 720 --samples 96 --official --official-samples 192
 ```
 
-This renders every video frame from the 3D scene. New files go under `runtime/capture/`; the supplied results stay in place. To generate only the ten official images, replace `--mode all --official` with `--official-only`.
-
-Cycles uses an available GPU and falls back to the CPU. The supplied clips are 720 × 720 at 24 fps. The official PNGs are 1024 × 1024. Rendering the full set can take a while, especially on the CPU.
+- Output folder: `runtime/capture/`. Supplied results remain unchanged.
+- Ten-image export only: use `--official-only` instead of `--mode all --official`.
+- Videos: 720 × 720, 24 fps, six seconds each.
+- Official images: 1024 × 1024 PNG.
+- Cycles uses an available GPU, with CPU fallback. Full rendering is slower on the CPU.
 
 ## Python controls
 
-In Blender's Python Console, add this folder to the import path:
+Blender Python Console setup:
 
 ```python
 import bpy, sys
@@ -47,9 +53,14 @@ sys.path.insert(0, str(project))
 from wrapper import eyes, expressions, submission_looks
 ```
 
-`eyes.move(h, v)` accepts values from −1 to +1. Positive `h` means image right; positive `v` means up. `eyes.reset()` returns to the centre. A manual gaze pauses the eye/target actions so rendering does not replace the requested pose.
+| Control | Behaviour |
+| --- | --- |
+| `eyes.move(h, v)` | Inputs from −1 to +1; positive `h` is image right, positive `v` is up |
+| `eyes.reset()` | Returns gaze to the centre |
+| `expressions.use_action('left')` | Selects a sequence; other names are `right` and `generate_motion` |
+| `submission_looks.apply_look('look_02')` | Selects a texture look; IDs range from `look_01` to `look_05` |
 
-For a manual render with open lids:
+Manual render with open lids:
 
 ```python
 with expressions.manual():
@@ -58,35 +69,56 @@ with expressions.manual():
     eyes.render('runtime/manual_left.png')
 ```
 
-The context restores the previous timeline actions afterwards. Select a saved sequence with `expressions.use_action('left')`, `'right'` or `'generate_motion'`. Switch textures with `submission_looks.apply_look('look_02')`; IDs run from `look_01` to `look_05`.
+- Manual gaze pauses the eye and target actions so the requested pose stays in place.
+- The manual context restores the previous timeline actions afterwards.
 
 ## Calibration and labels
 
-The camera is fixed **40 cm** in front of the eye midpoint. The target plane is **35 cm** forward with horizontal/vertical offsets up to **±5 cm**. Ten clockwise samples use `theta = 2*pi*k/10`, `h = sin(theta)`, `v = cos(theta)`, starting at the top.
+| Setting | Value |
+| --- | --- |
+| Camera distance from eye midpoint | 40 cm |
+| Target plane distance | 35 cm |
+| Target movement | Up to ±5 cm horizontally and vertically |
+| Clockwise sequence | Ten samples, starting at the top |
+| Sample formula | `theta = 2*pi*k/10`, `h = sin(theta)`, `v = cos(theta)` |
+| World axes | X right, Y behind the subject, Z up |
+| Units | Metres; world XYZ Euler rotations in radians |
+| Image coordinates | Top-left origin; anatomical eye L appears on image right |
 
-World axes are X right, Y behind the subject and Z up. Distances are metres; rotations are world XYZ Euler angles in radians. Anatomical eye L appears on the right of the image. Pixel coordinates start at the top-left.
+- Pupil labels mark the projected geometric aperture centre.
+- Corneal refraction can shift the apparent pupil centre in a render.
+- The 3 × 4 `camera_matrix` produces homogeneous pixel coordinates.
+- Projection formula and field definitions: [docs/METHODS.md](docs/METHODS.md).
 
-Pupil labels describe the geometric aperture centre projected by the camera. They are not apparent pupil centres measured through corneal refraction. The 3 × 4 `camera_matrix` maps a world point to homogeneous pixel coordinates; divide its first two outputs by the third. [Rig and metadata details](docs/METHODS.md).
-
-## Check the submission
+## Validation and packaging
 
 ```powershell
 python -m pip install -r requirements.txt
 python scripts/verify_submission.py
 ```
 
-The check covers file hashes, video decoding, image sizes, sequence order and metadata. Full rerender checks and the fresh-extraction smoke run are recorded in `tests/report.json`.
-
-Build the team ZIP with `python scripts/package_submission.py`. The generated ZIP and its checksum file stay local and are excluded from Git.
+- Verification covers file hashes, video decoding, image sizes, sequence order and metadata.
+- Results summary: [tests/report.md](tests/report.md).
+- Detailed results: `tests/report.json`.
+- ZIP build command: `python scripts/package_submission.py`.
+- The generated ZIP and checksum stay local and are excluded from Git.
 
 ## AI disclosure
 
-We used OpenAI Codex for substantial assistance with the Blender/Python implementation, rig and material setup, debugging, rendering automation, validation, documentation and presentation preparation. We set the requirements and reviewed the scene through successive revisions, including eye alignment and appearance.
+- OpenAI Codex provided substantial assistance with Blender/Python implementation, rig and material setup, debugging, rendering automation, validation, documentation and presentation preparation.
+- Our team set the requirements and reviewed successive scene revisions, including eye alignment and appearance.
+- Final images and motion clips were rendered in Blender using the credited public assets in [docs/ASSETS.md](docs/ASSETS.md).
+- The overview video combines those renders with captions.
 
-The final images and motion clips are Blender renders made with the credited public assets listed in [docs/ASSETS.md](docs/ASSETS.md). The overview video combines those renders with captions. An AI-generated iris texture was tested during prototyping, then replaced, together with its derived maps, before the final renders. That experiment remains in earlier Git commits; it is absent from the current files and submission ZIP. No generative-AI images or video clips are included in the final presentation or rendered media.
+## Limitations
 
-## Notes
+- Fine eyelid detail and hair around the temples remain approximations.
+- Corneal shading includes an artistic shadow-transmission adjustment.
+- The scene is not a measured optical model; motion has not been biologically validated.
+- Asset credits and licence terms: [docs/ASSETS.md](docs/ASSETS.md).
 
-The face uses transferred skin detail and an original strand groom. Fine eyelid detail and the closely combed temples remain approximations. The cornea uses an artistic shadow-transmission adjustment; the scene is not a measured optical model. We have not biologically validated the motion. Asset credits and licence terms are in [docs/ASSETS.md](docs/ASSETS.md).
+## Viewer notes
 
-If the viewport looks grey, switch out of Solid shading. If a manual pose disappears, use the manual context above. Keep the whole folder together when switching texture looks; the default scene's textures are also packed for direct opening.
+- Solid shading displays the face without its skin materials.
+- Material Preview differs from the final Cycles render, especially for hair and corneas.
+- Texture switching uses the exported folder structure. Default scene textures are also packed in `scene.blend`.

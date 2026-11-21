@@ -7,6 +7,12 @@
 - Eyelid closure, gaze follow and eyebrow controls.
 - Five texture looks using the original GNM UV layout.
 
+## Submission download
+
+- [Download VITChennai_IrisX.zip](https://github.com/akxxh222/GazeForge-XR/releases/download/v1.0.0/VITChennai_IrisX.zip)
+- [SHA-256 checksum](https://github.com/akxxh222/GazeForge-XR/releases/download/v1.0.0/VITChennai_IrisX.zip.sha256)
+- [Release notes](https://github.com/akxxh222/GazeForge-XR/releases/tag/v1.0.0)
+
 ## Quick review
 
 1. Open [scene.blend](scene.blend) in **Blender 5.2.3 LTS**. The textures are packed; no add-ons are needed.
@@ -134,7 +140,7 @@ python scripts/verify_submission.py
 - Results summary: [tests/report.md](tests/report.md).
 - Detailed results: [tests/report.json](tests/report.json).
 - ZIP build command: `python scripts/package_submission.py`.
-- The generated ZIP and checksum stay local and are excluded from Git.
+- The ZIP and checksum are published as GitHub Release attachments and excluded from Git history.
 
 ## AI disclosure
 
